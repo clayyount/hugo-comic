@@ -5,7 +5,31 @@
     <div class="comic">
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
       <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      {{ partial "comic-nav" .Params }}
+
+
+
+{{ with .Site.GetPage "/comic" }}
+total comics={{ .Paginator.TotalNumberOfElements }}
+{{ end }}
+
+    <nav class="comic-nav">
+        {{if .PrevInSection}}
+        <a href="{{ range last 1 .CurrentSection.Pages }}{{ .Permalink }}{{ end }}">First</a>
+        <a href="{{.PrevInSection.Permalink}}">Previous</a>
+        {{ else }}
+        First Previous
+        {{ end }}
+        {{ if .NextInSection }}
+        <a href="{{ .NextInSection.Permalink }}">Next</a>
+        <a href="{{ range first 1 .CurrentSection.Pages }}{{ .Permalink }}{{ end }}">Today</a>
+        {{ else }}
+        Next Today
+        {{ end }}
+        </div>
+    </nav>
+
+
+
     </div>
     <div class="comic-body">
       {{ .Content }}
