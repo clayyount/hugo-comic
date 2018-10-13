@@ -1,1 +1,42 @@
-html{background:#eee;}
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+body nav {
+  position: relative;
+  background: #aaa;
+  height: 60px;
+  box-sizing: border-box;
+}
+body nav > a {
+  display: block;
+  position: absolute;
+  left: 0px;
+}
+body nav > a img {
+  height: 60px;
+}
+body nav ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  right: 0px;
+}
+body nav ul li {
+  display: inline-block;
+}
+body nav ul li a {
+  text-decoration: none;
+}

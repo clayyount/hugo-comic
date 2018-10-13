@@ -1,0 +1,45 @@
+$navHeight:60px;
+$contentWidth:1000px;
+html{
+	padding:0px;
+	margin:0px;
+}
+img{
+	max-width:100%;
+}
+body{
+	padding:0px;
+	margin:0px;
+	max-width:$contentWidth;
+	margin:0px auto;
+	nav{
+		
+		
+		position:relative;
+		background:#aaa;
+		height:$navHeight;
+		box-sizing:border-box;
+		>a{
+			display:block;
+			position:absolute;
+			left:0px;
+			img{
+				height:$navHeight;
+			}
+		}
+		ul{
+			list-style: none;
+			padding:0px;
+			margin:0px;
+			position:absolute;
+			right:0px;
+			li{
+				display:inline-block;
+				a{
+					text-decoration:none;
+				}
+			}
+		}
+	}
+	
+}
