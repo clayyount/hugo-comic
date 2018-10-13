@@ -8,9 +8,9 @@
 
 
 
-{{ with .Site.GetPage "/comic" }}
-total comics={{ .Paginator.TotalNumberOfElements }}
-{{ end }}
+
+
+
 
     <nav class="comic-nav">
         {{if .PrevInSection}}
@@ -19,6 +19,7 @@ total comics={{ .Paginator.TotalNumberOfElements }}
         {{ else }}
         First Previous
         {{ end }}
+        <a href="#" id="random-btn">Random</a>
         {{ if .NextInSection }}
         <a href="{{ .NextInSection.Permalink }}">Next</a>
         <a href="{{ range first 1 .CurrentSection.Pages }}{{ .Permalink }}{{ end }}">Today</a>
@@ -27,6 +28,21 @@ total comics={{ .Paginator.TotalNumberOfElements }}
         {{ end }}
         </div>
     </nav>
+    <script>
+      //Set the Random link
+      var currentPageLink="{{ .Permalink }}";
+      {{ with .Site.GetPage "/comic" }}
+      var pages=[
+        {{ range .Pages }}
+          "{{ .Permalink }}"{{if .PrevInSection}},{{ end }}
+        {{ end }}
+        ];
+      {{ end }}
+      var randPages=pages.slice(0);
+      randPages.splice( randPages.indexOf(currentPageLink), 1 );
+      var randComicIndex=Math.floor(Math.random() * Math.floor(randPages.length));
+      document.getElementById("random-btn").setAttribute("href",randPages[randComicIndex])
+    </script>
 
 
 
