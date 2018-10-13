@@ -1,16 +1,16 @@
 {{ define "main" }}
 
-  <div class="mw6 center ph3 pv4">
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    !!this is a comic!!
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
-    </div>
-    <div class="cms mw6">
-      <p>{{ .Description }}</p>
+  <div class="comic-holder">
+    <h1 class="comic-title">{{.Title}}</h1>
+    <div class="comic">
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+      {{ partial "comic-nav" .Params }}
+    </div>
+    <div class="comic-body">
       {{ .Content }}
     </div>
+      
+    
   </div>
 {{ end }}

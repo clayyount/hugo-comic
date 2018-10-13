@@ -1,0 +1,14 @@
+{{ if gt .Paginator.TotalPages 1 }} 
+  <nav class="comic-nav">
+      {{ if .Paginator.HasPrev }}
+      <a href="#">First</a>
+      <a href="{{ .Paginator.Prev.URL }}">Previous</a>
+      {{ end }}
+      {{ if .Paginator.HasNext }}
+      <a href="{{ .Paginator.Next.URL }}">Next</a>
+      <a href="#">Today</a>
+      {{ end }}
+      </div>
+  </nav>
+{{ end }}
+
