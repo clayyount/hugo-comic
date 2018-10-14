@@ -14,10 +14,14 @@ export default class PostPreview extends React.Component {
         image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
     return <div>
-   
-        {image}
-        {entry.getIn(["data", "title"])}
-        {entry.getIn(["data", "subtitle"])}
+        <div class="jumbotron" style="background-image: url('{image}')">
+          <h1>
+            {entry.getIn(["data", "title"])}
+          </h1>
+          <p class="subtitle">
+            {entry.getIn(["data", "subtitle"])}
+          </p>
+        </div>
         <main>
 
         </main>
