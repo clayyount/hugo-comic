@@ -12,6 +12,7 @@ export default class PostPreview extends React.Component {
         image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
     return <div>
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Teko" rel="stylesheet">
         <div class="jumbotron" style={{
         backgroundImage: image && `url(${image})`
       }}>
