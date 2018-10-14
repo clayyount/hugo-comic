@@ -1,16 +1,12 @@
 {{ define "main" }}
-
+<main>
   <div class="comic-holder">
-    <h1 class="comic-title">{{.Title}}</h1>
+    <div class="comic-title">
+      <h1>{{.Title}}</h1>
+    </div>
     <div class="comic">
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
       <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-
-
-
-
-
-
 
     <nav class="comic-nav">
         {{if .PrevInSection}}
@@ -31,6 +27,7 @@
     <script>
       //Set the Random link
       var currentPageLink="{{ .Permalink }}";
+
       {{ with .Site.GetPage "/comic" }}
       var pages=[
         {{ range .Pages }}
@@ -53,4 +50,5 @@
       
     
   </div>
+</main>
 {{ end }}

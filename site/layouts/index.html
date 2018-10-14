@@ -1,8 +1,11 @@
 {{ define "main" }}
+<main>
 {{ with .Site.GetPage "/comic" }}
     {{ range first 1 .Pages }}
     <div class="comic-holder">
-    <h1 class="comic-title">{{.Title}}</h1>
+    <div class="comic-title">
+      <h1>{{.Title}}</h1>
+    </div>
     <div class="comic">
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
       <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
@@ -54,7 +57,7 @@
       
     
   </div>
-    
+
     {{ end }}
 {{ end }}
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
@@ -66,4 +69,5 @@
 {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
 
 {{ partial "blog" . }}
+</main>
 {{ end }}
