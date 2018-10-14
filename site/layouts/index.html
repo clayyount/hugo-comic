@@ -1,19 +1,7 @@
 {{ define "main" }}
 <main>
-{{ with .Site.GetPage "/hamlets-danish-comic" }}
-    {{ range first 1 .Pages }}
-    {{ partial "comic" . }}
-	{{ end }}
-{{ end }}
 	<div class="content">
-	{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
-
-	{{ partial "short-text" .Params.blurb}}
-
-	{{ partial "2-up" .Params }}
-
-	{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
-
+	{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 	{{ partial "blog" . }}
 	</div>
 </main>
