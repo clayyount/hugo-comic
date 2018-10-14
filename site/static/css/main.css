@@ -5,6 +5,7 @@ html {
   background: #666 url(/img/grey-patterned-bg.png) center top;
   background-attachment: fixed;
   padding-top: 90px;
+  font-size: 62.5%;
 }
 
 h1, h2, h3 {
@@ -15,6 +16,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 60px;
+  margin: 2rem 0rem 1rem;
 }
 
 h2 {
@@ -30,6 +32,7 @@ img {
 }
 
 body {
+  font-size: 1.4rem;
   padding: 0px;
   margin: 0px;
   max-width: 1000px;
@@ -72,9 +75,77 @@ body > nav ul li a {
   text-decoration: none;
 }
 
+input textarea button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -appearance: none;
+}
+
 main {
   background: white;
   padding-top: 1px;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  border: none;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 0 0 #131313;
+  color: #fff;
+  background-color: #272727;
+  border-color: #272727;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  border-radius: 3px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.contact-form {
+  padding: 1rem;
+}
+.contact-form .input-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact-form .input-group .input-field {
+  box-sizing: border-box;
+  flex-basis: 50%;
+  min-width: 300px;
+  flex-grow: 1;
+  padding: 1rem;
+}
+.contact-form .input-group .button-holder {
+  box-sizing: border-box;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 0px 1rem;
+}
+.contact-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.contact-form fieldset label {
+  margin-bottom: 1rem;
+  display: block;
+}
+.contact-form fieldset input, .contact-form fieldset textarea {
+  width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid #aaa;
+}
+.contact-form fieldset textarea {
+  padding: 1rem;
+}
+.content {
+  padding: 0px 2rem;
 }
 
 .comic-title {
@@ -94,4 +165,23 @@ main {
   width: 100%;
   float: left;
   margin-top: -30px;
+}
+
+.comic-nav {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 2rem 4rem;
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  border-top: 5px solid #aaa;
+}
+.comic-nav a {
+  padding: 0px 2rem;
+  color: inherit;
+  text-decoration: none;
+}
+.comic-nav a.disabled {
+  color: #aaa;
 }
