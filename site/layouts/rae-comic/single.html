@@ -31,7 +31,7 @@ document.getElementById("site-logo").setAttribute("src","/img/rae-logo-angle.png
       //Set the Random link
       var currentPageLink="{{ .Permalink }}";
 
-      {{ with .Site.GetPage "/comic" }}
+      {{ with .Site.GetPage "/rae-comic" }}
       var pages=[
         {{ range .Pages }}
           "{{ .Permalink }}"{{if .PrevInSection}},{{ end }}
