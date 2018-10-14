@@ -5,6 +5,8 @@ export default class PostPreview extends React.Component {
   render() {
     const {entry, getAsset} = this.props;
     let image = getAsset(entry.getIn(["data", "banner"]));
+    let title = getAsset(entry.getIn(["data", "title"]));
+    let subtitle = getAsset(entry.getIn(["data", "subtitle"]));
 
     // Bit of a nasty hack to make relative paths work as expected as a background image here
     if (image && !image.fileObj) {
@@ -12,6 +14,15 @@ export default class PostPreview extends React.Component {
     }
 
     return <div>
+    <div class="jumbotron" style="background-image: url({image})">
+      <h1>
+        {title}
+      </h1>
+      
+      <p class="subtitle">
+        {subtitle}
+      </p>
+    </div>
         
         <main>
 
