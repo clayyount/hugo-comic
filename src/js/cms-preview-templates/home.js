@@ -17,7 +17,6 @@ export default class PostPreview extends React.Component {
    
         {image}
         {title}
-        {subtitle}
         <main>
 
         </main>
