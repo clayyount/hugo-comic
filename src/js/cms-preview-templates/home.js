@@ -7,13 +7,13 @@ export default class PostPreview extends React.Component {
     let imageCSS = getAsset(entry.getIn(["data", "banner"]));
     
 
-    // Bit of a nasty hack to make relative paths work as expected as a background imageCSS here
+    // Bit of a nasty hack to make relative paths work as expected as a background image here
     if (imageCSS && !imageCSS.fileObj) {
         imageCSS = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
     imageCSS="background-image:url("+imageCSS+");"
     return <div>
-        <div class="jumbotron" style={imageCSS})>
+        <div class="jumbotron" style={imageCSS}>
           <h1>
             {entry.getIn(["data", "title"])}
           </h1>
