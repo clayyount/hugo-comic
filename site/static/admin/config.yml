@@ -5,9 +5,9 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
+  - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Blog" # Used in the UI, ie.: "New Post"
+    folder: "site/content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
@@ -15,9 +15,19 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "comic" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Comic" # Used in the UI, ie.: "New Post"
-    folder: "site/content/comic" # The path to the folder where the documents are stored
+  - name: "hamlets-danish-comic" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Hamlet's Danish Comic" # Used in the UI, ie.: "New Post"
+    folder: "site/content/hamlets-danish-comic" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image", required: true}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+   - name: "rae-comic" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Rob and Elliot Comic" # Used in the UI, ie.: "New Post"
+    folder: "site/content/rae-comic" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
@@ -64,9 +74,9 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
-      - file: "site/content/products/_index.md"
-        label: "Products Page"
-        name: "products"
+      - file: "site/content/about/_index.md"
+        label: "About Page"
+        name: "about"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
@@ -78,8 +88,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
       - file: "site/content/values/_index.md"
-        label: "Values Page"
-        name: "values"
+        label: "Hamlets Danish Page"
+        name: "hamlets-danish"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
