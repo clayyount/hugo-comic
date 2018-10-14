@@ -15,7 +15,7 @@ export default class PostPreview extends React.Component {
 
     return <div>
    
-        
+        {image}
         <main>
 
         </main>
