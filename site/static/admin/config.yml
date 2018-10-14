@@ -33,7 +33,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "home"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
+          - {label: "Banner", name: "banner", widget: "image", required: false}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
