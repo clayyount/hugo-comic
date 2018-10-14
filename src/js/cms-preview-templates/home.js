@@ -12,7 +12,7 @@ export default class PostPreview extends React.Component {
         image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
     return <div>
-        <div class="jumbotron">
+        <div class="jumbotron" style="border:1px solid red;">
         {image}
           <h1>
             {entry.getIn(["data", "title"])}
