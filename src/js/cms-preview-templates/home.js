@@ -9,7 +9,7 @@ export default class PostPreview extends React.Component {
 
     // Bit of a nasty hack to make relative paths work as expected as a background image here
     if (imageCSS && !imageCSS.fileObj) {
-        imageCSS = "<div class='jumbotron' style='background-image:url("+window.parent.location.protocol + "//" + window.parent.location.host + imageCSS+");'>";
+        imageCSS = window.parent.location.protocol + "//" + window.parent.location.host + imageCSS;
     }
     return <div>
         {imageCSS}
