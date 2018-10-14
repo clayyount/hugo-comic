@@ -13,7 +13,6 @@ export default class PostPreview extends React.Component {
     }
     return <div>
         <div class="jumbotron" style='background-image:url({image})'>
-        {image}
           <h1>
             {entry.getIn(["data", "title"])}
           </h1>
