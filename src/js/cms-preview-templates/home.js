@@ -12,6 +12,7 @@ export default class PostPreview extends React.Component {
         imageCSS = window.parent.location.protocol + "//" + window.parent.location.host + imageCSS;
     }
     return <div>
+    <div>
         {imageCSS}
           <h1>
             {entry.getIn(["data", "title"])}
