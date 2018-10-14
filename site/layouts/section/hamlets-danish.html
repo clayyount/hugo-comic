@@ -1,31 +1,65 @@
 {{ define "main" }}
+<main>
+{{ with .Site.GetPage "/comic" }}
+    {{ range first 1 .Pages }}
+    <div class="comic-holder">
+    <div class="comic-title">
+      <h1>{{.Title}}</h1>
+    </div>
+    <div class="comic">
+      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
-
-{{ partial "4-up" .Params.intro }}
 
 
-{{ with .Params.main }}
-<div class="mw7 center">
-  <div class="mw6 ph3 mb3">
-    <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
-    <p>{{ .description }}</p>
+
+
+
+
+    <nav class="comic-nav">
+        {{if .PrevInSection}}
+        <a href="{{ range last 1 .CurrentSection.Pages }}{{ .Permalink }}{{ end }}">First</a>
+        <a href="{{.PrevInSection.Permalink}}">Previous</a>
+        {{ else }}
+        First Previous
+        {{ end }}
+        <a href="#" id="random-btn">Random</a>
+        {{ if .NextInSection }}
+        <a href="{{ .NextInSection.Permalink }}">Next</a>
+        <a href="{{ range first 1 .CurrentSection.Pages }}{{ .Permalink }}{{ end }}">Today</a>
+        {{ else }}
+        Next Today
+        {{ end }}
+        </div>
+    </nav>
+    <script>
+      //Set the Random link
+      var currentPageLink="{{ .Permalink }}";
+      {{ with .Site.GetPage "/comic" }}
+      var pages=[
+        {{ range .Pages }}
+          "{{ .Permalink }}"{{if .PrevInSection}},{{ end }}
+        {{ end }}
+        ];
+      {{ end }}
+      var randPages=pages.slice(0);
+      randPages.splice( randPages.indexOf(currentPageLink), 1 );
+      var randComicIndex=Math.floor(Math.random() * Math.floor(randPages.length));
+      document.getElementById("random-btn").setAttribute("href",randPages[randComicIndex])
+    </script>
+
+
+
+    </div>
+    <div class="comic-body">
+      {{ .Content }}
+    </div>
+      
+    
   </div>
-</div>
 
-<!-- Image grid -->
-{{ partial "image-grid" . }}
+    {{ end }}
 {{ end }}
-
-<div class="pb4">
-  {{ range .Params.testimonials }}
-    {{ partial "blockquote" . }}
-  {{ end }}
-</div>
-
-<!-- Full-width image -->
-<img src="{{ .Params.full_image }}" alt="" class="db w-100">
-
-{{ partial "table" .Params.pricing }}
-
+{{ partial "blog" . }}
+</main>
 {{ end }}
