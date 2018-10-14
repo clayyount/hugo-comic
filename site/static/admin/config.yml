@@ -31,7 +31,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"
-        fields:
+        fields:[]
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
@@ -65,4 +65,4 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/hamlets-danish/_index.md"
         label: "Hamlets Danish Page"
         name: "hamlets-danish"
-        fields:
+        fields:[]
