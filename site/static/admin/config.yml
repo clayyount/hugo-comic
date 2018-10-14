@@ -25,16 +25,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: true}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-  - name: "rae-comic" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Rob and Elliot Comic" # Used in the UI, ie.: "New Post"
-    folder: "site/content/rae-comic" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Image", name: "image", widget: "image", required: true}
-      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "pages"
     label: "Pages"
     files:
