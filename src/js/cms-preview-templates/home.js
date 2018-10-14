@@ -16,8 +16,8 @@ export default class PostPreview extends React.Component {
     return <div>
    
         {image}
-        {title}
-        {subtitle}
+        {entry.getIn(["data", "title"])}
+        {entry.getIn(["data", "subtitle"])}
         <main>
 
         </main>
