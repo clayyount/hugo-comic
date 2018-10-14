@@ -35,7 +35,7 @@
     <script>
       //Set the Random link
       var currentPageLink="{{ .Permalink }}";
-      {{ with .Site.GetPage "/comic" }}
+      {{ with .Site.GetPage "/hamlets-danish-comic" }}
       var pages=[
         {{ range .Pages }}
           "{{ .Permalink }}"{{if .PrevInSection}},{{ end }}
