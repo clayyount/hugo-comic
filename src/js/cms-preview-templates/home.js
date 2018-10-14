@@ -21,7 +21,6 @@ export default class PostPreview extends React.Component {
           </p>
         </div>
         <main>
-
         </main>
     </div>
   }
