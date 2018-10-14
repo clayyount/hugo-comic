@@ -27,6 +27,11 @@ h3 {
   font-size: 30px;
 }
 
+a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
 }
@@ -221,4 +226,37 @@ main {
 }
 .comic-nav a.disabled {
   color: #aaa;
+}
+
+.archive-list {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  padding: 0px 1rem;
+  flex-wrap: wrap;
+}
+.archive-list a {
+  flex-basis: 23rem;
+  max-width: 23rem;
+  flex-grow: 1;
+  padding: 1rem;
+  display: block;
+  box-sizing: border-box;
+}
+.archive-list a img {
+  max-width: 100%;
+}
+.archive-list a .title {
+  margin: 0px;
+}
+
+@media (max-width: 500px) {
+  .archive-list a {
+    min-width: 50%;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .archive-list a img {
+    min-width: 50%;
+  }
 }

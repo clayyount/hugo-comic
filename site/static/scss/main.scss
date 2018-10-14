@@ -24,6 +24,10 @@ h2{
 h3{
 	font-size:30px;
 }
+a{
+	color:#e74c3c;
+	text-decoration:none;
+}
 img{
 	max-width:100%;
 }
@@ -216,4 +220,37 @@ main{
 			color:#aaa;
 		}
 	}
+}
+.archive-list{
+	padding:0px;
+	margin:0px;
+	display:flex;
+	padding:0px 1rem;
+	flex-wrap:wrap;
+	a{
+		flex-basis:23rem;
+		max-width:23rem;
+		flex-grow:1;
+		padding:1rem;
+		display:block;
+		box-sizing:border-box;
+		img{
+			max-width:100%;
+		}
+		.title{
+			margin:0px;
+		}
+	}
+}
+@media(max-width:500px){
+	.archive-list{
+	a{
+		min-width:50%;
+		max-width:50%;
+		flex-basis:50%;
+		img{
+			min-width:50%;
+		}
+	}
+}
 }

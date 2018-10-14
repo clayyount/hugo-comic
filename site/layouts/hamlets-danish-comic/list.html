@@ -4,12 +4,14 @@ document.getElementById("site-logo").setAttribute("src","/img/hd-logo-angle.png"
 </script>
 <main>
 <div class="content">
-  <ul class="archive-list">
-      {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
-		{{ .Render "li"}}
-      {{ end }}
-  </ul>
-  {{ partial "pagination" . }}
+	<h1>Hamlet's Danish Archives</h1>
 </div>
+<section class="archive-list">
+  {{ range (.Paginator 18).Pages.ByPublishDate.Reverse }}
+	{{ .Render "li"}}
+  {{ end }}
+</section>
+{{ partial "pagination" . }}
+
 </main>
 {{end}}
