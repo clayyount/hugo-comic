@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main>
 	<div class="content">
-	{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+	{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 	{{ partial "blog" . }}
 	</div>
 </main>
