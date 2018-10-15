@@ -184,7 +184,7 @@ main {
   background: black;
   color: white;
   text-align: center;
-  padding: 2rem 4rem;
+  padding: 2rem 0rem;
   font-family: 'Teko', sans-serif;
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -297,7 +297,10 @@ a.tag {
         transform: rotate(45deg); }
       body > nav.open .mobile-menu-btn .menu-icon:after {
         margin-top: 0rem;
-        transform: rotate(-45deg); } }
+        transform: rotate(-45deg); }
+
+  .comic-nav a {
+    padding: 0px 1rem; } }
 @media (max-width: 500px) {
   .archive-list a {
     min-width: 50%;

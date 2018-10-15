@@ -213,7 +213,7 @@ main{
 	background:black;
 	color:white;
 	text-align:center;
-	padding:2rem 4rem;
+	padding:2rem 0rem;
 	font-family: 'Teko', sans-serif;
 	text-transform: uppercase;
 	font-size:2.5rem;
@@ -351,6 +351,11 @@ a.tag{
 				}
 			}
 			}
+		}
+	}
+	.comic-nav{
+		a{
+			padding:0px 1rem;
 		}
 	}
 }
