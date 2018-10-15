@@ -43,7 +43,14 @@
     </div>
     <div class="content">
       <div class="comic-body">
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+      <p>Date: {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+      <p>{{ with .Params.tags }}
+            Tag{{ if gt (len .) 1 }}s{{ end }}:
+            {{ range . }}
+              <a href="#" class="tag">{{ . }}</a>
+            {{ end }}
+        {{ end }}</p>
         {{ .Content }}
+        
       </div>
     </div>

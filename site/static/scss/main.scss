@@ -1,4 +1,4 @@
-$navHeight:50px;
+$navHeight:5rem;
 $contentWidth:1000px;
 html{
 	padding:0px;
@@ -6,7 +6,7 @@ html{
 	font-family: 'Roboto', sans-serif;
 	background:#666 url(/img/grey-patterned-bg.png) center top;
 	background-attachment: fixed;
-	padding-top:90px;
+	padding-top:9rem;
 	font-size:62.5%;
 }
 h1,h2,h3{
@@ -15,14 +15,14 @@ h1,h2,h3{
 	line-height: .8em;
 }
 h1{
-	font-size:60px;	
+	font-size:6rem;	
 	margin:2rem 0rem 1rem;
 }
 h2{
-	font-size:40px;
+	font-size:4rem;
 }
 h3{
-	font-size:30px;
+	font-size:3rem;
 }
 a{
 	color:#e74c3c;
@@ -41,9 +41,9 @@ body{
 	>nav{
 
 		font-family: 'Teko', sans-serif;
-		line-height:50px;
+		line-height:5rem;
 		text-transform: uppercase;
-		font-size:25px;
+		font-size:2.5rem;
 		position:relative;
 		background:black;
 		color:white;
@@ -55,8 +55,8 @@ body{
 			position:absolute;
 			left:0px;
 			img{
-				height:100px;
-				margin-top:-50px;
+				height:10rem;
+				margin-top:-5rem;
 			}
 		}
 		ul{
@@ -67,7 +67,7 @@ body{
 			right:0px;
 			li{
 				display:inline-block;
-				margin-right:10px;
+				margin-right:1rem;
 				a{
 					color:inherit;
 					text-decoration:none;
@@ -103,7 +103,7 @@ main{
 	text-decoration:none;
 }
 .jumbotron{
-	height:250px;
+	height:25rem;
 	text-align:center;
 	background:black;
 	background-size:cover;
@@ -147,7 +147,7 @@ main{
 		.input-field{
 			box-sizing:border-box;
 			flex-basis:50%;
-			min-width:300px;
+			min-width:30rem;
 			flex-grow:1;
 			padding:1rem;
 		}
@@ -187,19 +187,19 @@ main{
 }
 .comic-title{
 	text-align: center;
-	margin-top:20px;
+	margin-top:2rem;
 	h1{
 		text-align:center;
 		background-color: #fff;
 		display: inline;
-		border-left: 5px solid #fff;
-		border-right: 5px solid #fff;
+		border-left: .5rem solid #fff;
+		border-right: .5rem solid #fff;
 		&:after {
 			content: '';
-			border-top: 3px solid #eee;
+			border-top: .3rem solid #eee;
 			width: 100%;
 			float: left;
-			margin-top: -30px;
+			margin-top: -3rem;
 		}
 	}
 }
@@ -211,7 +211,7 @@ main{
 	font-family: 'Teko', sans-serif;
 	text-transform: uppercase;
 	font-size:2.5rem;
-	border-top: 5px solid #aaa;
+	border-top: .5rem solid #aaa;
 	a{
 		padding:0px 2rem;
 		color:inherit;
@@ -242,15 +242,120 @@ main{
 		}
 	}
 }
-@media(max-width:500px){
-	.archive-list{
-	a{
-		min-width:50%;
-		max-width:50%;
-		flex-basis:50%;
-		img{
-			min-width:50%;
+a.tag{
+	display:inline-block;
+	margin-right:.5rem;
+	background:#eee;
+	border-radius:3px;
+	padding:.2rem .5rem;
+	font-weight:bold;
+}
+@media(max-width:767px){
+	html{
+		padding-top:0px;
+		overflow-x:hidden;
+		font-size:50%;
+	}
+	body{
+		>nav{
+			>a{
+				img{
+					height:5rem;
+					margin-top:0px;
+				}
+			}
+			ul{
+				padding:2rem;
+				padding-top:5rem;
+				width:30rem;
+				height:100vh;
+				background:black;
+				position:absolute;
+				right:0;
+				list-style: none;
+				margin:0px;
+				position:absolute;
+				box-sizing:border-box;
+				right:-30rem;
+				transition: all .4s;
+				z-index:2;
+				li{
+					display:block;
+					margin-right:1rem;
+					a{
+						color:inherit;
+						text-decoration:none;
+					}
+				}
+			}
+			.mobile-menu-btn{
+				display:block;
+				height:5rem;
+				width:5rem;
+				position:absolute;
+				right:0;
+				cursor:pointer;
+				z-index:3;
+				.menu-icon{
+					display:block;
+					height:.5rem;
+					width:3rem;
+					position:absolute;
+					background:white;
+					top:50%;
+					left:50%;
+					transform:translate(-50%,-50%);
+					transition: all .4s;
+					&:before{
+						content:'';
+						height:.5rem;
+						width:3rem;
+						position:absolute;
+						background:white;
+						margin-top:-1rem;
+						transition: all .4s;
+					};
+					&:after{
+						content:'';
+						height:.5rem;
+						width:3rem;
+						position:absolute;
+						background:white;
+						margin-top:1rem;
+						transition: all .4s;
+					};
+				}
+			}
+			&.open{
+				ul{
+					right:0rem;
+				}
+				.mobile-menu-btn{
+				.menu-icon{
+					background:transparent;
+					&:before{
+						margin-top: 0rem;
+						transform: rotate(45deg);
+					};
+					&:after{
+						margin-top: 0rem;
+						transform: rotate(-45deg);
+					};
+				}
+			}
+			}
 		}
 	}
 }
+@media(max-width:500px){
+	.archive-list{
+		a{
+			min-width:50%;
+			max-width:50%;
+			flex-basis:50%;
+			img{
+				min-width:50%;
+			}
+		}
+	}
 }

@@ -9,4 +9,13 @@
 </footer>
 <script src="/app.js"></script>
 </body>
+<script>
+	document.getElementById("mobile-menu-btn").addEventListener("click", function(){
+		if(document.getElementById("site-nav").classList.contains("open")){
+			document.getElementById("site-nav").classList.remove("open");
+		}else{
+			document.getElementById("site-nav").classList.add("open");
+		}
+	});
+</script>
 </html>
