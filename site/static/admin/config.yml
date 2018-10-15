@@ -26,10 +26,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - label: "Tags"
-         - name: "tags"
-           widget: "list"
-           required: false
-           fields:
+          name: "tags"
+          widget: "list"
+          required: false
+          fields:
             - {label: "Tag", name: "tag", widget: "string"}
   - name: "rae-comic" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Rob and Elliot Comic" # Used in the UI, ie.: "New Post"
