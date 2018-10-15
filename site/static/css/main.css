@@ -5,7 +5,9 @@ html {
   background: #666 url(/img/grey-patterned-bg.png) center top;
   background-attachment: fixed;
   padding-top: 9rem;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  overflow-x: hidden;
+  width: 100%; }
 
 h1, h2, h3 {
   font-family: 'Teko', sans-serif;
@@ -223,7 +225,6 @@ a.tag {
 @media (max-width: 767px) {
   html {
     padding-top: 0px;
-    overflow-x: hidden;
     font-size: 50%; }
 
   body > nav > a img {
