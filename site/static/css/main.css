@@ -49,7 +49,6 @@ body {
   max-width: 1000px;
   margin: 0px auto;
 }
-
 body > nav {
   font-family: "Teko", sans-serif;
   line-height: 5rem;
@@ -61,19 +60,16 @@ body > nav {
   height: 5rem;
   box-sizing: border-box;
 }
-
 body > nav > a {
   color: inherit;
   display: block;
   position: absolute;
   left: 0px;
 }
-
 body > nav > a img {
   height: 10rem;
   margin-top: -5rem;
 }
-
 body > nav ul {
   list-style: none;
   padding: 0px;
@@ -81,17 +77,14 @@ body > nav ul {
   position: absolute;
   right: 0px;
 }
-
 body > nav ul li {
   display: inline-block;
   margin-right: 1rem;
 }
-
 body > nav ul li a {
   color: inherit;
   text-decoration: none;
 }
-
 body > nav .mobile-menu-btn {
   display: none;
   height: 5rem;
@@ -101,7 +94,6 @@ body > nav .mobile-menu-btn {
   cursor: pointer;
   z-index: 3;
 }
-
 body > nav .mobile-menu-btn .menu-icon {
   display: block;
   height: 0.5rem;
@@ -113,7 +105,6 @@ body > nav .mobile-menu-btn .menu-icon {
   transform: translate(-50%, -50%);
   transition: all 0.4s;
 }
-
 body > nav .mobile-menu-btn .menu-icon:before {
   content: "";
   height: 0.5rem;
@@ -123,7 +114,6 @@ body > nav .mobile-menu-btn .menu-icon:before {
   margin-top: -1rem;
   transition: all 0.4s;
 }
-
 body > nav .mobile-menu-btn .menu-icon:after {
   content: "";
   height: 0.5rem;
@@ -171,7 +161,6 @@ main {
   overflow: hidden;
   position: relative;
 }
-
 .jumbotron h1 {
   color: white;
   z-index: 1;
@@ -181,7 +170,6 @@ main {
   transform: translate(0, -50%);
   margin: 0px;
 }
-
 .jumbotron:before {
   content: "";
   display: block;
@@ -204,13 +192,11 @@ main {
 .contact-form {
   padding: 1rem;
 }
-
 .contact-form .input-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .contact-form .input-group .input-field {
   box-sizing: border-box;
   flex-basis: 50%;
@@ -218,26 +204,22 @@ main {
   flex-grow: 1;
   padding: 1rem;
 }
-
 .contact-form .input-group .button-holder {
   box-sizing: border-box;
   flex-basis: 100%;
   flex-grow: 1;
   padding: 0px 1rem;
 }
-
 .contact-form fieldset {
   border: none;
   padding: 0;
   margin: 0px;
   box-sizing: border-box;
 }
-
 .contact-form fieldset label {
   margin-bottom: 1rem;
   display: block;
 }
-
 .contact-form fieldset input, .contact-form fieldset textarea {
   width: 100%;
   padding: 1rem 2rem;
@@ -245,11 +227,9 @@ main {
   border-radius: 3px;
   border: 1px solid #aaa;
 }
-
 .contact-form fieldset textarea {
   padding: 1rem;
 }
-
 .content {
   padding: 0px 2rem;
 }
@@ -258,7 +238,6 @@ main {
   text-align: center;
   margin-top: 2rem;
 }
-
 .comic-title h1 {
   text-align: center;
   background-color: #fff;
@@ -266,7 +245,6 @@ main {
   border-left: 0.5rem solid #fff;
   border-right: 0.5rem solid #fff;
 }
-
 .comic-title h1:after {
   content: "";
   border-top: 0.3rem solid #eee;
@@ -285,13 +263,11 @@ main {
   font-size: 2.5rem;
   border-top: 0.5rem solid #aaa;
 }
-
 .comic-nav a {
   padding: 0px 2rem;
   color: inherit;
   text-decoration: none;
 }
-
 .comic-nav a.disabled {
   color: #aaa;
 }
@@ -303,7 +279,6 @@ main {
   padding: 0px 1rem;
   flex-wrap: wrap;
 }
-
 .archive-list a {
   flex-basis: 23rem;
   max-width: 23rem;
@@ -312,11 +287,9 @@ main {
   display: block;
   box-sizing: border-box;
 }
-
 .archive-list a img {
   max-width: 100%;
 }
-
 .archive-list a .title {
   margin: 0px;
 }
@@ -334,73 +307,77 @@ a.tag {
   html {
     padding-top: 0px;
     font-size: 50%;
-    overflow-x: hidden;
+    overflow-x: visible;
   }
 
   body {
     overflow-x: hidden;
   }
-
   body > nav > a img {
     height: 5rem;
     margin-top: 0px;
   }
-
   body > nav ul {
     padding: 2rem;
     padding-top: 5rem;
-    width: 30rem;
+    width: 300px;
     height: 100vh;
     background: black;
     position: absolute;
+    top: 0;
     right: 0;
     list-style: none;
     margin: 0px;
     position: absolute;
     box-sizing: border-box;
-    right: -30rem;
+    right: -300px;
     z-index: 2;
   }
-
   body > nav ul li {
     display: block;
     margin-right: 1rem;
   }
-
   body > nav ul li a {
     color: inherit;
     text-decoration: none;
   }
-
   body > nav .mobile-menu-btn {
     display: block;
   }
-
   body > nav .mobile-menu-btn .menu-icon {
     display: block;
   }
 
-  body > nav.open ul {
-    transition: right 0.4s;
-    right: 0rem;
+  .comic-nav a {
+    padding: 0px 1rem;
   }
 
-  body > nav.open .mobile-menu-btn .menu-icon {
+  html.menu-open {
+    transition: margin-left 0.4s;
+    margin-left: -300px;
+  }
+  html.menu-open body {
+    overflow: hidden;
+  }
+  html.menu-open body > nav ul {
+    transition: right 0.4s;
+    right: -300px;
+    overflow-y: auto;
+  }
+  html.menu-open body > nav .mobile-menu-btn {
+    transition: right 0.4s;
+    right: -300px;
+  }
+  html.menu-open body > nav .mobile-menu-btn .menu-icon {
     background: transparent;
   }
-
-  body > nav.open .mobile-menu-btn .menu-icon:before {
+  html.menu-open body > nav .mobile-menu-btn .menu-icon:before {
     margin-top: 0rem;
     transform: rotate(45deg);
   }
-
-  body > nav.open .mobile-menu-btn .menu-icon:after {
+  html.menu-open body > nav .mobile-menu-btn .menu-icon:after {
     margin-top: 0rem;
     transform: rotate(-45deg);
-  }
-
-  .comic-nav a {
-    padding: 0px 1rem;
   }
 }
 @media (max-width: 500px) {
@@ -409,7 +386,6 @@ a.tag {
     max-width: 50%;
     flex-basis: 50%;
   }
-
   .archive-list a img {
     min-width: 50%;
   }
