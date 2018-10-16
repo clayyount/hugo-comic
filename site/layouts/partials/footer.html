@@ -11,10 +11,10 @@
 </body>
 <script>
 	document.getElementById("mobile-menu-btn").addEventListener("click", function(){
-		if(document.getElementById("site-nav").classList.contains("open")){
-			document.getElementById("site-nav").classList.remove("open");
+		if(document.getElementsByTagName("html")[0].classList.contains("menu-open")){
+			document.getElementsByTagName("html")[0].classList.remove("menu-open");
 		}else{
-			document.getElementById("site-nav").classList.add("open");
+			document.getElementsByTagName("html")[0].classList.add("menu-open");
 		}
 	});
 </script>
