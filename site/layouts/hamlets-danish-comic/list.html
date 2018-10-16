@@ -2,11 +2,30 @@
 <script>
 document.getElementById("site-logo").setAttribute("src","/img/hd-logo-angle.png")
 </script>
+<aside>
+	<div class="content">
+		<h2>Select a comic</h2>
+		<div class="custom-select">
+			<select class="custom" onchange="location = this.value;">
+			{{ range .Pages.ByPublishDate.Reverse }}
+			<option value="{{ .Permalink }}">{{ .Title }}</option>
+			{{ end }}
+			</select>
+		</div>
+	</div>
+</aside>
 <main>
 <div class="content">
-	<h1>Hamlet's Danish Archives</h1>
+	<h2>Hamlet's Danish Archives</h2>
 </div>
+
 <section class="archive-list">
+  {{ range (.Paginator 18).Pages.ByPublishDate.Reverse }}
+	{{ .Render "li"}}
+  {{ end }}
+  {{ range (.Paginator 18).Pages.ByPublishDate.Reverse }}
+	{{ .Render "li"}}
+  {{ end }}
   {{ range (.Paginator 18).Pages.ByPublishDate.Reverse }}
 	{{ .Render "li"}}
   {{ end }}
@@ -14,4 +33,5 @@ document.getElementById("site-logo").setAttribute("src","/img/hd-logo-angle.png"
 {{ partial "pagination" . }}
 
 </main>
+
 {{end}}
