@@ -353,8 +353,11 @@ a.tag{
 	html.menu-open{
 		transition: margin-left .4s;
 		margin-left:-300px;
+		position: relative;
 		body{
 			overflow:hidden;
+			height:100%;
+			position: relative;
 			>nav{
 				ul{
 					transition: right .4s;
