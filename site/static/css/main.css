@@ -349,6 +349,7 @@ a.tag {
   body > nav ul li a {
     color: inherit;
     text-decoration: none;
+    display: block;
   }
   body > nav .mobile-menu-btn {
     display: block;
