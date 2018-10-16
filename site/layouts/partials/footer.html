@@ -17,5 +17,21 @@
 			document.getElementsByTagName("html")[0].classList.add("menu-open");
 		}
 	});
+	var dropdowns = document.getElementsByClassName("dropdown");
+	for(var i=0; i<dropdowns.length; i++){
+		dropdowns[i].addEventListener("click", function(){
+			if(this.classList.contains("open")){
+				this.classList.remove("open");
+			}else{
+
+				for(var j=0; j<dropdowns.length; j++){
+					dropdowns[j].classList.remove("open")
+				}
+				this.classList.add("open");
+
+			}
+		})
+	}
+	
 </script>
 </html>
