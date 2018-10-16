@@ -88,12 +88,12 @@ body > nav ul li a {
 body > nav .mobile-menu-btn {
   display: none;
   height: 5rem;
-  width: 5rem;
+  width: 100%;
   position: absolute;
   left: 0;
   cursor: pointer;
   z-index: 3;
-  background-color: #e74c3c;
+  background-color: black;
 }
 body > nav .mobile-menu-btn .menu-icon {
   display: block;
@@ -314,10 +314,17 @@ a.tag {
   body {
     overflow-x: hidden;
   }
+  body > nav {
+    margin-top: 50px;
+  }
+  body > nav > a {
+    display: block;
+    margin-top: -50px;
+    height: 50px;
+  }
   body > nav > a img {
-    height: 5rem;
+    height: 50px;
     margin-top: 0px;
-    margin-left: 5rem;
   }
   body > nav ul {
     padding: 2rem;

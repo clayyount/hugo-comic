@@ -84,12 +84,12 @@ body{
 		.mobile-menu-btn{
 			display:none;
 			height:5rem;
-			width:5rem;
+			width:100%;
 			position:absolute;
 			left:0;
 			cursor:pointer;
 			z-index:3;
-			background-color:#e74c3c;
+			background-color:black;
 			.menu-icon{
 					display:block;
 					height:.5rem;
@@ -305,11 +305,15 @@ a.tag{
 	body{
 		overflow-x:hidden;
 		>nav{
+			margin-top:50px;
+
 			>a{
+				display:block;
+				margin-top:-50px;
+				height:50px;
 				img{
-					height:5rem;
-					margin-top:0px;
-					margin-left:5rem;
+					height:50px;
+					margin-top:0px
 				}
 			}
 			ul{
