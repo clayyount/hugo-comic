@@ -89,6 +89,7 @@ body{
 			left:0;
 			cursor:pointer;
 			z-index:3;
+			background-color:#e74c3c;
 			.menu-icon{
 					display:block;
 					height:.5rem;
@@ -314,16 +315,17 @@ a.tag{
 			ul{
 				padding:2rem;
 				padding-top:5rem;
-				width:300px;
+				width:100%;
 				height:100vh;
 				background:black;
 				position:absolute;
 				top:0;
+				text-align:center;
 				list-style: none;
 				margin:0px;
 				position:absolute;
 				box-sizing:border-box;
-				left:-300px;
+				left:-100%;
 				z-index:2;
 				li{
 					display:block;
