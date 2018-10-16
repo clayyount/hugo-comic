@@ -86,7 +86,7 @@ body{
 			height:5rem;
 			width:5rem;
 			position:absolute;
-			right:0;
+			left:0;
 			cursor:pointer;
 			z-index:3;
 			.menu-icon{
@@ -308,6 +308,7 @@ a.tag{
 				img{
 					height:5rem;
 					margin-top:0px;
+					margin-left:5rem;
 				}
 			}
 			ul{
@@ -318,12 +319,11 @@ a.tag{
 				background:black;
 				position:absolute;
 				top:0;
-				right:0;
 				list-style: none;
 				margin:0px;
 				position:absolute;
 				box-sizing:border-box;
-				right:-300px;
+				left:-300px;
 				z-index:2;
 				li{
 					display:block;
@@ -351,8 +351,8 @@ a.tag{
 		}
 	}
 	html.menu-open{
-		transition: margin-left .4s;
-		margin-left:-300px;
+		
+		overflow:hidden;
 		position: relative;
 		body{
 			overflow:hidden;
@@ -360,13 +360,12 @@ a.tag{
 			position: relative;
 			>nav{
 				ul{
-					transition: right .4s;
-					right:-300px;
+					transition: left .4s;
+					left:0px;
 					overflow-y:auto;
 				}
 				.mobile-menu-btn{
 					transition: right .4s;
-					right:-300px;
 					.menu-icon{
 						background:transparent;
 						&:before{
