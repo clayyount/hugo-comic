@@ -329,7 +329,7 @@ footer{
 		flex-basis:33%;
 		max-width:33%;
 		flex-grow:1;
-		padding:1rem;
+		padding:0rem 1rem 2rem;
 		display:block;
 		box-sizing:border-box;
 		img{
@@ -406,6 +406,14 @@ a.tag{
 		ul{
 			display:block;
 		}
+	}
+}
+.pagination{
+	width:100%;
+	a{
+		display:inline-block;
+		padding:.5rem;
+		background:#eee;
 	}
 }
 @media(max-width:767px){

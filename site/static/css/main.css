@@ -292,7 +292,7 @@ footer {
     flex-basis: 33%;
     max-width: 33%;
     flex-grow: 1;
-    padding: 1rem;
+    padding: 0rem 1rem 2rem;
     display: block;
     box-sizing: border-box; }
     .archive-list a img {
@@ -361,6 +361,13 @@ a.tag {
       margin-top: -10px; }
   .dropdown.open ul {
     display: block; }
+
+.pagination {
+  width: 100%; }
+  .pagination a {
+    display: inline-block;
+    padding: .5rem;
+    background: #eee; }
 
 @media (max-width: 767px) {
   html {

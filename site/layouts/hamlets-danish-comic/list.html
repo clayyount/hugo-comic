@@ -21,7 +21,7 @@ document.getElementById("site-logo").setAttribute("src","/img/hd-logo-angle.png"
 </div>
 
 <section class="archive-list">
-  {{ range (.Paginator 18).Pages.ByPublishDate.Reverse }}
+  {{ range (.Paginator 1).Pages.ByPublishDate.Reverse }}
 	{{ .Render "li"}}
   {{ end }}
 </section>
