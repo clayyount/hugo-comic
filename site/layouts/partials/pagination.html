@@ -1,24 +1,22 @@
 {{ if gt .Paginator.TotalPages 1 }}
-{{ $current_page:=.Paginator.PageNumber }}
-<nav class="pagination">
-
-    {{ if .Paginator.HasNext }}
-    <a title="Previous Page" href="{{ .Paginator.Next.URL }}"><</a>
-    {{ else }}
-    <a title="Previous Page" class="disabled"><</a>
-    {{ end }}
-    {{ range .Paginator.Pagers }}
-        {{ if eq .PageNumber $current_page }}
-            <a href="{{ .URL }}" class="selected">{{ .PageNumber }}</a> 
-        {{ else }}
-            <a href="{{ .URL }}">{{ .PageNumber }}</a> 
-        {{ end }}
-    {{ end }}
-    {{ if .Paginator.HasPrev }}
-    <a title="Next Page" href="{{ .Paginator.Prev.URL }}">></a>
-    {{ else }}
-    <a title="Next Page" class="disabled">></a>
-    {{ end }}
-</nav>
- 
+<nav class="pagination"></nav>
 {{ end }}
+<script>
+$(document).ready(function(){
+
+    $(".pagination").pagination({
+        pages: {{ .Paginator.TotalPages }},
+        currentPage: {{ .Paginator.PageNumber }},
+        onPageClick: gotoPage,
+        prevText: "<",
+        nextText: ">>",
+        displayedPages: 3,
+        ellipsePageSet:true
+    })
+
+    function gotoPage(num,e){
+        location = '/{{ index (split .Paginator.URL "/") 1}}/page/'+num;
+    }
+})
+</script>
+ 

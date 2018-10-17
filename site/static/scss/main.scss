@@ -409,11 +409,25 @@ a.tag{
 	}
 }
 .pagination{
+	min-height:3rem;
 	width:100%;
-	a{
-		display:inline-block;
-		padding:.5rem;
-		background:#eee;
+	ul{
+		list-style:none;
+		padding:0px;
+		margin:0px;
+		li{
+			display:inline-block;
+			margin-right:1rem;
+			a{
+				
+				
+			}
+			a,.current{
+				display:inline-block;
+				background:#eee;
+				padding:.5rem 1rem;
+			}
+		}
 	}
 }
 @media(max-width:767px){

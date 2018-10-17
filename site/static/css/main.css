@@ -363,11 +363,19 @@ a.tag {
     display: block; }
 
 .pagination {
+  min-height: 3rem;
   width: 100%; }
-  .pagination a {
-    display: inline-block;
-    padding: .5rem;
-    background: #eee; }
+  .pagination ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px; }
+    .pagination ul li {
+      display: inline-block;
+      margin-right: 1rem; }
+      .pagination ul li a, .pagination ul li .current {
+        display: inline-block;
+        background: #eee;
+        padding: .5rem 1rem; }
 
 @media (max-width: 767px) {
   html {
