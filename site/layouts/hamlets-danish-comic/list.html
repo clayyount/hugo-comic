@@ -7,10 +7,10 @@ document.getElementById("site-logo").setAttribute("src","/img/hd-logo-angle.png"
 		<h2>Select a comic</h2>
 		<div class="custom-select">
 			<select class="custom" onchange="location = this.value;">
-				 <option value="" disabled selected>Select comic</option>
-			{{ range .Pages.ByPublishDate.Reverse }}
-			<option value="{{ .Permalink }}">{{ .Title }}</option>
-			{{ end }}
+				<option value="" disabled selected>Select comic</option>
+				{{ range .Pages.ByPublishDate.Reverse }}
+				<option value="{{ .Permalink }}">{{ .Title }}</option>
+				{{ end }}
 			</select>
 		</div>
 	</div>
@@ -21,12 +21,6 @@ document.getElementById("site-logo").setAttribute("src","/img/hd-logo-angle.png"
 </div>
 
 <section class="archive-list">
-  {{ range (.Paginator 18).Pages.ByPublishDate.Reverse }}
-	{{ .Render "li"}}
-  {{ end }}
-  {{ range (.Paginator 18).Pages.ByPublishDate.Reverse }}
-	{{ .Render "li"}}
-  {{ end }}
   {{ range (.Paginator 18).Pages.ByPublishDate.Reverse }}
 	{{ .Render "li"}}
   {{ end }}
