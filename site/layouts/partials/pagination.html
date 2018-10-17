@@ -3,9 +3,9 @@
 <nav class="pagination">
 
     {{ if .Paginator.HasNext }}
-    <a title="Previous Page" href="{{ .Paginator.Next.URL }}">Previous</a>
+    <a title="Previous Page" href="{{ .Paginator.Next.URL }}"><</a>
     {{ else }}
-    <a title="Previous Page" class="disabled">Previous</a>
+    <a title="Previous Page" class="disabled"><</a>
     {{ end }}
     {{ range .Paginator.Pagers }}
         {{ if eq .PageNumber $current_page }}
@@ -15,9 +15,9 @@
         {{ end }}
     {{ end }}
     {{ if .Paginator.HasPrev }}
-    <a title="Next Page" href="{{ .Paginator.Prev.URL }}">Next</a>
+    <a title="Next Page" href="{{ .Paginator.Prev.URL }}">></a>
     {{ else }}
-    <a title="Next Page" class="disabled">Next</a>
+    <a title="Next Page" class="disabled"><</a>
     {{ end }}
 </nav>
  
