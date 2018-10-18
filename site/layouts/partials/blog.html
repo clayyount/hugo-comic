@@ -1,8 +1,6 @@
-{{ with .Site.GetPage "/blog" }}
 <section class="blog-list">
 	{{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
 		{{ .Render "li"}}
 	{{ end }}
 </section>
 {{ partial "pagination" . }}
-{{ end }}
