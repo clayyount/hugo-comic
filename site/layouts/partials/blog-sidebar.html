@@ -1,0 +1,18 @@
+<aside class="sidebar blog">
+  <div class="content">
+    
+    {{ with .Site.GetPage "/hamlets-danish-comic" }}
+      {{ range first 1 .Pages}}
+        <a href="{{ .Permalink }}"><h2 class="sidebar-title">Latest Hamlet's Danish</h2>
+        {{ if .Params.thumbnail }}
+          <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" />
+        {{ end }}
+        </a>
+      {{ end }}
+    {{ end }}
+    <h2 class="sidebar-title">Rob and Elliot Archives</h2>
+    <a href="/rae-comic"><img src="/img/rae-promo.png" alt="Rob and Elliot Archives" /></a>
+    <h2>Twitter Feed</h2>
+  </div>
+</aside>
+

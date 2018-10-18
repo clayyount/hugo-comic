@@ -2,7 +2,22 @@
 <script>
 document.getElementById("site-logo").setAttribute("src","/img/hd-logo-angle.png")
 </script>
-<aside>
+
+<main>
+<div class="content">
+	<h2>Hamlet's Danish Archives</h2>
+</div>
+
+<section class="archive-list">
+  {{ range (.Paginator 18).Pages.ByPublishDate.Reverse }}
+	{{ .Render "li"}}
+  {{ end }}
+</section>
+<div class="content">
+	{{ partial "pagination" . }}
+</div>
+</main>
+<aside class="pin-top">
 	<div class="content">
 		<h2>Select a comic</h2>
 		<div class="custom-select">
@@ -15,19 +30,5 @@ document.getElementById("site-logo").setAttribute("src","/img/hd-logo-angle.png"
 		</div>
 	</div>
 </aside>
-<main>
-<div class="content">
-	<h2>Hamlet's Danish Archives</h2>
-</div>
-
-<section class="archive-list">
-  {{ range (.Paginator 1).Pages.ByPublishDate.Reverse }}
-	{{ .Render "li"}}
-  {{ end }}
-</section>
-<div class="content">
-	{{ partial "pagination" . }}
-</div>
-</main>
 
 {{end}}

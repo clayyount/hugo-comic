@@ -1,19 +1,8 @@
-<div class="bg-off-white pv4">
-	<div class="ph3 mw7 center">
-
-		<h2 class="f2 b lh-title mb3">Latest stories</h1>
-
-		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
-			{{ range first 4 (where .Data.Pages "Type" "blog") }}
-				<div class="ph1-ns w-50-ns flex">
-					{{ .Render "li" }}
-				</div>
-			{{ end }}
-		</div>
-
-		<div class="tc">
-			<a href="/post" class="btn raise">Read more</a>
-		</div>
-
-	</div>
-</div>
+{{ with .Site.GetPage "/blog" }}
+<section class="blog-list">
+	{{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+		{{ .Render "li"}}
+	{{ end }}
+</section>
+{{ partial "pagination" . }}
+{{ end }}

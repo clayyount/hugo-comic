@@ -1,8 +1,10 @@
 {{ define "main" }}
+{{ partial "jumbotron" (dict "imageUrl" ((.Site.GetPage "/").Params.banner) "title" ((.Site.GetPage "/").Title) "subtitle" ((.Site.GetPage "/").Params.subtitle)) }}
 <main>
-	{{ partial "jumbotron" (dict "imageUrl" .Params.banner "title" .Title "subtitle" .Params.subtitle) }}
+	
 	<div class="content">
 	{{ partial "blog" . }}
 	</div>
 </main>
+{{ partial "blog-sidebar" . }}
 {{ end }}

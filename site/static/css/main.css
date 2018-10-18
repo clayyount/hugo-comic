@@ -9,10 +9,6 @@ html {
   max-width: 100%;
 }
 
-body {
-  height: 100%;
-}
-
 h1, h2, h3 {
   font-family: "Teko", sans-serif;
   text-transform: uppercase;
@@ -21,11 +17,12 @@ h1, h2, h3 {
 
 h1 {
   font-size: 6rem;
-  margin: 2rem 0rem 1rem;
+  margin: 3rem 0rem 1rem;
 }
 
 h2 {
   font-size: 4rem;
+  margin: 3rem 0rem 1rem;
 }
 
 h3 {
@@ -35,6 +32,10 @@ h3 {
 a {
   color: #e74c3c;
   text-decoration: none;
+  transition: all 0.2s;
+}
+a:hover {
+  color: #a82315;
 }
 
 img {
@@ -42,6 +43,7 @@ img {
 }
 
 body {
+  height: 100%;
   font-size: 1.6rem;
   padding: 0px;
   margin: 0px;
@@ -93,6 +95,9 @@ body > nav ul li a {
   text-decoration: none;
   white-space: nowrap;
 }
+body > nav ul li a:hover {
+  color: #e74c3c;
+}
 body > nav .mobile-menu-btn {
   display: none;
   height: 5rem;
@@ -143,12 +148,12 @@ body > main {
   background: white;
   padding-bottom: 2rem;
   flex-grow: 1;
-  flex: 71%;
+  flex: 65%;
   order: 1;
 }
 
 body > aside {
-  flex: 29%;
+  flex: 35%;
   min-width: 20rem;
   flex-grow: 1;
   background: #eee;
@@ -159,6 +164,20 @@ body > footer {
   flex-basis: 100%;
   order: 3;
   color: #aaa;
+}
+
+.sidebar .sidebar-title {
+  font-size: 3rem;
+  display: block;
+  padding: 1rem 2rem;
+  background: black;
+  color: white;
+  margin-bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.sidebar img {
+  width: 100%;
 }
 
 .social-media ul {
@@ -179,6 +198,9 @@ body > footer {
   font-size: 2rem;
   position: relative;
 }
+.social-media ul li a:hover {
+  color: black;
+}
 .social-media ul li a svg {
   position: absolute;
   top: 50%;
@@ -189,11 +211,20 @@ body > footer {
 .social-media ul li a.twitter {
   background-color: #00aced;
 }
-.social-media ul li a.facebook-f {
+.social-media ul li a.twitter:hover {
+  background-color: #0087ba;
+}
+.social-media ul li a.facebook {
   background-color: #3b5998;
+}
+.social-media ul li a.facebook:hover {
+  background-color: #2d4373;
 }
 .social-media ul li a.rss {
   background-color: #f60;
+}
+.social-media ul li a.rss:hover {
+  background-color: #cc5200;
 }
 
 .btn {
@@ -211,8 +242,14 @@ body > footer {
   font-size: 1.4rem;
   text-decoration: none;
 }
+.btn:hover {
+  color: white;
+  background-color: #e74c3c;
+  box-shadow: 0 2px 0 0 #a82315;
+}
 
 .jumbotron {
+  flex-basis: 100%;
   height: 25rem;
   text-align: center;
   background: black;
@@ -247,6 +284,10 @@ body > footer {
   top: 0px;
   left: 0px;
   opacity: 0.8;
+}
+
+.blog-list article {
+  padding-bottom: 5rem;
 }
 
 .custom-select {
@@ -327,6 +368,7 @@ body > footer {
 }
 .content {
   padding: 0px 2rem;
+  box-sizing: border-box;
 }
 
 .comic-title {
@@ -362,6 +404,9 @@ body > footer {
   padding: 0px 2rem;
   color: inherit;
   text-decoration: none;
+}
+.comic-nav a:hover {
+  color: #e74c3c;
 }
 .comic-nav a.disabled {
   color: #aaa;
@@ -484,13 +529,17 @@ a.tag {
     overflow-x: visible;
   }
 
-  main {
+  body > main {
     flex: 100%;
     order: 2;
   }
 
-  aside {
+  body > aside {
     flex: 100%;
+    order: 3;
+  }
+
+  body > aside.pin-top {
     order: 1;
   }
 
@@ -499,6 +548,9 @@ a.tag {
   }
   body > nav {
     margin-top: 50px;
+  }
+  body > nav .social-media {
+    display: none;
   }
   body > nav > a {
     display: block;
@@ -545,6 +597,9 @@ a.tag {
     padding: 0px 1rem;
   }
 
+  .dropdown {
+    padding: 0px;
+  }
   .dropdown ul {
     position: relative;
     height: auto;
