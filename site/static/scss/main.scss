@@ -56,6 +56,11 @@ body{
 		color:white;
 		height:$navHeight;
 		box-sizing:border-box;
+		.social-media{
+			position:absolute;
+			top:-5rem;
+			right:0px;
+		}
 		>a{
 			color:inherit;
 			display:block;
@@ -130,23 +135,62 @@ input textarea button{
 	-moz-appearance: none;
 	-appearance: none;
 }
-main{
+body>main{
 	background:white;
 	padding-bottom:2rem;
 	flex-grow:1;
 	flex:71%;
 	order:1;
 }
-aside{
+body>aside{
 	flex:29%;
 	min-width:20rem;
 	flex-grow:1;
 	background:#eee;
 	order:2;
 }
-footer{
+body>footer{
 	flex-basis:100%;
 	order:3;
+	color:#aaa;
+}
+.social-media{
+	ul{
+		list-style: none;
+		padding:0px;
+		margin:0px;
+		display:flex;
+		li{
+			display:block;
+			margin:0px;
+
+			a{
+				width:5rem;
+				height:5rem;
+				display:block;
+				color:black;
+				font-size:2rem;
+				position:relative;
+				svg{
+					position:absolute;
+					top:50%;
+					left:50%;
+					transform:translate(-50%,-50%);
+					display:block;
+				}
+			}
+			a.twitter{
+				background-color:#00aced;
+			}
+			a.facebook-f{
+				background-color:#3b5998;
+			}
+			a.rss{
+				background-color:#f60;
+			}
+		}
+		
+	}
 }
 .btn{
 	border:none;
@@ -417,14 +461,15 @@ a.tag{
 		margin:0px;
 		li{
 			display:inline-block;
-			margin-right:1rem;
+			margin-right:-1px;
 			a{
 				
 				
 			}
 			a,.current{
 				display:inline-block;
-				background:#eee;
+				background:white;
+				border:1px solid #ddd;
 				padding:.5rem 1rem;
 			}
 		}
