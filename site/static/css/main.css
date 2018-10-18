@@ -430,8 +430,9 @@ body > footer {
   content: "Comic Comment";
   font-family: "Teko", sans-serif;
   font-size: 3rem;
-  margin-top: -4.7rem;
-  margin-left: -8.5rem;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -2rem);
   position: absolute;
   text-align: left;
   display: inline-block;
