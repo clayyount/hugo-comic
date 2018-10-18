@@ -1,7 +1,4 @@
 {{ define "main" }}
-<script>
-document.getElementById("site-logo").setAttribute("src","/img/hd-logo-angle.png")
-</script>
 <main>
 {{ with .Site.GetPage "/hamlets-danish-comic" }}
     {{ range first 1 .Pages }}

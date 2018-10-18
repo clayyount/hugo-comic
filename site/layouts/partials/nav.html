@@ -1,9 +1,15 @@
 <nav id="site-nav">
 
 	<!-- Logo -->
-	<a href="/">
-		<img src="/img/cy-logo-angle.png" alt="Hamlet's Danish logo" id="site-logo"/>
+	{{ if and .Params.logolink .Params.logo }}
+	<a href="{{ .Params.logolink }}">
+		<img src="{{ .Params.logo}}" alt="Site logo" id="site-logo"/>
 	</a>
+	{{ else }}
+	<a href="/">
+		<img src="/img/cy-logo-angle.png" alt="Site logo" id="site-logo"/>
+	</a>
+	{{ end }}
 	<div class="social-media">
 		<ul>
 			{{ partial "social-icon" (dict "link" "https://twitter.com/clayyount" "service" "twitter" "icon" "fab fa-twitter") }}
