@@ -383,12 +383,13 @@ body>footer{
 		display: inline;
 		border-left: .5rem solid #fff;
 		border-right: .5rem solid #fff;
+		line-height: 6rem;
 		&:after {
 			content: '';
 			border-top: .3rem solid #eee;
 			width: 100%;
 			float: left;
-			margin-top: -3rem;
+			margin-top: -3.5rem;
 		}
 	}
 }
