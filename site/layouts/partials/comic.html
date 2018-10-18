@@ -43,14 +43,19 @@
     </div>
     <div class="content">
       <div class="comic-body">
-      <p>Date: {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>{{ with .Params.tags }}
-            Tag{{ if gt (len .) 1 }}s{{ end }}:
-            {{ range . }}
-              <a href="#" class="tag">{{ . }}</a>
+        <div class="comic-meta">
+          <p>Date: {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+          <p>{{ with .Params.tags }}
+              Tag{{ if gt (len .) 1 }}s{{ end }}:
+              {{ range . }}
+                <a href="#" class="tag">{{ . }}</a>
+              {{ end }}
             {{ end }}
-        {{ end }}</p>
-        {{ .Content }}
-        
-      </div>
+          </p>
+        </div>
+        <div class="comic-comment">
+          {{ .Content }}
+        </div>
+      </div> 
     </div>
+  </div>
