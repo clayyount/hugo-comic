@@ -1,14 +1,16 @@
 <nav id="site-nav">
 
 	<!-- Logo -->
-	{{ if and .Params.logolink .Params.logo }}
-	<a href="{{ .Params.logolink }}">
-		<img src="{{ .Params.logo}}" alt="Site logo" id="site-logo"/>
-	</a>
-	{{ else }}
-	<a href="/">
-		<img src="/img/cy-logo-angle.png" alt="Site logo" id="site-logo"/>
-	</a>
+	{{ with .Site.GetPage (print "/" (index (split .RelPermalink "/") 1)) }}
+		{{ if and .Params.logolink .Params.logo }}
+		<a href="{{ .Params.logolink }}">
+			<img src="{{ .Params.logo}}" alt="Site logo" id="site-logo"/>
+		</a>
+		{{ else }}
+		<a href="/">
+			<img src="/img/cy-logo-angle.png" alt="Site logo" id="site-logo"/>
+		</a>
+		{{ end }}
 	{{ end }}
 	<div class="social-media">
 		<ul>
