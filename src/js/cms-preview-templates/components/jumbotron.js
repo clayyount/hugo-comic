@@ -8,9 +8,19 @@ export default class Jumbotron extends React.Component {
       <div className="jumbotron" style={{
         backgroundImage: image && `url(${image})`
       }}>
-        <h1>
+        <div className="mw7 center ph3">
+          <div className="db mb3">
+            <div className="mw7 relative bg-fix-primary mb3">
+              <h1 className="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
                 { title }
-        </h1>
-      </div>;
+              </h1>
+            </div>
+            <div className="mw7 relative bg-fix-primary">
+              {subtitle && <p className="b f4 di lh-title mb3 white mw6 bg-primary">{ subtitle }</p>}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>;
   }
 }
