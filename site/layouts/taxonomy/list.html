@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main>
+<div class="content">
+	<h2>{{ if eq .Title "Tags" }}Tags{{ else }}Tag: {{ .Title }}{{ end }}</h2>
+</div>
+
+<section class="tag-list {{ if eq .Title "Tags" }}tags{{ end }}">
+  {{ range .Pages.ByPublishDate.Reverse }}
+	{{ .Render "li"}}
+  {{ end }}
+</section>
+
+</main>
+
+{{end}}
+

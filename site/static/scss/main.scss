@@ -10,7 +10,7 @@ html{
 	font-family: 'Roboto', sans-serif;
 	background:#666 url(/img/grey-patterned-bg.png) center top;
 	background-attachment: fixed;
-	padding-top:6rem;
+	padding-top:5.5rem;
 	font-size:62.5%;
 	max-width: 100%;
 }
@@ -501,7 +501,7 @@ pre{
 		}
 	}
 }
-.archive-list{
+.archive-list, .tag-list{
 	padding:0px;
 	margin:0px;
 	display:flex;
@@ -521,6 +521,13 @@ pre{
 			margin:0px;
 		}
 	}
+	&.tags{
+		flex-direction:column-reverse;
+	}
+}
+.tag-list a{
+	flex-basis:25%;
+	max-width:25%;
 }
 a.tag{
 	display:inline-block;
@@ -743,5 +750,9 @@ a.tag{
 				min-width:50%;
 			}
 		}
+	}
+	.tag-list a{
+		flex-basis:50%;
+		max-width:50%;
 	}
 }
