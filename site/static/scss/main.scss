@@ -75,7 +75,7 @@ body{
 				margin-top:-5rem;
 			}
 		}
-		ul{
+		>ul{
 
 			list-style: none;
 			padding:0px;
@@ -659,7 +659,7 @@ a.tag{
 					margin-top:0px
 				}
 			}
-			ul{
+			>ul{
 				padding:2rem;
 				padding-top:7rem;
 				width:100%;
@@ -722,7 +722,7 @@ a.tag{
 			height:100%;
 			position: relative;
 			nav.site-nav{
-				ul{
+				>ul{
 					transition: left .4s;
 					left:0px;
 					overflow-y:auto;
