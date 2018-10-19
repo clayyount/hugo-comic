@@ -6,8 +6,7 @@ export default class PostPreview extends React.Component {
     const {entry, widgetFor, getAsset} = this.props;
     let image = getAsset(entry.getIn(["data", "image"]));
 
-    return <main>
-      <div className="content">
+    return <main className="content">
       <h1>{ entry.getIn(["data", "title"])}</h1>
       
         <p>{ format(entry.getIn(["data", "date"]), "ddd, MMM D, YYYY") }</p>
@@ -17,7 +16,6 @@ export default class PostPreview extends React.Component {
         { image && <img src={ image } alt={ entry.getIn(["data", "title"])} /> }
         { widgetFor("body") }
       </div>
-    </div>
     </main>;
   }
 }
