@@ -10,8 +10,8 @@ export default class PostPreview extends React.Component {
     if (banner && !banner.fileObj) {
         banner = window.parent.location.protocol + "//" + window.parent.location.host + banner;
     }
-    return <div>
+    return <main>
       <Jumbotron image={banner} title={entry.getIn(["data", "title"])} />
-    </div>;
+    </main>;
   }
 }
