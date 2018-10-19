@@ -4,15 +4,13 @@ import Jumbotron from "./components/jumbotron";
 
 export default class PostPreview extends React.Component {
   render() {
-    const {entry, getAsset} = this.props;
-    let image = getAsset(entry.getIn(["data", "banner"]));
-    
-
+    var entry = this.props.entry;
+    var banner = entry.getIn(['data', 'banner']);
     // Bit of a nasty hack to make relative paths work as expected as a background image here
-    if (image && !image.fileObj) {
-        image = window.parent.location.protocol + "//" + window.parent.location.host + image;
+    if (banner && !banner.fileObj) {
+        banner = window.parent.location.protocol + "//" + window.parent.location.host + banner;
     }
     return 
-        <Jumbotron image={image} title={entry.getIn(["data", "title"])} subtitle={entry.getIn(["data", "subtitle"])}/>;
+        <Jumbotron image={banner} title={entry.getIn(["data", "title"])} subtitle={entry.getIn(["data", "subtitle"])}/>;
   }
 }
