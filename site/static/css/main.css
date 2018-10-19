@@ -34,16 +34,14 @@ a {
 img {
   max-width: 100%; }
 
-body, .preview-body {
+body {
   height: 100%;
   font-size: 1.6rem;
   padding: 0px;
   margin: 0px;
   max-width: 1000px;
-  margin: 0px auto;
-  display: flex;
-  flex-flow: row wrap; }
-  body > nav, .preview-body > nav {
+  margin: 0px auto; }
+  body nav.site-nav {
     min-width: 0;
     flex-basis: 100%;
     font-family: 'Teko', sans-serif;
@@ -55,34 +53,34 @@ body, .preview-body {
     color: white;
     height: 5rem;
     box-sizing: border-box; }
-    body > nav .social-media, .preview-body > nav .social-media {
+    body nav.site-nav .social-media {
       position: absolute;
       top: -5rem;
       right: 0px; }
-    body > nav > a, .preview-body > nav > a {
+    body nav.site-nav > a {
       color: inherit;
       display: block;
       position: absolute;
       left: 0px; }
-      body > nav > a img, .preview-body > nav > a img {
+      body nav.site-nav > a img {
         height: 10rem;
         margin-top: -5rem; }
-    body > nav ul, .preview-body > nav ul {
+    body nav.site-nav ul {
       list-style: none;
       padding: 0px;
       margin: 0px;
       position: absolute;
       right: 0px; }
-      body > nav ul li, .preview-body > nav ul li {
+      body nav.site-nav ul li {
         display: inline-block;
         margin-right: 1rem; }
-        body > nav ul li a, .preview-body > nav ul li a {
+        body nav.site-nav ul li a {
           color: inherit;
           text-decoration: none;
           white-space: nowrap; }
-          body > nav ul li a:hover, .preview-body > nav ul li a:hover {
+          body nav.site-nav ul li a:hover {
             color: #e74c3c; }
-    body > nav .mobile-menu-btn, .preview-body > nav .mobile-menu-btn {
+    body nav.site-nav .mobile-menu-btn {
       display: none;
       height: 5rem;
       width: 100%;
@@ -91,7 +89,7 @@ body, .preview-body {
       cursor: pointer;
       z-index: 3;
       background-color: black; }
-      body > nav .mobile-menu-btn .menu-icon, .preview-body > nav .mobile-menu-btn .menu-icon {
+      body nav.site-nav .mobile-menu-btn .menu-icon {
         display: block;
         height: .5rem;
         width: 3rem;
@@ -101,7 +99,7 @@ body, .preview-body {
         left: 50%;
         transform: translate(-50%, -50%);
         transition: all .4s; }
-        body > nav .mobile-menu-btn .menu-icon:before, .preview-body > nav .mobile-menu-btn .menu-icon:before {
+        body nav.site-nav .mobile-menu-btn .menu-icon:before {
           content: '';
           height: .5rem;
           width: 3rem;
@@ -109,7 +107,7 @@ body, .preview-body {
           background: white;
           margin-top: -1rem;
           transition: all .4s; }
-        body > nav .mobile-menu-btn .menu-icon:after, .preview-body > nav .mobile-menu-btn .menu-icon:after {
+        body nav.site-nav .mobile-menu-btn .menu-icon:after {
           content: '';
           height: .5rem;
           width: 3rem;
@@ -122,6 +120,10 @@ input textarea button {
   -webkit-appearance: none;
   -moz-appearance: none;
   -appearance: none; }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap; }
 
 body main {
   background: white;
@@ -561,20 +563,20 @@ a.tag {
   body aside.pin-top {
     order: 1; }
 
-  body, .preview-body {
+  body {
     overflow-x: hidden; }
-    body > nav, .preview-body > nav {
+    body nav.site-nav {
       margin-top: 50px; }
-      body > nav .social-media, .preview-body > nav .social-media {
+      body nav.site-nav .social-media {
         display: none; }
-      body > nav > a, .preview-body > nav > a {
+      body nav.site-nav > a {
         display: block;
         margin-top: -50px;
         height: 50px; }
-        body > nav > a img, .preview-body > nav > a img {
+        body nav.site-nav > a img {
           height: 50px;
           margin-top: 0px; }
-      body > nav ul, .preview-body > nav ul {
+      body nav.site-nav ul {
         padding: 2rem;
         padding-top: 7rem;
         width: 100%;
@@ -589,16 +591,16 @@ a.tag {
         box-sizing: border-box;
         left: -100%;
         z-index: 2; }
-        body > nav ul li, .preview-body > nav ul li {
+        body nav.site-nav ul li {
           display: block;
           margin-right: 0rem; }
-          body > nav ul li a, .preview-body > nav ul li a {
+          body nav.site-nav ul li a {
             color: inherit;
             text-decoration: none;
             display: block; }
-      body > nav .mobile-menu-btn, .preview-body > nav .mobile-menu-btn {
+      body nav.site-nav .mobile-menu-btn {
         display: block; }
-        body > nav .mobile-menu-btn .menu-icon, .preview-body > nav .mobile-menu-btn .menu-icon {
+        body nav.site-nav .mobile-menu-btn .menu-icon {
           display: block; }
 
   .comic-nav a {
@@ -618,22 +620,22 @@ a.tag {
   html.menu-open {
     overflow: hidden;
     position: relative; }
-    html.menu-open body, html.menu-open .preview-body {
+    html.menu-open body {
       overflow: hidden;
       height: 100%;
       position: relative; }
-      html.menu-open body > nav ul, html.menu-open .preview-body > nav ul {
+      html.menu-open body nav.site-nav ul {
         transition: left .4s;
         left: 0px;
         overflow-y: auto; }
-      html.menu-open body > nav .mobile-menu-btn, html.menu-open .preview-body > nav .mobile-menu-btn {
+      html.menu-open body nav.site-nav .mobile-menu-btn {
         transition: right .4s; }
-        html.menu-open body > nav .mobile-menu-btn .menu-icon, html.menu-open .preview-body > nav .mobile-menu-btn .menu-icon {
+        html.menu-open body nav.site-nav .mobile-menu-btn .menu-icon {
           background: transparent; }
-          html.menu-open body > nav .mobile-menu-btn .menu-icon:before, html.menu-open .preview-body > nav .mobile-menu-btn .menu-icon:before {
+          html.menu-open body nav.site-nav .mobile-menu-btn .menu-icon:before {
             margin-top: 0rem;
             transform: rotate(45deg); }
-          html.menu-open body > nav .mobile-menu-btn .menu-icon:after, html.menu-open .preview-body > nav .mobile-menu-btn .menu-icon:after {
+          html.menu-open body nav.site-nav .mobile-menu-btn .menu-icon:after {
             margin-top: 0rem;
             transform: rotate(-45deg); } }
 @media (max-width: 500px) {

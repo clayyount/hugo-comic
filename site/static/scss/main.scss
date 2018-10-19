@@ -41,16 +41,14 @@ a{
 img{
 	max-width:100%;
 }
-body, .preview-body{
+body{
 	height:100%;
 	font-size:1.6rem;
 	padding:0px;
 	margin:0px;
 	max-width:$contentWidth;
 	margin:0px auto;
-	display:flex;
-	flex-flow: row wrap;
-	>nav{
+	nav.site-nav{
 		min-width: 0; 
 		flex-basis:100%;
 		font-family: 'Teko', sans-serif;
@@ -143,6 +141,10 @@ input textarea button{
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	-appearance: none;
+}
+.flex{
+	display:flex;
+	flex-wrap:wrap;
 }
 body main{
 	background:white;
@@ -641,9 +643,9 @@ a.tag{
 	body aside.pin-top{
 		order:1;
 	}
-	body, .preview-body{
+	body{
 		overflow-x:hidden;
-		>nav{
+		nav.site-nav{
 			margin-top:50px;
 			.social-media{
 				display:none;
@@ -715,11 +717,11 @@ a.tag{
 		
 		overflow:hidden;
 		position: relative;
-		body, .preview-body{
+		body{
 			overflow:hidden;
 			height:100%;
 			position: relative;
-			>nav{
+			nav.site-nav{
 				ul{
 					transition: left .4s;
 					left:0px;
