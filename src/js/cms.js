@@ -21,4 +21,6 @@ CMS.registerPreviewStyle("/css/main.css");
 CMS.registerPreviewStyle("https://fonts.googleapis.com/css?family=Roboto|Teko");
 CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("blog", PostPreview);
+CMS.registerPreviewTemplate("hamlets-danish-comic", PostPreview);
+CMS.registerPreviewTemplate("rae-comic", PostPreview);
 CMS.registerWidget("color", ColorControl);
