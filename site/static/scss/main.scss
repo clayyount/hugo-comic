@@ -41,7 +41,7 @@ a{
 img{
 	max-width:100%;
 }
-body{
+body, .preview-body{
 	height:100%;
 	font-size:1.6rem;
 	padding:0px;
@@ -641,7 +641,7 @@ a.tag{
 	body aside.pin-top{
 		order:1;
 	}
-	body{
+	body, .preview-body{
 		overflow-x:hidden;
 		>nav{
 			margin-top:50px;
@@ -715,7 +715,7 @@ a.tag{
 		
 		overflow:hidden;
 		position: relative;
-		body{
+		body, .preview-body{
 			overflow:hidden;
 			height:100%;
 			position: relative;
