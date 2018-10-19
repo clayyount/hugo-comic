@@ -622,6 +622,9 @@ a.tag{
 	}
 }
 @media(max-width:767px){
+	.hidden-sm{
+		display:none;
+	}
 	html{
 		padding-top:0px;
 		font-size:50%;
@@ -754,5 +757,11 @@ a.tag{
 	.tag-list a{
 		flex-basis:50%;
 		max-width:50%;
+	}
+	.comic-nav{
+		padding:1rem 0rem;
+		a{
+			padding:0px .5rem;
+		}
 	}
 }

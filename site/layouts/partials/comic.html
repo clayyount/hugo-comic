@@ -9,12 +9,13 @@
       <nav class="comic-nav">
           {{if .PrevInSection}}
           <a href="{{ range last 1 .CurrentSection.Pages }}{{ .Permalink }}{{ end }}">First</a>
-          <a href="{{.PrevInSection.Permalink}}">Previous</a>
+          <a href="{{.PrevInSection.Permalink}}">Prev<span class="hidden-sm">ious</span></a>
           {{ else }}
           <a class="disabled">First</a>
-          <a class="disabled">Previous</a>
+          <a class="disabled">Prev<span class="hidden-sm">ious</span></a>
           {{ end }}
-          <a href="#" id="random-btn">Random</a>
+          <a href="#" id="random-btn">Rand<span class="hidden-sm">om</span></a>
+          <a href="{{ print "/" (index (split .RelPermalink "/") 1) }}" id="random-btn">Archive</a>
           {{ if .NextInSection }}
           <a href="{{ .NextInSection.Permalink }}">Next</a>
           <a href="{{ range first 1 .CurrentSection.Pages }}{{ .Permalink }}{{ end }}">Today</a>
