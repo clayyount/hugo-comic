@@ -144,7 +144,7 @@ input textarea button{
 	-moz-appearance: none;
 	-appearance: none;
 }
-body>main{
+body main{
 	background:white;
 	padding-bottom:2rem;
 	flex-grow:1;
@@ -152,7 +152,7 @@ body>main{
 	order:1;
 	min-width: 0; 
 }
-body>aside{
+body aside{
 	flex:35%;
 	min-width:20rem;
 	flex-grow:1;
@@ -160,7 +160,7 @@ body>aside{
 	order:2;
 	min-width: 0; 
 }
-body>footer{
+body footer{
 	flex-basis:100%;
 	order:3;
 	color:#aaa;
@@ -630,15 +630,15 @@ a.tag{
 		font-size:50%;
 		overflow-x:visible;
 	}
-	body>main{
+	body main{
 		flex:100%;
 		order:2;
 	}
-	body>aside{
+	body aside{
 		flex:100%;
 		order:3;
 	}
-	body>aside.pin-top{
+	body aside.pin-top{
 		order:1;
 	}
 	body{
