@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main>
 <div class="content">
-	<h2>{{ if eq .Title "Tags" }}Tags{{ else }}Tag: {{ .Title }}{{ end }}</h2>
+	<h2>{{ if eq .Title "Tags" }}All tags{{ else }}Tag: {{ .Title }}{{ end }}</h2>
 </div>
 
 <section class="tag-list {{ if eq .Title "Tags" }}tags{{ end }}">
