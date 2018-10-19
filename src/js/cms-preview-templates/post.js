@@ -3,10 +3,13 @@ import format from "date-fns/format";
 
 export default class PostPreview extends React.Component {
   render() {
-    const {entry, widgetFor, getAsset} = this.props;
-    let image = getAsset(entry.getIn(["data", "image"]));
-
-    return 
-      { widgetFor("body") };
+    var entry = this.props.entry;
+    var image = entry.getIn(['data', 'image']);
+    var bg = this.props.getAsset(image);
+    return h('div', {},
+      h('h1', {}, entry.getIn(['data', 'title'])),
+      h('img', {src: bg.toString()}),
+      h('div', {"className": "text"}, this.props.widgetFor('body'))
+    );
   }
 }
