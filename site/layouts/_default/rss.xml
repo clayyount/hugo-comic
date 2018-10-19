@@ -16,9 +16,9 @@
     {{ range .Pages }}
     <item>
       <title>{{ .Title }}</title>
-      <description>{{ if .Params.image }}&lt;![CDATA[&lt;a href="{{ $base }}{{ .Permalink }}"&gt;&lt;img src="{{ $base }}{{ .Params.image }}" /&gt;&lt;/a&gt;&lt;br&gt;{{ .Summary | html }}]]&gt;{{ end }}
+      <description>{{ if .Params.image }}{{ `<![CDATA[ ` | safeHTML }}<a href="{{ $base }}{{ .Permalink }}"><img src="{{ $base }}{{ .Params.image }}" /></a><br>{{ .Summary | html }}]]>{{ end }}
       </description>
-      <content:encoded>{{ if .Params.image }}&lt;![CDATA[&lt;a href="{{ $base }}{{ .Permalink }}"&gt;&lt;img src="{{ $base }}{{ .Params.image }}" /&gt;&lt;/a&gt;&lt;br&gt;{{ .Summary | html }}]]&gt;{{ end }}
+      <content:encoded>{{ if .Params.image }}{{ `<![CDATA[ ` | safeHTML }}<a href="{{ $base }}{{ .Permalink }}"><img src="{{ $base }}{{ .Params.image }}" /></a><br>{{ .Summary | html }}]]>{{ end }}
       </content:encoded>
       <link>{{ $base }}{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
