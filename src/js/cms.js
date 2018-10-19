@@ -2,6 +2,7 @@ import React from "react";
 import CMS from "netlify-cms";
 
 import HomePreview from "./cms-preview-templates/home";
+import PostPreview from "./cms-preview-templates/post";
 
 
 // Example of creating a custom color widget
@@ -19,4 +20,5 @@ class ColorControl extends React.Component {
 CMS.registerPreviewStyle("/css/main.css");
 CMS.registerPreviewStyle("https://fonts.googleapis.com/css?family=Roboto|Teko");
 CMS.registerPreviewTemplate("home", HomePreview);
+CMS.registerPreviewTemplate("blog", PostPreview);
 CMS.registerWidget("color", ColorControl);
