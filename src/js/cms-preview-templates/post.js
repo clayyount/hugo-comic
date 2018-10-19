@@ -8,6 +8,7 @@ export default class PostPreview extends React.Component {
     var bg = this.props.getAsset(image) || "";
     return h('main', {},
       h('div', {"className": "content"},
+      h('br', {}),
       h('h1', {}, entry.getIn(['data', 'title'])),
       h('img', {src: bg.toString()}),
       h('div', {"className": "text"}, this.props.widgetFor('body')))
