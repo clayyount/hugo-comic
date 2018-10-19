@@ -9,7 +9,7 @@ So you may have noticed the new site design. Usually a design update signifies 
 
 > “I’m releasing a Squarespace webcomic template!”
 
-![](http://static1.squarespace.com/static/5005bfe4e4b0d377efbfefe9/5005e770e4b0f8fa5fb7e175/54eb4932e4b03a84d2aa298b/1424705842631//img.jpg)
+![](/img/ss-logo.jpg)
 
 If you are like me and want to use [Squarespace](http://squarespace.com/) instead of Wordpress or Tumblr to host your comic, but can't find any resources for webcomic artists, today is your lucky day! For those of you who aren't aware, Squarespace is a rock-solid web hosting/gorgeous content management system that, until now, has not had a template option customized for webcomic artists. I've spent my free time in the past few months putting together a template tailored to the needs of webcomic artists, and I'm bundling it together with a tutorial to explain the nuts and bolts of getting started. It's possible to get a site up and running in my template without any coding, but it also allows for 100% code control over HTML/CSS/JS if you want it.
 
