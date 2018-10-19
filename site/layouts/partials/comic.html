@@ -48,7 +48,7 @@
           <p>{{ with .Params.tags }}
               Tag{{ if gt (len .) 1 }}s{{ end }}:
               {{ range . }}
-                <a href="/tags/{{ lower . }}" class="tag">{{ . }}</a>
+                <a href="/tags/{{ replace (replace (lower .) " " "-") "'" ""}}" class="tag">{{ . }}</a>
               {{ end }}
             {{ end }}
           </p>
