@@ -21,6 +21,7 @@
       <guid>{{ .Permalink }}</guid>
       <description>{{ if .Params.image }}&lt;![CDATA[&lt;a href="{{ .Permalink }}"&gt;&lt;img src="https://clay-comic.netlify.com{{ .Params.image }}"/&gt;&lt;/a&gt;&lt;br&gt;{{ .Summary | html }}]]&gt;{{ end }}
       </description>
+      <content:encoded>{{ if .Params.image }}&lt;![CDATA[&lt;a href="{{ .Permalink }}"&gt;&lt;img src="https://clay-comic.netlify.com{{ .Params.image }}"/&gt;&lt;/a&gt;&lt;br&gt;{{ .Summary | html }}]]&gt;{{ end }}</content:encoded>
 
     </item>
     {{ end }}
