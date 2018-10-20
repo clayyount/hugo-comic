@@ -63,7 +63,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown", required: false}
-          - label: Galleries
+          - label: Gallery
             name: galleries
             widget: list
             required: false
@@ -72,7 +72,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: title
                 widget: string
                 required: false
-              - label: Gallery
+              - label: Entry
                 name: gallery
                 widget: list
                 required: false
