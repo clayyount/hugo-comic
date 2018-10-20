@@ -72,8 +72,8 @@ collections: # A list of collections the CMS should be able to edit
                 name: title
                 widget: string
                 required: false
-              - label: Item
-                name: item
+              - label: Slide
+                name: slide
                 widget: list
                 required: false
                 fields:
@@ -84,8 +84,8 @@ collections: # A list of collections the CMS should be able to edit
                     name: title
                     widget: string
                     required: false
-                  - label: Description
-                    name: description
+                  - label: Caption
+                    name: caption
                     widget: markdown
                     required: false
       - file: "site/content/contact/_index.md"
