@@ -57,6 +57,24 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: "Banner", name: "banner", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
+      - file: "site/content/gallery/_index.md"
+        label: "Gallery"
+        name: "gallery"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+          - label: Gallery
+            name: gallery
+            widget: list
+            required: false
+            fields:
+              - label: Title
+                name: title
+                widget: string
+                required: false
+              - label: Image
+                name: image
+                widget: image
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
