@@ -1,5 +1,5 @@
 ---
 title: Gallery
-gallery: []
+galleries: []
 ---
 

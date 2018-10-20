@@ -63,8 +63,8 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown", required: false}
-          - label: Gallery
-            name: gallery
+          - label: Galleries
+            name: galleries
             widget: list
             required: false
             fields:
@@ -72,18 +72,18 @@ collections: # A list of collections the CMS should be able to edit
                 name: title
                 widget: string
                 required: false
-              - label: Slide
-                name: slide
+              - label: Gallery
+                name: gallery
                 widget: list
                 required: false
                 fields:
-                  - label: Image
-                    name: image
-                    widget: image
                   - label: Title
                     name: title
                     widget: string
                     required: false
+                  - label: Image
+                    name: image
+                    widget: image
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
