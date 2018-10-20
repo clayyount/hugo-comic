@@ -73,7 +73,7 @@ collections: # A list of collections the CMS should be able to edit
                 widget: string
                 required: false
               - label: Show Full Image
-                name: full-image
+                name: fullimage
                 widget: boolean
                 default: false
               - label: Entry

@@ -9,5 +9,6 @@ galleries:
       - image: /img/cat-map.jpg
         title: Image 3
     title: Gallery 1
+    fullimage: false
 ---
 

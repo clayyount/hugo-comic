@@ -1,22 +1,23 @@
 {{ define "main" }}
+
 <main>
 	<div class="content">
 		<div class="galleries">
 			{{ range .Params.galleries }}
-			<section class="flex">
-				<h1>{{ .title }}</h1>
-				{{ if .full-image }}
-					{{ $bg-size:="contain" }}
+			
+				{{ if .fullimage }}
+					{{ $.Scratch.Set "bgSize" "contain" }}
 				{{ else }}
-					{{ $bg-size:="cover" }}
+					{{ $.Scratch.Set "bgSize" "cover" }}
 				{{ end }}
-
-				{{ range .gallery }}
-					<article style="background-image:url({{ .image }});background-size:{{ print $bg-size }}">
-					</article>
-				{{ end }}
-			</section>
-		{{ end }}
+				<section class="flex">
+					<h1>{{ .title }}</h1>				
+					{{ range .gallery }}
+						<article style="background-image:url({{ .image }});background-size:{{ $.Scratch.Get "bgSize" }}">
+						</article>
+					{{ end }}
+				</section>
+			{{ end }}
 		</div>
 	</div>
 </main>
