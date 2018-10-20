@@ -68,6 +68,10 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             required: false
             fields:
+              - label: Title
+                name: title
+                widget: string
+                required: false
               - label: Gallery
                 name: gallery
                 widget: list
