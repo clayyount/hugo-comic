@@ -5,12 +5,14 @@
 			{{ range .Params.galleries }}
 			<section class="flex">
 				<h1>{{ .title }}</h1>
-				{{ range .gallery }}
-					<article style="background-image:url({{ .image }})">
-					</article>
+				{{ if .full-image }}
+					{{ $bg-size:="contain" }}
+				{{ else }}
+					{{ $bg-size:="cover" }}
 				{{ end }}
+
 				{{ range .gallery }}
-					<article style="background-image:url({{ .image }})">
+					<article style="background-image:url({{ .image }});background-size:{{ print $bg-size }}">
 					</article>
 				{{ end }}
 			</section>
