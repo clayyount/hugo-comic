@@ -146,6 +146,7 @@ input textarea button {
 .flex {
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 body main {
@@ -626,6 +627,24 @@ a.tag {
   background: white;
   border: 1px solid #ddd;
   padding: 0.5rem 1rem;
+}
+
+.galleries section {
+  box-sizing: border-box;
+}
+.galleries section h1 {
+  flex-basis: 100%;
+}
+.galleries section article {
+  flex-basis: 25%;
+  max-width: 25%;
+  flex-grow: 1;
+  height: 20rem;
+  width: 20rem;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 @media (max-width: 767px) {

@@ -72,6 +72,10 @@ collections: # A list of collections the CMS should be able to edit
                 name: title
                 widget: string
                 required: false
+              - label: Show Full Image
+                name: full-image
+                widget: boolean
+                default: false
               - label: Entry
                 name: gallery
                 widget: list

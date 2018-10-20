@@ -1,7 +1,22 @@
 {{ define "main" }}
 <main>
-<section class="galleries">
-</section>
+	<div class="content">
+		<div class="galleries">
+			{{ range .Params.galleries }}
+			<section class="flex">
+				<h1>{{ .title }}</h1>
+				{{ range .gallery }}
+					<article style="background-image:url({{ .image }})">
+					</article>
+				{{ end }}
+				{{ range .gallery }}
+					<article style="background-image:url({{ .image }})">
+					</article>
+				{{ end }}
+			</section>
+		{{ end }}
+		</div>
+	</div>
 </main>
 
 {{ end }}
