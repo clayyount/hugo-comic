@@ -84,10 +84,6 @@ collections: # A list of collections the CMS should be able to edit
                     name: title
                     widget: string
                     required: false
-                  - label: Caption
-                    name: caption
-                    widget: markdown
-                    required: false
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
