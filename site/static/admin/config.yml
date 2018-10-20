@@ -68,13 +68,18 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             required: false
             fields:
-              - label: Title
-                name: title
-                widget: string
+              - label: Gallery
+                name: gallery
+                widget: list
                 required: false
-              - label: Image
-                name: image
-                widget: image
+                fields:
+                  - label: Title
+                    name: title
+                    widget: string
+                    required: false
+                  - label: Image
+                    name: image
+                    widget: image
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
