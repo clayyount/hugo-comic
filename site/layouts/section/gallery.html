@@ -4,7 +4,7 @@
 	<div class="content">
 		<div class="galleries">
 			{{ range .Params.galleries }}
-			
+				{{ $.Scratch.Set "rowNum" .rownum }}
 				{{ if .fullimage }}
 					{{ $.Scratch.Set "bgSize" "contain" }}
 				{{ else }}
@@ -13,7 +13,7 @@
 				<section class="flex">
 					<h1>{{ .title }}</h1>				
 					{{ range .gallery }}
-						<article style="background-image:url({{ .image }});background-size:{{ $.Scratch.Get "bgSize" }}">
+						<article style="background-image:url({{ .image }});background-size:{{ $.Scratch.Get "bgSize" }}" class="cols-{{ $.Scratch.Get "rowNum" }}">
 						</article>
 					{{ end }}
 				</section>

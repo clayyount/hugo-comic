@@ -636,15 +636,32 @@ a.tag {
   flex-basis: 100%;
 }
 .galleries section article {
-  flex-basis: 25%;
-  max-width: 25%;
-  flex-grow: 1;
-  height: 20rem;
-  width: 20rem;
+  flex-basis: 100%;
+  max-width: 100%;
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+.galleries section article.cols-2 {
+  max-width: 50%;
+  padding-top: 50%;
+}
+.galleries section article.cols-3 {
+  max-width: 33.333%;
+  padding-top: 33.333%;
+}
+.galleries section article.cols-4 {
+  max-width: 25%;
+  padding-top: 25%;
+}
+.galleries section article.cols-5 {
+  max-width: 20%;
+  padding-top: 20%;
+}
+.galleries section article.cols-6 {
+  max-width: 16.66%;
+  padding-top: 16.66%;
 }
 
 @media (max-width: 767px) {

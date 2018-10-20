@@ -76,6 +76,13 @@ collections: # A list of collections the CMS should be able to edit
                 name: fullimage
                 widget: boolean
                 default: false
+              - label: Entries per row
+                name: rownum
+                widget: "number"
+                default: 4
+                valueType: "int"
+                min: 1
+                max: 6
               - label: Entry
                 name: gallery
                 widget: list
