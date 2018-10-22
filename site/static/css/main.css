@@ -631,17 +631,22 @@ a.tag {
 
 .galleries section {
   box-sizing: border-box;
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
 .galleries section h1 {
   flex-basis: 100%;
+  padding: 0px 1rem;
 }
 .galleries section article {
   flex-basis: 100%;
   max-width: 100%;
+  position: relative;
   box-sizing: border-box;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+}
+.galleries section article.cols-1 {
+  max-width: 100%;
+  padding-top: 100%;
 }
 .galleries section article.cols-2 {
   max-width: 50%;
@@ -662,6 +667,17 @@ a.tag {
 .galleries section article.cols-6 {
   max-width: 16.66%;
   padding-top: 16.66%;
+}
+.galleries section article .image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  transform: translate(0, -100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 1rem solid white;
 }
 
 @media (max-width: 767px) {
@@ -755,6 +771,11 @@ a.tag {
   }
   .dropdown ul:before {
     display: none;
+  }
+
+  .galleries section article.cols-3, .galleries section article.cols-4, .galleries section article.cols-5, .galleries section article.cols-6 {
+    max-width: 50%;
+    padding-top: 50%;
   }
 
   html.menu-open {

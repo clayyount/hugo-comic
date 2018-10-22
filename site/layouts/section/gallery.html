@@ -13,7 +13,9 @@
 				<section class="flex">
 					<h1>{{ .title }}</h1>				
 					{{ range .gallery }}
-						<article style="background-image:url({{ .image }});background-size:{{ $.Scratch.Get "bgSize" }}" class="cols-{{ $.Scratch.Get "rowNum" }}">
+						<article class="image-holder cols-{{ $.Scratch.Get "rowNum" }}">
+							<div style="background-image:url({{ .image }});background-size:{{ $.Scratch.Get "bgSize" }}" class="image">
+							</div>
 						</article>
 					{{ end }}
 				</section>
