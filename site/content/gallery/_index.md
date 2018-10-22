@@ -4,6 +4,10 @@ galleries:
   - fullimage: false
     rownum: 4
     gallery:
+      - image: /img/gallery-rainbowdemon.jpg
+        title: Rainbow Demon
+      - image: /img/gallery-goon.jpg
+        title: The Goon
       - image: /img/gallery-japanesemyth.png
         title: Japanese Myth
       - image: /img/gallery-tintin.png
@@ -28,10 +32,6 @@ galleries:
         title: Storm and Black Panther
       - image: /img/gallery-spiderman.png
         title: Spiderman
-      - image: /img/gallery-monarch.png
-        title: The Monarch
-      - image: /img/gallery-conans.gif
-        title: Conans
       - image: /img/gallery-newmutants.png
         title: New Mutants
       - image: /img/gallery-delirium.png
