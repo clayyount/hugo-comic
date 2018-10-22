@@ -637,9 +637,7 @@ a.tag{
 			flex-basis:100%;
 			max-width:100%;
 			position:relative;
-			
 			box-sizing:border-box;
-			
 			&.cols-1{
 				max-width:100%;
 				padding-top: 100%;
@@ -673,7 +671,8 @@ a.tag{
 				background-repeat:no-repeat;
 				background-size:cover;
 				background-position:center center;
-				border:1rem solid white;	
+				border:1rem solid white;
+				cursor:pointer;
 			}
 		}
 	}

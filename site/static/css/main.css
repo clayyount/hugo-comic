@@ -678,6 +678,7 @@ a.tag {
   background-size: cover;
   background-position: center center;
   border: 1rem solid white;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {
