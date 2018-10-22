@@ -628,22 +628,11 @@ a.tag{
 	section{
 		h1{
 			flex-basis:100%;
-			padding:0px 1rem;
 		}
 		box-sizing:border-box;
-		margin-left:-1rem;
-		margin-right:-1rem;
 		article{
 			flex-basis:100%;
 			max-width:100%;
-			position:relative;
-			
-			box-sizing:border-box;
-			
-			&.cols-1{
-				max-width:100%;
-				padding-top: 100%;
-			}
 			&.cols-2{
 				max-width:50%;
 				padding-top: 50%;
@@ -664,19 +653,10 @@ a.tag{
 				max-width:16.66%;
 				padding-top: 16.66%;
 			}
-			.image{
-				height:100%;
-				width:100%;
-				position:absolute;
-				box-sizing:border-box;
-				transform:translate(0,-100%);
-				background-repeat:no-repeat;
-				background-size:cover;
-				background-position:center center;
-				border:1rem solid white;
-			}
-			
-			
+			box-sizing:border-box;
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-position:center center;
 		}
 	}
 }
@@ -767,18 +747,6 @@ a.tag{
 			right:auto;
 			&:before{
 				display:none;
-			}
-		}
-	}
-	.galleries{
-		section{
-			h1{
-			}
-			article{
-				&.cols-3,&.cols-4,&.cols-5,&.cols-6{
-					max-width:50%;
-					padding-top: 50%;
-				}
 			}
 		}
 	}
