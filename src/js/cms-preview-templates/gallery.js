@@ -3,26 +3,29 @@ import format from "date-fns/format";
 
 export default class PostPreview extends React.Component {
   render() {
-    const {entry, getAsset} = this.props;
-    var galleryHTML = [<main><div class="content">];
-    var galleries = getAsset(entry.getIn(['data', 'galleries']));
+    var entry = this.props.entry;
+    var galleryHTML = '';
+    var galleries = entry.getIn(['data', 'galleries']);
     for(var i=0;i<galleries.length;i++){
-      var rowNum=galleries[i].get('rownum');
+      var rowNum=galleries[i].getIn(['data', 'rownum']);
       var bgSize='contain';
-      if(galleries[i].get('fullimage')){
+      if(galleries[i].getIn(['data', 'fullimage'])){
         bgSize='cover';
       }
-      galleryHTML.push(<section class="flex gallery">);
-      galleryHTML.push(<h1>{galleries.get('title')}</h1>);
-      var entries = galleries[i].get('gallery');
+      galleryHTML+='<section class="flex gallery">';
+      galleryHTML+='<h1>'+galleries.getIn(['data', 'title'])+'</h1>'
+      var entries = galleries[i].getIn(['data', 'gallery']);
       for(var j=0;j<entries.length;j++){
-        galleryHTML.push(<article class="image-holder cols-{rowNum}">);
-        galleryHTML.push(<div style="background-image:url({ entries[j].get('image')});background-size:{bgSize}" data-image="{entries[j].get('image')}" class="image"></div>';
-        galleryHTML.push(</article>);
+        galleryHTML+='<article class="image-holder cols-'+rowNum+'">';
+        galleryHTML+='<div style="background-image:url('+entries[j].getIn(['data', 'image'])+');background-size:'+bgSize+'" data-image="'+entries[j].getIn(['data', 'image'])+'" class="image"></div>';
+        galleryHTML+='</article>';
       }
-      galleryHTML.push(</section>);
+      galleryHTML+='</section>';
     }
-    galleryHTML.push(</div></main>);
-    return galleryHTML
+    var parser = new DOMParser();
+    var galleryDOM = parser.parseFromString(galleryHTML, "text/xml");
+    return h('main', {},
+      h('div', {"className": "content"},
+      h('div', {"className": "galleries"}, galleryDOM)));
   }
 }
