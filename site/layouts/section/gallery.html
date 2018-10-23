@@ -27,9 +27,29 @@
 <script>
 	$(document).ready(function(){
 		$(".gallery .image").click(function(){
-			var imgURL=$(this).attr("data-image");
-			window.location=imgURL;
+				//$("body").append('<section class="lightbox" id="gallery-'+index+'" ></section>')
 		})
+		// $(".gallery").each(function(index){
+		// 	var index=index;
+		// 	$("body").append('<section class="lightbox" id="gallery-'+index+'" ></section>')
+		// 	$(".image", this).each(function(imgindex){
+		// 		var galleryImg=this;
+		// 		var imgindex=imgindex;
+		// 		var imgURL=$(this).attr("data-image");
+		// 		$("#gallery-"+index).append('<img class="entry-'+imgindex+'" src="'+imgURL+'">')
+		// 		$(this).click(function(){
+		// 			var imgURL=$(this).attr("data-image");
+		// 			if(!$("html").hasClass("lightbox-open")){
+		// 				$("html").addClass("lightbox-open");
+		// 			}
+		// 			$("#gallery-*").removeClass("open");
+		// 			$("#gallery-"+index).addClass("open");
+		// 			console.log($(this).index())
+		// 			$("#gallery-"+index+" .entry-"+$(this).index()).addClass("active");
+		// 		})
+		// 	})
+		// })
+		
 	})
 </script>
 {{ end }}
