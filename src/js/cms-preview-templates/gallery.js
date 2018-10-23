@@ -21,6 +21,7 @@ export default class PostPreview extends React.Component {
         galleryHTML+='</article>';
       }
       galleryHTML+='</section>';
+      console.log(galleryHTML);
     }
     return h('main', {},
       h('div', {"className": "content"},
