@@ -3,25 +3,26 @@ import format from "date-fns/format";
 
 export default class PostPreview extends React.Component {
   render() {
-    var entry = this.props.entry;
+    const {entry, getAsset} = this.props;
     var galleryHTML = [<main><div class="content">];
-    var galleries = entry.getIn(['data', 'galleries']);
+    var galleries = getAsset(entry.getIn(['data', 'galleries']));
     for(var i=0;i<galleries.length;i++){
-      var rowNum=galleries[i].getIn(['data', 'rownum']);
+      var rowNum=galleries[i].get('rownum');
       var bgSize='contain';
-      if(galleries[i].getIn(['data', 'fullimage'])){
+      if(galleries[i].get('fullimage')){
         bgSize='cover';
       }
       galleryHTML.push(<section class="flex gallery">);
-      galleryHTML.push(<h1>{galleries.getIn(['data', 'title'])}</h1>);
-      var entries = galleries[i].getIn(['data', 'gallery']);
+      galleryHTML.push(<h1>{galleries.get('title')}</h1>);
+      var entries = galleries[i].get('gallery');
       for(var j=0;j<entries.length;j++){
         galleryHTML.push(<article class="image-holder cols-{rowNum}">);
-        galleryHTML.push(<div style="background-image:url({ entries[j].getIn(['data', 'image'])});background-size:{bgSize}" data-image="{entries[j].getIn(['data', 'image'])}" class="image"></div>';
+        galleryHTML.push(<div style="background-image:url({ entries[j].get('image')});background-size:{bgSize}" data-image="{entries[j].get('image')}" class="image"></div>';
         galleryHTML.push(</article>);
       }
-      galleryHTML.push(</section></div></main>);
+      galleryHTML.push(</section>);
     }
+    galleryHTML.push(</div></main>);
     return galleryHTML
   }
 }
