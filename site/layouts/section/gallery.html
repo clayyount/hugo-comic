@@ -26,8 +26,23 @@
 </main>
 <script>
 	$(document).ready(function(){
-		$(".gallery .image").click(function(){
-				//$("body").append('<section class="lightbox" id="gallery-'+index+'" ></section>')
+		$(".gallery").each(function(){
+			var gallery=this;
+			$(".image", gallery).click(function(e){
+				var imgIndex=$(".image", gallery).index(this)
+				console.log(imgIndex)
+				var lightboxHTML='<section class="lightbox">';
+					$('.image', gallery).each(function(index){
+						lightboxHTML+='<article'
+						if(imgIndex==index){
+							lightboxHTML+=' class="active"';
+						}
+						lightboxHTML+='><img src="'+$(this).attr("data-image")+'"></article>'
+					})
+				lightboxHTML+="</section>"
+				$("body").append(lightboxHTML)
+				$("html").addClass("lightbox-open")
+			})
 		})
 		// $(".gallery").each(function(index){
 		// 	var index=index;

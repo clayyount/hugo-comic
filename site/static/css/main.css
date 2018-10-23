@@ -587,28 +587,28 @@ a.tag {
       cursor: pointer; }
 
 html.lightbox-open {
-  overflow: hidden; }
-
-.lightbox {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
-  overflow: scroll; }
-  .lightbox img {
-    display: none;
+  overflow: hidden;
+  position: relative; }
+  html.lightbox-open .lightbox {
+    display: block;
     position: absolute;
     top: 0;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    max-width: 100%; }
-    .lightbox img.active {
-      display: block; }
-  .lightbox.open {
-    display: block; }
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: scroll; }
+    html.lightbox-open .lightbox article {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      text-align: center; }
+      html.lightbox-open .lightbox article img {
+        max-width: 100%; }
+      html.lightbox-open .lightbox article.active {
+        display: block; }
 
 @media (max-width: 767px) {
   .hidden-sm {
