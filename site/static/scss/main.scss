@@ -432,10 +432,16 @@ pre{
 		}
 	}
 }
+.comic-holder{
+	.comic{
+		text-align: center;
+	}
+}
 .comic-body{
 	display:flex;
 	flex-wrap:wrap;
 	width:100%;
+
 	.comic-meta{
 		box-sizing:border-box;
 		flex-basis:50%;

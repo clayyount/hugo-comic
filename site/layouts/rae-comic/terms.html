@@ -1,0 +1,49 @@
+{{ define "main" }}
+<main>
+<div class="content">
+	<h2>Hamlet's Danish Archives</h2>
+</div>
+
+<section class="archive-list">
+  {{ range (.Paginator 18).Pages.ByPublishDate.Reverse }}
+	{{ .Render "li"}}
+  {{ end }}
+</section>
+<div class="content">
+	{{ partial "pagination" . }}
+</div>
+</main>
+<aside class="pin-top">
+	<div class="content">
+		<h2>Select a comic</h2>
+		<div class="custom-select">
+			<select class="custom" onchange="location = this.value;">
+				<option value="" disabled selected>Select comic</option>
+				{{ range .Pages.ByPublishDate.Reverse }}
+				<option value="{{ .Permalink }}">{{ .Title }}</option>
+				{{ end }}
+			</select>
+		</div>
+		hello
+		<section>
+  <ul>
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+      <li><a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
+        <ul>
+          {{ range $key, $value := $taxonomy }}
+          <li> {{ $key }} </li>
+                <ul>
+                {{ range $value.Pages }}
+                    <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+                {{ end }}
+                </ul>
+          {{ end }}
+        </ul>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+	</div>
+</aside>
+
+{{end}}
