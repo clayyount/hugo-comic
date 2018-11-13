@@ -3,7 +3,6 @@
 <div class="content">
 	<h2>{{.Title}}</h2>
 </div>
-
 <section class="archive-list">
   {{ range (.Paginator 18).Pages.ByPublishDate.Reverse }}
 	{{ .Render "li"}}

@@ -14,8 +14,15 @@
 					<h1>{{ .title }}</h1>				
 					{{ range .gallery }}
 						<article class="image-holder cols-{{ $.Scratch.Get "rowNum" }}">
-							<div style="background-image:url({{ .image }});background-size:{{ $.Scratch.Get "bgSize" }}" data-image="{{ .image }}" class="image">
-							</div>
+							{{ $image := .image }}
+							{{ with $.Site.GetPage "page" "img/_index.md" }}
+						    	{{ $imgPath := split $image "/"}}
+						    	{{ $img := index $imgPath 2 }}
+						    	{{ with .Resources.GetMatch $img }}
+						        	{{$img400 := .Resize "400x"}}
+						       		<div style="background-image:url({{ $img400.RelPermalink }});background-size:{{ $.Scratch.Get "bgSize" }}" data-image="{{ $image }}" class="image"></div>
+						    	{{ end }}
+							{{ end }}
 						</article>
 					{{ end }}
 				</section>
