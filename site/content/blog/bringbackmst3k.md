@@ -1,5 +1,5 @@
 ---
-title: '#BringBackMST3K'
+title: 'BringBackMST3K'
 date: Mon, 23 Nov 2015 19:08:30 +0000
 draft: false
 ---
