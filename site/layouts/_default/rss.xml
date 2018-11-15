@@ -13,7 +13,7 @@
     {{ with .OutputFormats.Get "RSS" }}
     <atom:link href="{{ $base}}{{ .Permalink }}" rel="self" type="{{ .MediaType }}" />
     {{ end }}
-    {{ range .Pages }}
+    {{ range first 10 .Pages }}
     <item>
       <title>{{ .Title }}</title>
       <description>{{ if .Params.image }}{{ `<![CDATA[ ` | safeHTML }}<a href="{{ $base }}{{ .Permalink }}"><img src="{{ $base }}{{ .Params.image }}" /></a><br>{{ .Summary | html }}]]>{{ end }}

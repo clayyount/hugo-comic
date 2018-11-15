@@ -2,9 +2,8 @@
 <script>
 	var pagesIndex;
 	var lunrIndex;
-	var filterDir={{ .Dir }};
 	$(document).ready(function(){
-		 $.getJSON("/index.json").done(function(index) {
+		 $.getJSON("/"+{{ .Dir }}+"index.json").done(function(index) {
             pagesIndex =   index;
             console.log(pagesIndex)
             lunrIndex = new lunr.Builder()
@@ -19,9 +18,7 @@
                 boost: 5
             });
             pagesIndex.forEach(function(page) {
-            	if(page.dir==filterDir){
-	                lunrIndex.add(page);
-	            }
+                lunrIndex.add(page);
             });
         })	
 		$("#search").on('input', function(){

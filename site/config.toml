@@ -2,5 +2,6 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Homepage"
 [outputs]
-	home = [ "HTML", "JSON"]
-	page = [ "HTML"]
+home = ["HTML", "RSS", "JSON"]
+section = ["HTML", "RSS", "JSON"]
+page = ["HTML", "RSS", "JSON"]
