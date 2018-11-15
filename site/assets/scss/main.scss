@@ -147,6 +147,14 @@ input textarea button{
 	flex-wrap:wrap;
 	box-sizing:border-box;
 }
+.grid-3{
+	flex-basis:33%;
+	padding:0px 1rem;
+	box-sizing:border-box;
+	article{
+		box-sizing:border-box;
+	}
+}
 body main{
 	background:white;
 	padding-bottom:2rem;
@@ -770,6 +778,9 @@ html.lightbox-open{
 	}
 }
 @media(max-width:767px){
+	.grid-3{
+		flex-basis:50%;
+	}
 	.hidden-sm{
 		display:none;
 	}
@@ -904,6 +915,7 @@ html.lightbox-open{
 	}
 }
 @media(max-width:400px){
+	
 	.archive-list{
 		a{
 			min-width:50%;

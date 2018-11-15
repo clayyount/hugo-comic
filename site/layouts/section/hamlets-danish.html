@@ -27,6 +27,33 @@
 			</div>
 		</div>
 	</div>
+	<h2>Recent comics</h2>
+	<div class="flex">
+		{{ with .Site.GetPage "/hamlets-danish-comic" }}
+		    {{ range first 6 .Pages }}
+		    	<article class="grid-3">
+		    		<a href="{{ .Permalink }}">
+
+		    		{{ if .Params.thumbnail }}
+						<img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" />
+						{{ else if .Params.image  }}
+						{{ $page := . }}
+					{{ with $.Site.GetPage "page" "img/_index.md" }}
+					    {{ $imgPath := split $page.Params.image "/"}}
+					    {{ $img := index $imgPath 2 }}
+					    {{ with .Resources.GetMatch $img }}
+					        {{$img400 := .Resize "400x"}}
+					        <img src="{{ $img400.RelPermalink }}" alt="{{ .Title }}">
+					    {{ end }}
+					{{ end }}
+						{{ end }}
+						<h2 style="margin:1rem 0px 2rem;">{{ .Title }}</h2>
+					</a>
+
+		    	</article>
+		    {{ end }}
+		{{ end }}
+	</div>
 </div>
 
 
