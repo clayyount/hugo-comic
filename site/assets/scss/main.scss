@@ -147,14 +147,22 @@ input textarea button{
 	flex-wrap:wrap;
 	box-sizing:border-box;
 }
+.grid-2{
+	flex-basis:50%;
+	padding:0px 1rem;
+	box-sizing:border-box;
+}
 .grid-3{
 	flex-basis:33%;
 	padding:0px 1rem;
 	box-sizing:border-box;
-	article{
-		box-sizing:border-box;
-	}
 }
+.grid-4{
+	flex-basis:25%;
+	padding:0px 1rem;
+	box-sizing:border-box;
+}
+
 body main{
 	background:white;
 	padding-bottom:2rem;
@@ -381,6 +389,7 @@ pre{
 }
 .search{
 	position:relative;
+	padding-bottom:2rem;
 	.search-input{
 		background:transparent;
 		height:4rem;
@@ -778,7 +787,7 @@ html.lightbox-open{
 	}
 }
 @media(max-width:767px){
-	.grid-3{
+	.grid-2,.grid-3,.grid-4{
 		flex-basis:50%;
 	}
 	.hidden-sm{
