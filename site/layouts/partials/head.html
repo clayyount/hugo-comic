@@ -4,7 +4,10 @@
 	{{ range .AlternativeOutputFormats -}}
 	    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
-	<link rel="stylesheet" href="/css/main.css" />
+	<!-- <link rel="stylesheet" href="/css/main.css" /> -->
+	{{ $style := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }} 
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
+
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +22,7 @@
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="business.business">
-	<meta property="og:title" content="Kaldi | Great coffee with a conscience">
+	<meta property="og:title" content="Clay Yount">
 	<meta property="og:url" content="/">
 	<meta property="og:image" content="/img/og-image.jpg">
 	<script defer src="https://use.fontawesome.com/releases/v5.4.1/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>

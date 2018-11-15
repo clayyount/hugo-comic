@@ -1,6 +1,8 @@
+{{ .RelPermalink }}
 <nav id="site-nav" class="site-nav">
 
 	<!-- Logo -->
+
 	{{ with .Site.GetPage (print "/" (index (split .RelPermalink "/") 1)) }}
 		{{ if and .Params.logolink .Params.logo }}
 		<a href="{{ .Params.logolink }}">
