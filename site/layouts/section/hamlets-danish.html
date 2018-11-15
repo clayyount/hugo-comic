@@ -5,6 +5,28 @@
     	{{ partial "comic" . }}
     {{ end }}
 {{ end }}
-{{ partial "blog" . }}
+<div class="content">
+	
+	<div class="flex">
+		<div class="flex-main">
+			<h2>Latest Blog Posts</h2>
+		{{ with .Site.GetPage "/blog" }}
+		{{ partial "bloglist" . }}
+		{{ end }}
+		</div>
+		<div class="flex-side">
+			<h2>Search Hamlet's Danish</h2>
+			{{ with .Site.GetPage "/hamlets-danish-comic" }}
+				{{ partial "search" . }}
+			{{ end }}
+			<h2>Rob and Elliot Archives</h2>
+			<a href="/rae-comic"><img src="/img/rae-promo.png" alt="Rob and Elliot Archives" /></a>
+			<h2>Twitter feed</h2>
+			<a class="twitter-timeline" data-height="900" href="https://twitter.com/clayyount?ref_src=twsrc%5Etfw">Tweets by clayyount</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+	</div>
+</div>
+
+
 </main>
 {{ end }}

@@ -1,0 +1,12 @@
+<section class="blog-list">
+	{{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+		<article>
+			<a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+			<p class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+			{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+			<p class="desc">{{.Plain | safeHTML | truncate 300}}</p>
+			<a href="{{ .Permalink }}"><p>Read more →</p></a>
+		</article>
+	{{ end }}
+</section>
+{{ partial "pagination" . }}

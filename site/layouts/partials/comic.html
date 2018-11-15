@@ -41,9 +41,10 @@
         document.getElementById("random-btn").setAttribute("href",randPages[randComicIndex])
       </script>
 
-    </div>
-    <div class="content">
+</div>
+<div class="content">
       <div class="comic-body">
+
         <div class="comic-meta">
           <p>Date: {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
           <p>{{ with .Params.tags }}
@@ -54,6 +55,7 @@
             {{ end }}
           </p>
         </div>
+
         {{if .Content }}
         <div class="comic-comment">
           {{ .Content }}
@@ -61,4 +63,3 @@
         {{ end }}
       </div> 
     </div>
-  </div>

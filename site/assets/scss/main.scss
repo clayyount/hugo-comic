@@ -150,16 +150,20 @@ input textarea button{
 body main{
 	background:white;
 	padding-bottom:2rem;
+}
+body main,.flex-main{
 	flex-grow:1;
 	flex:65%;
 	order:1;
 	min-width: 0; 
 }
 body aside{
+	background:#eee;
+}
+body aside,.flex-side{
 	flex:35%;
 	min-width:20rem;
 	flex-grow:1;
-	background:#eee;
 	order:2;
 	min-width: 0; 
 }
@@ -326,7 +330,7 @@ pre{
 }
 .blog-list{
 	article{
-		padding-bottom:5rem;
+		padding-bottom:3rem;
 	}
 }
 .custom-select{
@@ -771,11 +775,11 @@ html.lightbox-open{
 		font-size:50%;
 		overflow-x:visible;
 	}
-	body main{
+	body main,.flex-main{
 		flex:100%;
 		order:2;
 	}
-	body aside{
+	body aside,.flex-side{
 		flex:100%;
 		order:3;
 	}
