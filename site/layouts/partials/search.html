@@ -21,8 +21,18 @@
                 lunrIndex.add(page);
             });
         })	
-		$("#search").on('input', function(){
-	    	var searchTerm=$(this).val();
+		$("#search-input").on('input', updateResults)
+	    $(".search .close-btn").click(function(){
+	    	$("#search-input").val("")
+	    	updateResults()
+	    })
+	    function updateResults(){
+	    	var searchTerm=$("#search-input").val();
+	    	if(searchTerm.length>1){
+	    		$(".search .close-btn").show();
+	    	}else{
+	    		$(".search .close-btn").hide();
+	    	}
 	    	if(searchTerm.length>2){
 		    	var resultsHTML="<ul>";
 		    	lunrIndex.build().search("+"+searchTerm+"*").map(function(result,index){
@@ -34,9 +44,12 @@
 	        }else{
 	        	$("#search-results").html("")
 	        }
-	    })
+	    }
     });
 
 </script>
-<input id="search" class="search" placeholder="Search Terms"/>
+<div class="search">
+<input id="search-input" class="search-input" placeholder="Search Terms"/>
+<div class="close-btn"><i class="fas fa-times"></i></div>
 <div id="search-results" class="search-results"></div>
+</div>
