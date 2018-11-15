@@ -188,6 +188,8 @@ body footer{
 	order:3;
 	color:#aaa;
 	min-width: 0; 
+	position:relative;
+	padding-bottom:2rem;
 }
 pre{
 	margin-top: 1em;
@@ -286,6 +288,12 @@ pre{
 		}
 		
 	}
+}
+.copyright{
+	position:absolute;
+	right:0px;
+	top:2rem;
+
 }
 .btn{
 	border:none;
