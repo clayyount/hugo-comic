@@ -364,6 +364,42 @@ pre{
 		
 	}
 }
+.search{
+	background:transparent;
+	height:4rem;
+	overflow:hidden;
+	width:100%;
+	border: 1px solid #aaa;
+	padding:.5rem;
+	font-size:1.6rem;
+	-webkit-appearance: none;
+	border-radius:0px;
+	box-sizing:border-box;
+}
+.search-results{
+	position:relative;
+	ul{
+		max-height:400px;
+		overflow:auto;
+		position:absolute;
+		box-sizing:border-box;
+		padding:0px;
+		margin:0px;
+		background:white;
+		list-style: none;
+		width:100%;
+		-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.28);
+		-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.28);
+		box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.28);
+		li{
+			a{
+				padding:1rem 2rem;
+				display:block;
+				border-bottom:1px solid #eee;
+			}
+		}
+	}
+}
 	
 .contact-form{
 	padding:1rem;

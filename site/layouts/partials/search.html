@@ -1,0 +1,45 @@
+<script src="/scripts/lunr.js"></script>
+<script>
+	var pagesIndex;
+	var lunrIndex;
+	var filterDir={{ .Dir }};
+	$(document).ready(function(){
+		 $.getJSON("/index.json").done(function(index) {
+            pagesIndex =   index;
+            console.log(pagesIndex)
+            lunrIndex = new lunr.Builder()
+            lunrIndex.ref("uri");
+            lunrIndex.field('title', {
+                boost: 15
+            });
+            lunrIndex.field('tags', {
+                boost: 10
+            });
+            lunrIndex.field("content", {
+                boost: 5
+            });
+            pagesIndex.forEach(function(page) {
+            	if(page.dir==filterDir){
+	                lunrIndex.add(page);
+	            }
+            });
+        })	
+		$("#search").on('input', function(){
+	    	var searchTerm=$(this).val();
+	    	if(searchTerm.length>2){
+		    	var resultsHTML="<ul>";
+		    	lunrIndex.build().search("+"+searchTerm+"*").map(function(result,index){
+	    			var searchIndex = pagesIndex.findIndex(x => x.uri==result.ref)
+					resultsHTML+='<li><a href="'+result.ref+'">'+pagesIndex[searchIndex].title+'</a></li>';
+	            })
+	            resultsHTML+="</ul>"
+	            $("#search-results").html(resultsHTML)
+	        }else{
+	        	$("#search-results").html("")
+	        }
+	    })
+    });
+
+</script>
+<input id="search" class="search" placeholder="Search Terms"/>
+<div id="search-results" class="search-results"></div>
