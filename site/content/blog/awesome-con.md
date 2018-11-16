@@ -2,6 +2,7 @@
 title: 'Awesome Con'
 date: Tue, 26 May 2015 15:07:11 +0000
 draft: false
+image: /img/awesome-con-logo.jpg
 ---
 
 Hey guys, I'll have an artist's table at [Awesome Con DC](http://www.awesome-con.com/) this weekend and I'll be selling a new book collecting the first year of Hamlet's Danish comics. It'll look something like this.

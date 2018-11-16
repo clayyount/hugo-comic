@@ -11,6 +11,7 @@ tags: [Squarespace, website, webcomic, template]
 
 ![](/img/ss-logo.jpg)
 
+
 At the beginning of the year, I released a Squarespace template for webcomic artists. The response has been pretty good, and hopefully some of you have put it to good use. I've gotten some feedback, and the two biggest complaints are that the (recently increased) $18 per month developer account is too expensive, and the template is too hard to customize for someone without a lot of coding skills.
 
 Since I released the template, Squarespace has made some important updates to their platform that have allowed me to create a new easier solution that doesn't require a custom template and just uses some copy and paste code. This means it'll work with ANY Squarespace plan including the $8/month basic plan. I've put together some video tutorials to help you get the basics of a site up and running in about 30 minutes. I'll be adding some more videos as I complete them, and am willing to [take suggestions](/contact) for tutorial topics. If you are a web developer and want 100% control, you can still use my [original template](/template) as a launching off point, but this new solution is incredibly versatile and I think it is the best option for 99% of people.
@@ -18,7 +19,43 @@ Since I released the template, Squarespace has made some important updates to t
 Just an FYI, I am nowhere near as practiced as my brother as speaking into a microphone, so please excuse my nervousness. I didn't have time to do multiple takes, so I just kind of winged it.
 
 Watch the following videos in order to get your site set up:
-
+{{< youtube J2tj8_gUlg0 >}}
+### OVERVIEW
+This is an overview of a demo webcomic website I made using Squarespace's trial account. Take a look at some of the functionality and features that you'll have access to.
+&nbsp;\
+&nbsp;\
+&nbsp;\
+{{< youtube g8uncSaFOfw >}}
+### INITIAL SETUP
+This takes you through the initial setup process for the Five template with my custom code snippits. It also goes over how to add a comics page with some comics, a blog page and an archive page, as well as some basic template style editing.
+&nbsp;\
+&nbsp;\
+&nbsp;\
+{{< youtube k_ctYDQOCt4 >}}
+### STYLE EDITOR
+This goes more in depth into using Squarespace's Style Editor to design your site to be an effective webcomic site.
+&nbsp;\
+&nbsp;\
+&nbsp;\
+{{< youtube g8kPuVdq7Mo >}}
+### RESPONSIVE ADS
+How to add responsive ads to your site for Google and Project Wonderful.
+&nbsp;\
+&nbsp;\
+&nbsp;\
+{{< youtube WwMmAeXlSNU >}}
+### CHAPTER SUPPORT
+How to set up your site to support chapters for longform comics
+&nbsp;\
+&nbsp;\
+&nbsp;\
+{{< youtube 9bXtSSZApIU >}}
+### CUSTOM CSS
+How to edit the Custom CSS (LESS) to add your own styles for specific pages/collections. it might get a little tricky for people completely unfamiliar with HTML/CSS and how to use the inspector.
+&nbsp;\
+&nbsp;\
+&nbsp;\
+&nbsp;\
 Here are the code snippets you'll need:
 
 ### Header Code:

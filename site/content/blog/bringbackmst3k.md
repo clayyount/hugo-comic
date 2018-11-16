@@ -4,6 +4,8 @@ date: Mon, 23 Nov 2015 19:08:30 +0000
 draft: false
 ---
 
+{{< youtube 2_GCgAH7sLQ >}}
+
 I can _finally_ promote the fact the my brother [Hampton](http://hamptonyount.com/) is going to be the new voice of Crow T. Robot in the upcoming [MST3K reboot](https://www.kickstarter.com/projects/mst3k/bringbackmst3k/)!  To say that this is a big deal for him is a massive  understatement.
 
 When we were growing up, we were both huge fans of the show (Though Hampton always loved it more). We pooled our resources to buy a bunch of tapes, and got to the point where we were quoting them a lot. We would even force our friends to sit through multi-hour endurance marathons. In short, we wore those tapes OUT. At one point I remember having a conversation with him about how, although it could never happen, working on that show would be The Coolest Job Ever™. To see Hampton achieve a childhood dream means so much to me and I couldn't be more proud! All fraternal bias aside, I honestly can't think of a better person for the job.

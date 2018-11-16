@@ -191,6 +191,13 @@ body footer{
 	position:relative;
 	padding-bottom:2rem;
 }
+blockquote{
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	color:$link-color;
+	font-size:4rem;
+	line-height: 1em;
+}
 pre{
 	margin-top: 1em;
 	margin-right: 0px;
