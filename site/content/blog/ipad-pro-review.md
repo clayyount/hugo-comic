@@ -1,8 +1,16 @@
 ---
-title: 'iPad Pro Review'
-date: Mon, 08 Feb 2016 22:28:15 +0000
-draft: false
-tags: [iPad Pro, Apple Pencil, Procreate, Review]
+title: iPad Pro Review
+date: 'Mon, 08 Feb 2016 22:28:15 +0000'
+description: >-
+  I've been using the iPad Pro for a couple months now, and I’m going to give my
+  impressions strictly from an illustrator/comic artist perspective. If you want
+  a review of the device as a laptop replacement or next-gen tablet, others have
+  done a better job than I could...
+tags:
+  - iPad Pro
+  - Apple Pencil
+  - Procreate
+  - Review
 ---
 
 ![](/img/ipad-pro-screenshot-1.jpg)
@@ -46,6 +54,7 @@ Out of all the drawing apps I’ve tried on iOS, Procreate 3 is by far the best.
 Procreate has done an excellent job of building an app from the ground up with a touch interface in mind. They have a minimalist interface, but incorporate touch gestures that work like keyboard shortcuts to really speed up your process. For example, two fingers tapping the screen is undo and three fingers tapping is redo. This works as quickly and efficiently as mapping an undo button to the stylus on a Wacom pen. On a Cintiq or SP3, I have to work on a table top to keep one hand on the keyboard for shortcuts, which makes truly portable drawing pretty much impossible. With the touch gestures/controls, I can hold the iPad Pro like I would a sketchbook and still have quick access to all the commands I need. It takes a little getting used to, but it’s super useful. I highly recommend checking out their free [iBook Artist Handbook](https://itunes.apple.com/us/book/procreate-artists-handbook/id520694987?mt=13) to see what all the features are. You’ll be surprised.
 
 Bonus: It also will automatically make an awesome replay video of your drawing process that you can easily edit in iMovie and upload to Youtube. Here's one of mine:
+{{< youtube ULxUMh4CHis >}}
 
 ### [Graphic](http://graphic.com/)
 
