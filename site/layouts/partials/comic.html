@@ -46,14 +46,16 @@
       <div class="comic-body">
 
         <div class="comic-meta">
-          <p>Date: {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-          <p>{{ with .Params.tags }}
-              Tag{{ if gt (len .) 1 }}s{{ end }}:
+          <span class="meta-title">Date</span> {{ .Date.Format "Mon, Jan 2, 2006" }}<br>
+          {{ with .Params.tags }}
+              <span class="meta-title">Tag{{ if gt (len .) 1 }}s{{ end }}</span>
               {{ range . }}
                 <a href="/tags/{{ replace (replace (lower .) " " "-") "'" ""}}" class="tag">{{ . }}</a>
               {{ end }}
             {{ end }}
-          </p>
+          <br>
+            <span class="meta-title">Share</span> <div class="addthis_inline_share_toolbox_8apt sharing" data-url="{{ .Permalink }}"></div>
+          
         </div>
 
         {{if .Content }}

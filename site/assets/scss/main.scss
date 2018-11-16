@@ -14,7 +14,7 @@ html{
 	font-size:62.5%;
 	max-width: 100%;
 }
-h1,h2,h3{
+h1,h2,h3,h4{
 	font-family: 'Teko', sans-serif;
 	text-transform: uppercase;
 	line-height: .8em;
@@ -29,6 +29,9 @@ h2{
 }
 h3{
 	font-size:3rem;
+}
+h4{
+	font-size:2rem;
 }
 a{
 	color:$link-color;
@@ -536,6 +539,20 @@ pre{
 		flex-basis:50%;
 		min-width:250px;
 		flex-grow:1;
+		padding:2rem 0rem;
+		.meta-title{
+			font-family: 'Teko', sans-serif;
+			text-transform: uppercase;
+			line-height: .8em;
+			line-height:4rem;
+			vertical-align:middle;
+			font-size:2rem;
+			padding-right:1rem;
+		}
+		.sharing{
+			display:inline-block;
+			transform:translate(0px,-5px);
+		}
 
 	}
 	.comic-comment{
@@ -553,7 +570,7 @@ pre{
 		border-bottom: 3px solid #aaa;
 		color: #666;
 		margin: 0px;
-		margin-top:3rem;
+		margin-top:4rem;
 		margin-bottom: 2rem;
 		background-color: #eee;
 		background-image: none;
@@ -572,9 +589,9 @@ pre{
 			text-align: left;
 			display: inline-block;
 			text-transform: uppercase;
-			background: #aaa;
+			background: black;
 			color: #fff;
-			padding: .5rem;
+			padding: 0px .5rem;
 		}
 	}
 }
@@ -630,11 +647,15 @@ pre{
 a.tag{
 	display:inline-block;
 	margin-right:.5rem;
-	background:#eee;
+	background:black;
 	border-radius:3px;
 	padding:.2rem .5rem;
 	margin-bottom:1rem;
 	font-weight:bold;
+	color:white;
+	&:hover{
+		background:$link-color;
+	}
 }
 .dropdown{
 	position:relative;
