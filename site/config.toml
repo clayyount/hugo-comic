@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://clay-comic.netlify.com"
 languageCode = "en-us"
 title = "Homepage"
 [outputs]
