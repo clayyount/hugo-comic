@@ -1,9 +1,9 @@
 {{ define "main" }}
-
+<script src="/scripts/lightbox.js"></script>
 <main>
 	<div class="content">
 		<div class="galleries">
-			{{ range .Params.galleries }}
+			{{ range $index, $element := .Params.galleries }}
 				{{ $.Scratch.Set "rowNum" .rownum }}
 				{{ if .fullimage }}
 					{{ $.Scratch.Set "bgSize" "contain" }}
@@ -20,7 +20,7 @@
 						    	{{ $img := index $imgPath 2 }}
 						    	{{ with .Resources.GetMatch $img }}
 						        	{{$img400 := .Resize "400x"}}
-						       		<div style="background-image:url({{ $img400.RelPermalink }});background-size:{{ $.Scratch.Get "bgSize" }}" data-image="{{ $image }}" class="image"></div>
+						       		<a href="{{ $image }}" data-lightbox="gallery-{{ $index }}"><div style="background-image:url({{ $img400.RelPermalink }});background-size:{{ $.Scratch.Get "bgSize" }}" data-image="{{ $image }}" class="image"></div></a>
 						    	{{ end }}
 							{{ end }}
 						</article>
@@ -33,24 +33,24 @@
 </main>
 <script>
 	$(document).ready(function(){
-		$(".gallery").each(function(){
-			var gallery=this;
-			$(".image", gallery).click(function(e){
-				var imgIndex=$(".image", gallery).index(this)
-				console.log(imgIndex)
-				var lightboxHTML='<section class="lightbox">';
-					$('.image', gallery).each(function(index){
-						lightboxHTML+='<article'
-						if(imgIndex==index){
-							lightboxHTML+=' class="active"';
-						}
-						lightboxHTML+='><img src="'+$(this).attr("data-image")+'"></article>'
-					})
-				lightboxHTML+="</section>"
-				$("body").append(lightboxHTML)
-				$("html").addClass("lightbox-open")
-			})
-		})
+		// $(".gallery").each(function(){
+		// 	var gallery=this;
+		// 	$(".image", gallery).click(function(e){
+		// 		var imgIndex=$(".image", gallery).index(this)
+		// 		console.log(imgIndex)
+		// 		var lightboxHTML='<section class="lightbox">';
+		// 			$('.image', gallery).each(function(index){
+		// 				lightboxHTML+='<article'
+		// 				if(imgIndex==index){
+		// 					lightboxHTML+=' class="active"';
+		// 				}
+		// 				lightboxHTML+='><img src="'+$(this).attr("data-image")+'"></article>'
+		// 			})
+		// 		lightboxHTML+="</section>"
+		// 		$("body").append(lightboxHTML)
+		// 		$("html").addClass("lightbox-open")
+		// 	})
+		// })
 		// $(".gallery").each(function(index){
 		// 	var index=index;
 		// 	$("body").append('<section class="lightbox" id="gallery-'+index+'" ></section>')
