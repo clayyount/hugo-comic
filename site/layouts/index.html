@@ -8,16 +8,14 @@
 </section>
 {{ end }}
 <main>
-	<div class="content">
-	
 
-		<h2 class="latest-title">Latest Blog Posts</h2>
-	
+
+	<div class="content">
+	<h2 class="latest-title">Latest Blog Posts</h2>
 	{{ with .Site.GetPage "/blog" }}
 	{{ partial "bloglist" . }}
 	{{ end }}
 	</div>
-	
 </main>
 {{ partial "blog-sidebar" . }}
 {{ end }}

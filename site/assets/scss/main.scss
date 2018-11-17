@@ -165,6 +165,10 @@ input textarea button{
 	padding:0px 1rem;
 	box-sizing:border-box;
 }
+.grid-flex{
+	flex-basis:20rem;
+	flex-grow:1;
+}
 
 body main{
 	background:white;
@@ -319,6 +323,8 @@ pre{
 	letter-spacing: 1px;
 	font-size:1.4rem;
 	text-decoration:none;
+	white-space: nowrap;
+	line-height:4rem;
 	&:hover{
 		color:white;
 		background-color:$link-color;
@@ -530,11 +536,22 @@ pre{
 }
 .homepage-content{
 	width:100%;
-	background:white;
-	border-bottom:10px solid black;
+	flex-basis:100%;
+	background:black;
+	color:white;
+	border-bottom:10px solid #999;
+	padding:2rem 0rem;
+	.profile-pic{
+		border-radius:1000px;
+		overflow:hidden;
+		max-width:100%;
+	}
+	.profile-content{
+		padding:0px 2rem;
+	}
 }
 .content{
-	padding:0px 2rem;
+	padding:1px 2rem;
 	box-sizing:border-box;
 	position:relative;
 }
