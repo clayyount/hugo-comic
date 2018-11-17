@@ -6,6 +6,6 @@ home = ["HTML", "RSS", "JSON"]
 section = ["HTML", "RSS", "JSON"]
 page = ["HTML", "RSS", "JSON"]
 [permalinks]
-rae-comic = "/:section/:year/:month/:day/:title/"
+raecomic = "/:section/:year/:month/:day/:title/"
 hamlets-danish-comic = "/:section/:year/:month/:day/:title/"
 blog = "/:section/:year/:month/:day/:title/"
