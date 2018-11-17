@@ -1,6 +1,9 @@
 ---
 title: Artist. Developer. Designer.
 banner: /img/ffpiece.jpg
-subtitle: 
 ---
+# This is a test
 
+
+
+I’m testing putting content here.
