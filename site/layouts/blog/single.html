@@ -1,7 +1,8 @@
 {{ define "main" }}
+{{ partial "jumbotron" (dict "imageUrl" (.Params.image) "title" (.Title) "subtitle" (.Params.subtitle)) }}
 <main>
   <div class="content">
-    <h1>{{.Title}}</h1>
+    <div class="container">
     <div>
       <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
       <p>Read in {{ .ReadingTime }} minutes</p>
@@ -11,6 +12,6 @@
       {{ .Content }}
     </div>
   </div>
+</div>
 </main>
-{{ partial "blog-sidebar" . }}
 {{ end }}

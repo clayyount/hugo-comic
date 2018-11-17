@@ -3,6 +3,7 @@ title: 'Legend of Korra Process - Fire and Water'
 date: Mon, 19 Nov 2012 20:04:13 +0000
 draft: false
 tags: [Illustration, Art Process]
+image: /img/korra-progress-2.png
 ---
 
 I'm working on a new piece for my November[ P.U.M.M.E.L.](http://www.penciljack.com/forum/forumdisplay.php?89-PUMMEL) match. I picked the theme this time, and I decided on Legend of Korra. I was watching this season, and thought the fire and water effects would be a good way to jump into a more painterly technique. Usually, I sketch, ink, and color with either flats, like in Rob and Elliot, or 1-2 levels of shading/highlights with gradients like in my [Storm/Black Panther illustration](/illustrations). I wanted to try out Photoshop CS6's new realistic paintbrushes, and this seemed like as good a chance as any.

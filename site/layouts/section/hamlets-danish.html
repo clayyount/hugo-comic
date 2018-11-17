@@ -11,7 +11,11 @@
 		<div class="flex-main">
 			<h2>Latest Blog Posts</h2>
 		{{ with .Site.GetPage "/blog" }}
-		{{ partial "bloglist" . }}
+		<section class="blog-list">
+			{{ range first 5 .Pages }}
+				{{ .Render "li" }}
+			{{ end }}
+		</section>
 		{{ end }}
 		</div>
 		<div class="flex-side">
@@ -30,8 +34,8 @@
 	<h2>Recent comics</h2>
 	<div class="flex">
 		{{ with .Site.GetPage "/hamlets-danish-comic" }}
-		    {{ range first 6 .Pages }}
-		    	<article class="grid-3">
+		    {{ range first 4 .Pages }}
+		    	<article class="grid-4">
 		    		<a href="{{ .Permalink }}">
 
 		    		{{ if .Params.thumbnail }}
@@ -47,7 +51,7 @@
 					    {{ end }}
 					{{ end }}
 						{{ end }}
-						<h2 style="margin:1rem 0px 2rem;">{{ .Title }}</h2>
+						<h3 style="margin:1rem 0px 2rem;">{{ .Title }}</h3>
 					</a>
 
 		    	</article>

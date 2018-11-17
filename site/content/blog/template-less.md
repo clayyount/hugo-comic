@@ -2,6 +2,7 @@
 title: 'template-less'
 date: Wed, 05 Aug 2015 15:36:03 +0000
 draft: false
+image: /img/ss-logo.jpg
 ---
 
 The No-Template Style

@@ -2,6 +2,7 @@
 title: 'Trying Something New'
 date: Thu, 19 Nov 2015 20:48:05 +0000
 draft: false
+image: /img/cy-logo.jpg
 ---
 
 I know, I know. It's been pretty dead around here. I could attribute it to a lot of things and make excuses, but in the end, I've been allowing other things in life to take over my productivity. I tend to do this thing where I miss a deadline, then avoid the task completely because I feel bad about it. Couple that with the fact that I'm passionate about, but lose interest in things quickly, and it pretty much explains my entire update history. If I'm faced with sitting down for five hours to make a Hamlet's Danish comic, and I'm not feeling it, chances are that I'm watching TV instead. And if I do want to do something else that's creative, I feel like I have to draw the comic before I can get to it.

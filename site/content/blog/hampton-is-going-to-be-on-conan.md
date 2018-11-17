@@ -2,6 +2,7 @@
 title: 'Hampton is going to be on Conan!'
 date: Sat, 16 Aug 2014 03:03:22 +0000
 draft: false
+image: /img/hampton-conan.png
 ---
 
 ![](/img/hampton-conan.png)

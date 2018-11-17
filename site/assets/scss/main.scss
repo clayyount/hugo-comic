@@ -327,7 +327,7 @@ pre{
 }
 .jumbotron{
 	flex-basis:100%;
-	height:25rem;
+	height:40rem;
 	text-align:center;
 	background:black;
 	background-size:cover;
@@ -363,12 +363,34 @@ pre{
 	}
 }
 .blog-list{
+	padding-top:2rem;
 	article{
 		padding-bottom:3rem;
-		.blog-thumbnail{
-			max-width:200px;
-			float:left;
-			margin-right:1rem;
+		display:flex;
+		flex-wrap:wrap;
+		.image-holder{
+			flex-basis:15rem;
+			flex-grow:1;
+			.blog-thumbnail{
+				max-width:100%;
+				width:100%;
+				float:left;
+				margin-right:1rem;
+			}
+			padding-bottom:2rem;
+		}
+		.text-holder{
+			flex-basis:40rem;
+			flex-grow:1;
+			padding:0rem 1rem;
+			box-sizing:border-box;
+			.title{
+				margin:0;
+			}
+			.date{
+				color:#aaa;
+				font-style: italic;
+			}
 		}
 	}
 }
@@ -509,6 +531,10 @@ pre{
 .content{
 	padding:0px 2rem;
 	box-sizing:border-box;
+}
+.container{
+	max-width:70rem;
+	margin:0px auto;
 }
 .comic-title{
 	text-align: center;

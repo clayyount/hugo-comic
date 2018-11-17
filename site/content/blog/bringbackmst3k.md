@@ -2,6 +2,7 @@
 title: 'BringBackMST3K'
 date: Mon, 23 Nov 2015 19:08:30 +0000
 draft: false
+image: /img/bringbackmst3k.jpg
 ---
 
 {{< youtube 2_GCgAH7sLQ >}}

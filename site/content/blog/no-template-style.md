@@ -3,13 +3,12 @@ title: 'The Best Style is No-Template Style'
 date: Wed, 12 Aug 2015 13:18:34 +0000
 draft: false
 tags: [Squarespace, website, webcomic, template]
+image: /img/ss-logo.jpg
 ---
 
 ### IMPORTANT UPDATE: 
 
 **Due to an undocumented limit on Squarespace's Archive List block, the current solution will not work with >1000 comics in the archive. If your comic archives are more than 1000, or you will reach it soon, please find another solution. I'm sorry to have launched with this limitation, but I didn't have an archive with 1000 entries to test on and it wasn't documented, so I wasn't aware of it. I'm hoping Squarespace will implement a fix to a separate bug with their itemCount API so I can use a workaround, but it's been more than 6 months since I alerted them and they have yet to inform me when a fix is coming. As it stands, there is no way around this limitation.**
-
-![](/img/ss-logo.jpg)
 
 
 At the beginning of the year, I released a Squarespace template for webcomic artists. The response has been pretty good, and hopefully some of you have put it to good use. I've gotten some feedback, and the two biggest complaints are that the (recently increased) $18 per month developer account is too expensive, and the template is too hard to customize for someone without a lot of coding skills.

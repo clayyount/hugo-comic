@@ -2,6 +2,7 @@
 title: 'Word Crimes'
 date: Tue, 29 Jul 2014 14:38:50 +0000
 draft: false
+image: /img/cy-logo.jpg
 ---
 
 I've gotten the question "Why did you name your comic Hamlet's Danish?" enough times that I figured I'd give a little explaination. The main problem with naming a comic that's about nothing in particular is that you can't choose a descriptive or thematic name. "Scenarios I Think Are Funny" isn't particularly catchy, and is bad SEO to boot. I figured if the name of the strip wasn't going to be descriptive, it might as well convey my sense of humor. So I went with a pun that didn't come up in any Google searches.

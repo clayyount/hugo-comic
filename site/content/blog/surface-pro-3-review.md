@@ -3,6 +3,7 @@ title: 'Surface Pro 3 Review'
 date: Thu, 28 Aug 2014 15:09:03 +0000
 draft: false
 tags: [Review]
+image: /img/sp3-screenshot-1.jpg
 ---
 
 ![](/img/sp3-screenshot-1.jpg)

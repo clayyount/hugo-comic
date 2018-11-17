@@ -2,6 +2,7 @@
 title: 'Welcome!'
 date: Mon, 07 Apr 2014 04:48:06 +0000
 draft: false
+image: /img/cy-logo.jpg
 ---
 
 Hi there, and thanks for visiting!
