@@ -1303,6 +1303,9 @@ html.lb-disable-scrolling {
 		text-align:center;
 		.profile-pic-holder{
 			flex-basis:100%;
+			.profile-pic{
+				max-width:20rem;
+			}
 		}
 		.profile-content{
 			padding:0px;
