@@ -3,7 +3,7 @@ title: Artist. Developer. Designer.
 banner: /img/ffpiece.jpg
 ---
 <div class="flex">
-	<div class="grid-4">
+	<div class="grid-4 profile-pic-holder">
 		<img src="/img/profile-avatar.jpg" class="profile-pic">
 	</div>
 	<div class="grid-flex">

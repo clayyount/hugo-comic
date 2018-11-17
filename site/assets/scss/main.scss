@@ -541,12 +541,19 @@ pre{
 	color:white;
 	border-bottom:10px solid #999;
 	padding:2rem 0rem;
+	.profile-pic-holder{
+		align-self:center;
+	}
 	.profile-pic{
 		border-radius:1000px;
 		overflow:hidden;
 		max-width:100%;
-		padding-right:2rem;
+		margin-right:2rem;
 		box-sizing:border-box;
+		border:3px solid white;
+	}
+	.profile-content{
+		padding:0px 2rem;
 	}
 }
 .content{
@@ -1289,6 +1296,15 @@ html.lb-disable-scrolling {
 		padding:1rem 0rem;
 		a{
 			padding:0px .5rem;
+		}
+	}
+	.homepage-content{
+		text-align:center;
+		.profile-pic-holder{
+			flex-basis:100%;
+		}
+		.profile-content{
+			padding:0px;
 		}
 	}
 }
