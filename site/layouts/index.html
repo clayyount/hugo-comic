@@ -1,11 +1,7 @@
 {{ define "main" }}
 {{ partial "jumbotron" (dict "imageUrl" ((.Site.GetPage "/").Params.banner) "title" ((.Site.GetPage "/").Title) "subtitle" ((.Site.GetPage "/").Params.subtitle)) }}
 {{ if (.Site.GetPage "/").Content}}
-<section class="homepage-content">
-	<div class="content">
 {{(.Site.GetPage "/").Content}}
-</div>
-</section>
 {{ end }}
 <main>
 
