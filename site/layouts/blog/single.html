@@ -4,8 +4,21 @@
   <div class="content">
     <div class="container">
     <div>
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
+      
+      <div class="blog-meta">
+          <span class="meta-title">Date</span> {{ .Date.Format "Mon, Jan 2, 2006" }}<br>
+          {{ with .Params.tags }}
+              <span class="meta-title">Tag{{ if gt (len .) 1 }}s{{ end }}</span>
+              {{ range . }}
+                <a href="/tags/{{ replace (replace (lower .) " " "-") "'" ""}}" class="tag">{{ . }}</a>
+              {{ end }}
+            {{ end }}
+          <div style="position:absolute;right:0; top:2rem;">
+            <span class="meta-title">Share</span> <div class="addthis_inline_share_toolbox_8apt sharing" data-url="{{ .Permalink }}"></div>
+          </div>
+          
+        </div>
+      
     </div>
     <div>
       <p>{{ .Description }}</p>

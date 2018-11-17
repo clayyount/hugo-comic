@@ -531,10 +531,12 @@ pre{
 .content{
 	padding:0px 2rem;
 	box-sizing:border-box;
+	position:relative;
 }
 .container{
 	max-width:70rem;
 	margin:0px auto;
+	position:relative;
 }
 .comic-title{
 	text-align: center;
@@ -560,32 +562,36 @@ pre{
 		text-align: center;
 	}
 }
+.comic-meta,.blog-meta{
+	box-sizing:border-box;
+	flex-basis:50%;
+	min-width:250px;
+	flex-grow:1;
+	padding:2rem 0rem;
+	.meta-title{
+		font-family: 'Teko', sans-serif;
+		text-transform: uppercase;
+		line-height: .8em;
+		line-height:4rem;
+		vertical-align:middle;
+		font-size:2rem;
+		padding-right:1rem;
+	}
+	.sharing{
+		display:inline-block;
+		transform:translate(0px,-5px);
+	}
+
+}
+.blog-meta{
+
+}
 .comic-body{
 	display:flex;
 	flex-wrap:wrap;
 	width:100%;
 
-	.comic-meta{
-		box-sizing:border-box;
-		flex-basis:50%;
-		min-width:250px;
-		flex-grow:1;
-		padding:2rem 0rem;
-		.meta-title{
-			font-family: 'Teko', sans-serif;
-			text-transform: uppercase;
-			line-height: .8em;
-			line-height:4rem;
-			vertical-align:middle;
-			font-size:2rem;
-			padding-right:1rem;
-		}
-		.sharing{
-			display:inline-block;
-			transform:translate(0px,-5px);
-		}
-
-	}
+	
 	.comic-comment{
 		flex-basis:50%;
 		min-width:250px;
