@@ -1,9 +1,19 @@
 <section class="blog-list">
 	{{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
 		<article>
+			{{ if .Params.image  }}
+				{{ $page := . }}
+			{{ with $.Site.GetPage "page" "img/_index.md" }}
+			    {{ $imgPath := split $page.Params.image "/"}}
+			    {{ $img := index $imgPath 2 }}
+			    {{ with .Resources.GetMatch $img }}
+			        {{$img400 := .Resize "400x"}}
+			        <img src="{{ $img400.RelPermalink }}" class="blog-thumbnail">
+			    {{ end }}
+			{{ end }}
+				{{ end }}
 			<a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
 			<p class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-			{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
 			<p class="desc">{{.Plain | safeHTML | truncate 300}}</p>
 			<a href="{{ .Permalink }}"><p>Read more →</p></a>
 		</article>

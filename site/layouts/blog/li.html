@@ -1,7 +1,6 @@
 <article>
 	<a href="{{ .Permalink }}"><h1>{{ .Title }}</h1></a>
 	<p class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-	{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
 	<p class="desc">{{.Content}}</p>
 	<a href="{{ .Permalink }}"><p>Read more →</p></a>
 </article>

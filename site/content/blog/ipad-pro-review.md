@@ -11,6 +11,7 @@ tags:
   - Apple Pencil
   - Procreate
   - Review
+image: /img/ipad-pro-screenshot-1.jpg
 ---
 
 ![](/img/ipad-pro-screenshot-1.jpg)

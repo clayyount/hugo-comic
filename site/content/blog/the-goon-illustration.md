@@ -2,6 +2,7 @@
 title: 'The Goon Illustration'
 date: Fri, 26 Feb 2016 17:02:59 +0000
 draft: false
+image: /img/the-goon.jpg
 ---
 
 I did an illustration of The Goon for an online art competition

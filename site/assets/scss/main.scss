@@ -365,6 +365,11 @@ pre{
 .blog-list{
 	article{
 		padding-bottom:3rem;
+		.blog-thumbnail{
+			max-width:200px;
+			float:left;
+			margin-right:1rem;
+		}
 	}
 }
 .twitter-holder{
