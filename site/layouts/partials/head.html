@@ -5,7 +5,7 @@
 	    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
 	<!-- <link rel="stylesheet" href="/css/main.css" /> -->
-	{{ $style := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }} 
+	{{ $style := resources.Get "scss/main.scss" | toCSS | minify }} 
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 	<meta charset="utf-8">

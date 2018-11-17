@@ -19,11 +19,11 @@ class ColorControl extends React.Component {
   }
 }
 
-CMS.registerPreviewStyle("/css/main.css");
+CMS.registerPreviewStyle("/scss/main.min.css");
 CMS.registerPreviewStyle("https://fonts.googleapis.com/css?family=Roboto|Teko");
 CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("blog", PostPreview);
 CMS.registerPreviewTemplate("gallery", GalleryPreview);
 CMS.registerPreviewTemplate("hamlets-danish-comic", PostPreview);
-CMS.registerPreviewTemplate("rae-comic", PostPreview);
+CMS.registerPreviewTemplate("raecomic", PostPreview);
 CMS.registerWidget("color", ColorControl);
