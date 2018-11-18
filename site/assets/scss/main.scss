@@ -47,6 +47,7 @@ img{
 body{
 	height:100%;
 	font-size:1.6rem;
+	line-height:1.4em;
 	padding:0px;
 	margin:0px;
 	max-width:$contentWidth;
@@ -1148,7 +1149,7 @@ html.lb-disable-scrolling {
 	}
 	html{
 		padding-top:0px;
-		font-size:50%;
+		font-size:55%;
 		overflow-x:visible;
 	}
 	body main,.flex-main{
