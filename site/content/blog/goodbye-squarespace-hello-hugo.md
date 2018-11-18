@@ -1,13 +1,6 @@
 ---
 title: 'Goodbye Squarespace, Hello Hugo'
 date: 2018-11-18T03:07:23.187Z
-description: >-
-  A Little History
-
-  I originally developed my Squarespace webcomic template because I wasn't happy
-  with having to use Wordpress+ComicPress and I wanted another option. I latched
-  on to Squarespace because it had a pretty robust developer platform and
-  allowed for more customization than any other online website builder.
 image: /img/hugo-logo.png
 tags:
   - website
