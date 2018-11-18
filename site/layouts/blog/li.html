@@ -19,7 +19,13 @@
 	<div class="text-holder">
 		<a href="{{ .Permalink }}"><h3 class="title">{{ .Title }}</h3></a>
 		<p class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-		<p class="desc">{{.Plain | safeHTML | truncate 300}}</p>
+		<p class="desc">
+			{{ if .Description }}
+			{{ .Description }}
+			{{ else }}
+			{{.Plain | safeHTML | truncate 300}}
+			{{ end}}
+		</p>
 		<a href="{{ .Permalink }}"><p>Read more →</p></a>
 	</div>
 </article>
