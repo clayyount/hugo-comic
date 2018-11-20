@@ -1,5 +1,5 @@
 ---
-title: 'Convention Special #2'
+title: 'Convention Special 2'
 date: Fri, 14 Jul 2006 20:49:00 +0000
 draft: false
 tags:
