@@ -8,7 +8,7 @@
 	    {{ with .Resources.GetMatch $img }}
 	        {{$img400 := .Resize "400x"}}
 	        <div class="image-holder">
-	        	<a href="{{ $page.Permalink }}">
+	        	<a href="{{ $page.RelPermalink }}">
 			        <img src="{{ $img400.RelPermalink }}" class="blog-thumbnail">
 			    </a>
 	        </div>
@@ -17,7 +17,7 @@
 		{{ end }}
 	
 	<div class="text-holder">
-		<a href="{{ .Permalink }}"><h3 class="title">{{ .Title }}</h3></a>
+		<a href="{{ .RelPermalink }}"><h3 class="title">{{ .Title }}</h3></a>
 		<p class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
 		<p class="desc">
 			{{ if .Description }}
@@ -26,6 +26,6 @@
 			{{.Plain | safeHTML | truncate 300}}
 			{{ end}}
 		</p>
-		<a href="{{ .Permalink }}"><p>Read more →</p></a>
+		<a href="{{ .RelPermalink }}"><p>Read more →</p></a>
 	</div>
 </article>

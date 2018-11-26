@@ -8,8 +8,8 @@
 
       <nav class="comic-nav">
           {{if .PrevInSection}}
-          <a href="{{ range last 1 .CurrentSection.Pages }}{{ .Permalink }}{{ end }}">First</a>
-          <a href="{{.PrevInSection.Permalink}}">Prev<span class="hidden-sm">ious</span></a>
+          <a href="{{ range last 1 .CurrentSection.Pages }}{{ .RelPermalink }}{{ end }}">First</a>
+          <a href="{{.PrevInSection.RelPermalink}}">Prev<span class="hidden-sm">ious</span></a>
           {{ else }}
           <a class="disabled">First</a>
           <a class="disabled">Prev<span class="hidden-sm">ious</span></a>
@@ -17,8 +17,8 @@
           <a href="#" id="random-btn">Rand<span class="hidden-sm">om</span></a>
           <a href="{{ print "/" (index (split .RelPermalink "/") 1) }}" id="random-btn">Archive</a>
           {{ if .NextInSection }}
-          <a href="{{ .NextInSection.Permalink }}">Next</a>
-          <a href="{{ range first 1 .CurrentSection.Pages }}{{ .Permalink }}{{ end }}">Today</a>
+          <a href="{{ .NextInSection.RelPermalink }}">Next</a>
+          <a href="{{ range first 1 .CurrentSection.Pages }}{{ .RelPermalink }}{{ end }}">Today</a>
           {{ else }}
           <a class="disabled">Next</a><a class="disabled">Today</a>
           {{ end }}
@@ -27,11 +27,11 @@
     
       <script>
         //Set the Random link
-        var currentPageLink="{{ .Permalink }}";
+        var currentPageLink="{{ .RelPermalink }}";
         {{ with .Site.GetPage (print "/" (index (split .RelPermalink "/") 1)) }}
         var pages=[
           {{ range .Pages }}
-            "{{ .Permalink }}"{{if .PrevInSection}},{{ end }}
+            "{{ .RelPermalink }}"{{if .PrevInSection}},{{ end }}
           {{ end }}
           ];
         {{ end }}

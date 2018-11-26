@@ -36,7 +36,7 @@
 		{{ with .Site.GetPage "/hamlets-danish-comic" }}
 		    {{ range first 4 .Pages }}
 		    	<article class="grid-4">
-		    		<a href="{{ .Permalink }}">
+		    		<a href="{{ .RelPermalink }}">
 
 		    		{{ if .Params.thumbnail }}
 						<img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" />

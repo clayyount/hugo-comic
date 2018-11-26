@@ -21,7 +21,7 @@
 			<select class="custom" onchange="location = this.value;">
 				<option value="" disabled selected>Select comic</option>
 				{{ range .Pages.ByPublishDate.Reverse }}
-				<option value="{{ .Permalink }}">{{ .Title }}</option>
+				<option value="{{ .RelPermalink }}">{{ .Title }}</option>
 				{{ end }}
 			</select>
 		</div>

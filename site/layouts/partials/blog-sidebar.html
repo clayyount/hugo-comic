@@ -3,7 +3,7 @@
     
     {{ with .Site.GetPage "/hamlets-danish-comic" }}
       {{ range first 1 .Pages}}
-        <a href="{{ .Permalink }}"><h2 class="sidebar-title">Latest Hamlet's Danish</h2>
+        <a href="{{ .RelPermalink }}"><h2 class="sidebar-title">Latest Hamlet's Danish</h2>
         {{ if .Params.thumbnail }}
           <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" />
         {{ end }}
