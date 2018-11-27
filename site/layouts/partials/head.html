@@ -20,6 +20,19 @@
 	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400">
 	<meta name="theme-color" content="#fff">
 
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@clayyount">
+	<meta name="twitter:title" content="{{ .Title }}">
+	<meta name="twitter:description" content="{{ .Description }}">
+	<meta name="twitter:creator" content="@clayyount">
+	{{ if .Params.thumbnail }}
+	<meta name="twitter:image" content="{{ .Site.BaseURL }}{{.Params.thumbnail}}">
+	{{ else if .Params.image }}
+	<meta name="twitter:image" content="{{ .Site.BaseURL }}{{.Params.image}}">
+	{{ else }}
+	<meta name="twitter:image" content="{{ .Site.BaseURL }}img/android-chrome-192x192.png">
+	{{ end }}
 	<!-- Open Graph -->
 	<meta property="og:type" content="business.business">
 	<meta property="og:title" content="Clay Yount">
