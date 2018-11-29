@@ -36,7 +36,7 @@
 	<!-- Open Graph -->
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="{{ .Title }}">
-	<meta name="og:description" content="{{ .Description }}">
+	<meta property="og:description" content="{{ .Description }}">
 	<meta property="og:url" content="{{ .Permalink }}">
 	{{ if .Params.thumbnail }}
 	<meta property="og:image"  content="{{ .Site.BaseURL }}{{.Params.thumbnail}}">
