@@ -6,5 +6,7 @@ outputs:
   - HTML
   - RSS
   - JSON
+aliases:
+  - /raecomics/
 ---
 

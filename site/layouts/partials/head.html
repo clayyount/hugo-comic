@@ -21,7 +21,7 @@
 	<meta name="theme-color" content="#fff">
 
 	<!-- Twitter Card data -->
-	<meta name="twitter:card" content="summary">
+	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@clayyount">
 	<meta name="twitter:title" content="{{ .Title }}">
 	<meta name="twitter:description" content="{{ .Description }}">
@@ -34,10 +34,17 @@
 	<meta name="twitter:image" content="{{ .Site.BaseURL }}img/android-chrome-192x192.png">
 	{{ end }}
 	<!-- Open Graph -->
-	<meta property="og:type" content="business.business">
-	<meta property="og:title" content="Clay Yount">
-	<meta property="og:url" content="/">
-	<meta property="og:image" content="/img/og-image.jpg">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{ .Title }}">
+	<meta name="og:description" content="{{ .Description }}">
+	<meta property="og:url" content="{{ .Permalink }}">
+	{{ if .Params.thumbnail }}
+	<meta property="og:image"  content="{{ .Site.BaseURL }}{{.Params.thumbnail}}">
+	{{ else if .Params.image }}
+	<meta property="og:image"  content="{{ .Site.BaseURL }}{{.Params.image}}">
+	{{ else }}
+	<meta property="og:image" content="{{ .Site.BaseURL }}img/android-chrome-192x192.png">
+	{{ end }}
 	<script defer src="https://use.fontawesome.com/releases/v5.4.1/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
 	<script src="/js/jquery-3.3.1.min.js"></script>
 	<script src="/js/jquery.simplePagination.js"></script>
