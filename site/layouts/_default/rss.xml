@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
   <channel>
-  	{{ $base:="https://clay-comic.netlify.com" }}
+  	{{ $base:="https://clayyount.com" }}
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
-    <link>{{ $base }}{{ .Permalink }}</link>
+    <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
@@ -11,19 +11,19 @@
     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     {{ with .OutputFormats.Get "RSS" }}
-    <atom:link href="{{ $base}}{{ .Permalink }}" rel="self" type="{{ .MediaType }}" />
+    <atom:link href="{{ .Permalink }}" rel="self" type="{{ .MediaType }}" />
     {{ end }}
     {{ range first 10 .Pages }}
     <item>
       <title>{{ .Title }}</title>
-      <description>{{ if .Params.image }}{{ `<![CDATA[ ` | safeHTML }}<a href="{{ $base }}{{ .Permalink }}"><img src="{{ $base }}{{ .Params.image }}" /></a><br>{{ .Summary | html }}]]>{{ end }}
+      <description>{{ if .Params.image }}{{ `<![CDATA[ ` | safeHTML }}<a href="{{ .Permalink }}"><img src="{{ $base }}{{ .Params.image }}" /></a><br>{{ .Summary | html }}]]>{{ end }}
       </description>
-      <content:encoded>{{ if .Params.image }}{{ `<![CDATA[ ` | safeHTML }}<a href="{{ $base }}{{ .Permalink }}"><img src="{{ $base }}{{ .Params.image }}" /></a><br>{{ .Summary | html }}]]>{{ end }}
+      <content:encoded>{{ if .Params.image }}{{ `<![CDATA[ ` | safeHTML }}<a href="{{ .Permalink }}"><img src="{{ $base }}{{ .Params.image }}" /></a><br>{{ .Summary | html }}]]>{{ end }}
       </content:encoded>
-      <link>{{ $base }}{{ .Permalink }}</link>
+      <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-      <guid>{{ $base }}{{ .Permalink }}</guid>
+      <guid>{{ .Permalink }}</guid>
     </item>
     {{ end }}
   </channel>
