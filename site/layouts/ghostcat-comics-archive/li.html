@@ -1,0 +1,8 @@
+<a href="{{ .RelPermalink }}">
+	{{ if .Params.thumbnail }}
+		<img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" />
+	{{ else if .Params.image  }}
+		<img src="{{ .Params.image }}" alt="{{ .Title }}" />
+	{{ end }}
+	<h3 class="title">{{ .Title }}</h3>
+</a>

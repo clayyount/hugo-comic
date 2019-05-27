@@ -1,8 +1,30 @@
 {{ define "main" }}
-{{ partial "jumbotron" (dict "imageUrl" ((.Site.GetPage "/").Params.banner) "title" ((.Site.GetPage "/").Title) "subtitle" ((.Site.GetPage "/").Params.subtitle)) }}
-{{ if (.Site.GetPage "/").Content}}
+<!--{{ partial "jumbotron" (dict "imageUrl" ((.Site.GetPage "/").Params.banner) "title" ((.Site.GetPage "/").Title) "subtitle" ((.Site.GetPage "/").Params.subtitle)) }}-->
+<header class="homepage-header">
+	<article>
+		{{ if (.Site.GetPage "/").Content}}
 {{(.Site.GetPage "/").Content}}
 {{ end }}
+	</article>
+	
+	<article>
+	{{ with .Site.GetPage "/ghostcat-comics-archive" }}
+      {{ range first 1 .Pages}}
+        <h2>Latest Ghostcat Comic</h2>
+        <a href="{{ .RelPermalink }}">
+        {{ if .Params.thumbnail }}
+          <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" />
+          {{ else }}
+          <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+        {{ end }}
+        </a>
+      {{ end }}
+      <div class="text-center" style="color:white;line-height:30px;"><a href="http://instagram.com/ghostcat" target="_blank" class="btn"> Follow on <span href="http://instagram.com/ghostcat" target="_blank" class="" style="color:white;width:30px;height:30px;line-height:30px;font-size:18px;display:inline-block;background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);border-radius:3px;"><i class="fab fa-lg fa-instagram"></i></span></a></div>
+	{{ end }}
+    </article>
+
+</header>
+
 <main>
 
 

@@ -8,4 +8,5 @@ page = ["HTML", "RSS", "JSON"]
 [permalinks]
 raecomic = "/:section/:year/:month/:day/:title/"
 hamlets-danish-comic = "/:section/:year/:month/:day/:title/"
+ghostcat-comics = "/:section/:year/:month/:day/:title/"
 blog = "/:section/:year/:month/:day/:title/"

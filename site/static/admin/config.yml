@@ -33,6 +33,20 @@ collections: # A list of collections the CMS should be able to edit
         name: tags
         widget: list
         required: false
+    - name: "ghostcat-comics" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Ghostcat Comics" # Used in the UI, ie.: "New Post"
+    folder: "site/content/ghostcat-comics" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image", required: true}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
   - name: "raecomic" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Rob and Elliot Comic" # Used in the UI, ie.: "New Post"
     folder: "site/content/raecomic" # The path to the folder where the documents are stored
@@ -120,6 +134,12 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/hamlets-danish/_index.md"
         label: "Hamlets Danish Page"
         name: "hamlets-danish"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}
+      - file: "site/content/ghostcat-comics/_index.md"
+        label: "Ghostcat Comics Page"
+        name: "ghostcat-comics"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Logo, name: logo, widget: image}

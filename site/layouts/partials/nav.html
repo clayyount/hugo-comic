@@ -3,45 +3,44 @@
 	<!-- Logo -->
 
 	{{ with .Site.GetPage (print "/" (index (split .RelPermalink "/") 1)) }}
-		{{ if and .Params.logolink .Params.logo }}
+		{{ if .Params.logolink }}
 		<a href="{{ .Params.logolink }}">
-			<img src="{{ .Params.logo}}" alt="Site logo" id="site-logo"/>
+			<!-- <img src="{{ .Params.logo}}" alt="Site logo" id="site-logo"/> -->
+			<div class="logo"></div>
 		</a>
 		{{ else }}
 		<a href="/">
-			<img src="/img/cy-logo-angle.png" alt="Site logo" id="site-logo"/>
+			<div class="logo"></div>
 		</a>
 		{{ end }}
 	{{ end }}
 	<div class="social-media">
 		<ul>
+			{{ partial "social-icon" (dict "link" "https://instagram.com/ghostcat" "service" "instagram" "icon" "fab fa-instagram") }}
 			{{ partial "social-icon" (dict "link" "https://twitter.com/clayyount" "service" "twitter" "icon" "fab fa-twitter") }}
 			{{ partial "social-icon" (dict "link" "https://www.facebook.com/hamletsdanish" "service" "facebook" "icon" "fab fa-facebook-f") }}
+			<!--
 			{{ partial "social-icon" (dict "link" "http://feeds.feedburner.com/HamletsDanish" "service" "rss" "icon" "fas fa-rss") }}
+			-->
 		</ul>
 	</div>
 
 	<!-- Primary Nav -->
 	<ul>
 		<li><a href="/">Home</a></li>
+		<li class="dropdown">
+			<a>Comics</a>
+			<ul>
+				<li><a href="/ghostcat-comics">Ghostcat Comics</a></li>
+				<li><a href="/hamlets-danish">Hamlet's Danish</a></li>
+				<li><a href="/raecomic">Rob and Elliot</a></li>
+			</ul>
+		</li>
 		<li><a href="/blog">Blog</a></li>
-
-		<li><a href="/hamlets-danish">Hamlet's Danish</a></li>
-		<li class="dropdown">
-			<a>Archives</a>
-			<ul>
-				<li><a href="/hamlets-danish-comic">Hamlet's Danish Archive</a></li>
-				<li><a href="/raecomic">Rob and Elliot Archive</a></li>
-			</ul>
-		</li>
-		<li class="dropdown">
-			<a>Info</a>
-			<ul>
-				<li><a href="/about">About</a></li>
-				<li><a href="/contact">Contact Me</a></li>
-				<li><a href="/gallery">My Artwork</a></li>
-			</ul>
-		</li>
+		<li><a href="/gallery">Art</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="/contact">Contact</a></li>
+		
 	</ul>
 	<span class="mobile-menu-btn" id="mobile-menu-btn">
 		<span class="menu-icon"></span>

@@ -23,6 +23,18 @@
 			{{ with .Site.GetPage "/hamlets-danish-comic" }}
 				{{ partial "search" . }}
 			{{ end }}
+			{{ with .Site.GetPage "/ghostcat-comics-archive" }}
+		      {{ range first 1 .Pages}}
+		        <h2 class="sidebar-title">Latest Ghostcat Comic</h2>
+		        <a href="{{ .RelPermalink }}">
+		        {{ if .Params.thumbnail }}
+		          <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" />
+		          {{ else }}
+		          <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+		        {{ end }}
+		        </a>
+		      {{ end }}
+		    {{ end }}
 			<h2>Rob and Elliot Archives</h2>
 			<a href="/raecomic"><img src="/img/rae-promo.png" alt="Rob and Elliot Archives" /></a>
 			<h2>Twitter feed</h2>

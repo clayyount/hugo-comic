@@ -1,14 +1,17 @@
 $navHeight:5rem;
 $contentWidth:1000px;
-$link-color:#e74c3c;
+/*$link-color:#e74c3c;*/
+/*$link-color:#d31148;*/
+$link-color:#007689;
 $twitter-color:#00aced;
 $facebook-color:#3b5998;
 $rss-color:#f60;
+$instagram-color:#f56040;
 html{
 	padding:0px;
 	margin:0px;
 	font-family: 'Roboto', sans-serif;
-	background:#666 url(/img/grey-patterned-bg.png) center top;
+	background:desaturate(adjust-hue(darken($link-color,10%), 20),60%);
 	background-attachment: fixed;
 	padding-top:4rem;
 	font-size:62.5%;
@@ -41,9 +44,20 @@ a{
 		color:darken($link-color,20%);
 	}
 }
+.text-center{
+	text-align:center;
+}
+.text-left{
+	text-align:left;
+}
+.text-right{
+	text-align:right;
+}
 img{
 	max-width:100%;
 }
+
+
 body{
 	height:100%;
 	font-size:1.6rem;
@@ -52,6 +66,11 @@ body{
 	margin:0px;
 	max-width:$contentWidth;
 	margin:0px auto;
+	&[class*="ghostcat-comic"]{
+		.comic img{
+			width:600px!important;
+		}
+	}
 	nav.site-nav{
 		min-width: 0; 
 		flex-basis:100%;
@@ -68,6 +87,28 @@ body{
 			position:absolute;
 			top:-5rem;
 			right:0px;
+		}
+		.logo{
+			height:100px;
+			width:300px;
+			margin-top:-50px;
+			background-color:$link-color;
+			background-repeat:no-repeat;
+			background-position:center center;
+			background-size:contain;
+			background-image:url(/img/cy-logo-transparent.png);
+			&:after{
+				content:"";
+				height:100px;
+				width:100px;
+				border-top:50px solid transparent;
+				border-right:50px solid transparent;
+				border-bottom:50px solid inherit;
+				border-left:50px solid darken($link-color,7%);
+				box-sizing: border-box;
+				position:absolute;
+				right:-100px;
+			}
 		}
 		>a{
 			color:inherit;
@@ -140,6 +181,15 @@ body{
 		}
 	}
 	
+}
+.ghostcat-comics .logo,.ghostcat-comics-archive .logo{
+	background-image:url(/img/gc-logo-transparent.png)!important;
+}
+.hamlets-danish .logo,.hamlets-danish-comic .logo{
+	background-image:url(/img/hd-logo-transparent.png)!important;
+}
+.raecomic .logo{
+	background-image:url(/img/rae-logo-transparent.png)!important;
 }
 input textarea button{
 	-webkit-appearance: none;
@@ -239,6 +289,24 @@ pre{
 		top: 0px;
 	}
 }
+.homepage-header{
+	background:#222;
+	width:100%;
+	display:flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+
+	padding-bottom: 4rem;
+	border-bottom:10px solid #999;
+	article{
+		padding:3rem;
+		h2{color:white;}
+		flex-basis:50%;
+		box-sizing: border-box;
+		img{
+		}
+	}
+}
 .sidebar{
 	.sidebar-title{
 		font-size:3rem;
@@ -271,6 +339,10 @@ pre{
 				color:black;
 				font-size:2rem;
 				position:relative;
+				text-align: center;
+				i{
+					line-height: 5rem;
+				}
 				&:hover{
 					color:black;
 				}
@@ -286,6 +358,14 @@ pre{
 				background-color:$twitter-color;
 				&:hover{
 					background-color:darken($twitter-color,10%);
+				}
+			}
+			a.instagram{
+				background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+				color:white;
+				font-size:30px;
+				&:hover{
+					background:black;
 				}
 			}
 			a.facebook{
@@ -356,14 +436,14 @@ pre{
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background: #e74c3c;
-		background: -moz-linear-gradient(top,#e74c3c 1%,#000000 100%);
-		background: -webkit-gradient(linear,left top,left bottom,color-stop(1%,#e74c3c),color-stop(100%,#000000));
-		background: -webkit-linear-gradient(top,#e74c3c 1%,#000000 100%);
-		background: -o-linear-gradient(top,#e74c3c 1%,#000000 100%);
-		background: -ms-linear-gradient(top,#e74c3c 1%,#000000 100%);
-		background: linear-gradient(to bottom,#e74c3c 1%,#000000 100%);
-		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#e74c3c',endColorstr='#000000',GradientType=0);
+		background: $link-color;
+		background: -moz-linear-gradient(top,$link-color 1%,#000000 100%);
+		background: -webkit-gradient(linear,left top,left bottom,color-stop(1%,$link-color),color-stop(100%,#000000));
+		background: -webkit-linear-gradient(top,$link-color 1%,#000000 100%);
+		background: -o-linear-gradient(top,$link-color 1%,#000000 100%);
+		background: -ms-linear-gradient(top,$link-color 1%,#000000 100%);
+		background: linear-gradient(to bottom,$link-color 1%,#000000 100%);
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='$link-color',endColorstr='#000000',GradientType=0);
 		top: 0px;
 		left: 0px;
 		opacity: .8;
@@ -387,7 +467,7 @@ pre{
 			padding-bottom:2rem;
 		}
 		.text-holder{
-			flex-basis:40rem;
+			flex-basis:30rem;
 			flex-grow:1;
 			padding:0rem 1rem;
 			box-sizing:border-box;
@@ -537,10 +617,10 @@ pre{
 }
 .homepage-content{
 	width:100%;
+		height:100%;
 	flex-basis:100%;
 	background:black;
 	color:white;
-	border-bottom:10px solid #999;
 	padding:2rem 0rem;
 	.profile-pic-holder{
 		align-self:center;
@@ -670,7 +750,7 @@ pre{
 	font-family: 'Teko', sans-serif;
 	text-transform: uppercase;
 	font-size:2.5rem;
-	border-top: .5rem solid #aaa;
+	border-top: .5rem solid darken($link-color,10%);
 	a{
 		padding:0px 2rem;
 		color:inherit;
@@ -1172,6 +1252,15 @@ html.lb-disable-scrolling {
 			.social-media{
 				display:none;
 			}
+			.logo{
+				height:50px;
+				margin-top:0px;
+				width:150px;
+				&:after{
+					border-width:50px;
+					height:50px;
+				}
+			}
 			>a{
 				display:block;
 				margin-top:-50px;
@@ -1216,6 +1305,12 @@ html.lb-disable-scrolling {
 			
 			}
 		}
+
+	.homepage-header{
+		article{
+			flex-basis:100%;
+		}
+	}
 
 	.comic-nav{
 		a{
@@ -1298,7 +1393,7 @@ html.lb-disable-scrolling {
 	.comic-nav{
 		padding:1rem 0rem;
 		a{
-			padding:0px .5rem;
+			padding:0px .7rem;
 		}
 	}
 	.homepage-content{
@@ -1311,6 +1406,14 @@ html.lb-disable-scrolling {
 		}
 		.profile-content{
 			padding:0px;
+		}
+	}
+}
+@media(max-width:374px){
+	.comic-nav{
+		padding:1rem 0rem;
+		a{
+			padding:0px .3rem;
 		}
 	}
 }

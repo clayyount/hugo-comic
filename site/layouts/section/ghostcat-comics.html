@@ -1,0 +1,77 @@
+{{ define "main" }}
+<main>
+{{ with .Site.GetPage "/ghostcat-comics-archive" }}
+    {{ range first 1 .Pages }}
+    	{{ partial "comic" . }}
+    {{ end }}
+{{ end }}
+<div class="content">
+	
+	<div class="flex">
+		<div class="flex-main">
+			<h2>Latest Blog Posts</h2>
+		{{ with .Site.GetPage "/blog" }}
+		<section class="blog-list">
+			{{ range first 5 .Pages }}
+				{{ .Render "li" }}
+			{{ end }}
+		</section>
+		{{ end }}
+		</div>
+		<div class="flex-side">
+			<h2>Search Ghostcat Comics</h2>
+			{{ with .Site.GetPage "/ghostcat-comics-archive" }}
+				{{ partial "search" . }}
+			{{ end }}
+			{{ with .Site.GetPage "/ghostcat-comics-archive" }}
+		      {{ range first 1 .Pages}}
+		        <h2 class="sidebar-title">Latest Ghostcat Comic</h2>
+		        <a href="{{ .RelPermalink }}">
+		        {{ if .Params.thumbnail }}
+		          <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" />
+		          {{ else }}
+		          <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+		        {{ end }}
+		        </a>
+		      {{ end }}
+		    {{ end }}
+			<h2>Rob and Elliot Archives</h2>
+			<a href="/raecomic"><img src="/img/rae-promo.png" alt="Rob and Elliot Archives" /></a>
+			<h2>Twitter feed</h2>
+			<div class="twitter-holder">
+				<a class="twitter-timeline" data-tweet-limit="4" data-width="800" href="https://twitter.com/clayyount?ref_src=twsrc%5Etfw">Tweets by clayyount</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+		</div>
+	</div>
+	<h2>Recent comics</h2>
+	<div class="flex">
+		{{ with .Site.GetPage "/ghostcat-comics-archive" }}
+		    {{ range first 4 .Pages }}
+		    	<article class="grid-4">
+		    		<a href="{{ .RelPermalink }}">
+
+		    		{{ if .Params.thumbnail }}
+						<img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" />
+						{{ else if .Params.image  }}
+						{{ $page := . }}
+					{{ with $.Site.GetPage "page" "img/_index.md" }}
+					    {{ $imgPath := split $page.Params.image "/"}}
+					    {{ $img := index $imgPath 2 }}
+					    {{ with .Resources.GetMatch $img }}
+					        {{$img400 := .Resize "400x"}}
+					        <img src="{{ $img400.RelPermalink }}" alt="{{ .Title }}">
+					    {{ end }}
+					{{ end }}
+						{{ end }}
+						<h3 style="margin:1rem 0px 2rem;">{{ .Title }}</h3>
+					</a>
+
+		    	</article>
+		    {{ end }}
+		{{ end }}
+	</div>
+</div>
+
+
+</main>
+{{ end }}

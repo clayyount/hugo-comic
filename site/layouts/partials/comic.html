@@ -15,6 +15,9 @@
           <a class="disabled">Prev<span class="hidden-sm">ious</span></a>
           {{ end }}
           <a href="#" id="random-btn">Rand<span class="hidden-sm">om</span></a>
+          {{ if or (eq .Dir "ghostcat-comics-archive/") (eq .Dir "ghostcat-comics/") }}
+          <a href="http://instagram.com/ghostcat" target="_blank"><span href="http://instagram.com/ghostcat" target="_blank" class="" style="text-align:center;color:white;width:30px;height:30px;line-height:36px;font-size:18px;display:inline-block;background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);border-radius:3px;"><i class="fab fa-lg fa-instagram"></i></span></a>
+          {{ end }}
           <a href="{{ print "/" (index (split .RelPermalink "/") 1) }}" id="random-btn">Archive</a>
           {{ if .NextInSection }}
           <a href="{{ .NextInSection.RelPermalink }}">Next</a>
@@ -35,10 +38,15 @@
           {{ end }}
           ];
         {{ end }}
-        var randPages=pages.slice(0);
-        randPages.splice( randPages.indexOf(currentPageLink), 1 );
-        var randComicIndex=Math.floor(Math.random() * Math.floor(randPages.length));
-        document.getElementById("random-btn").setAttribute("href",randPages[randComicIndex])
+        if(pages.length>1){
+          var randPages=pages.slice(0);
+          randPages.splice( randPages.indexOf(currentPageLink), 1 );
+          var randComicIndex=Math.floor(Math.random() * Math.floor(randPages.length));
+          document.getElementById("random-btn").setAttribute("href",randPages[randComicIndex])
+        }else{
+          document.getElementById("random-btn").classList.add("disabled");
+          document.getElementById("random-btn").removeAttribute("href")
+        }
       </script>
 
 </div>

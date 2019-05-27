@@ -1,0 +1,31 @@
+{{ define "main" }}
+<main>
+<div class="content">
+	<h2>{{.Title}}</h2>
+</div>
+<section class="archive-list">
+  {{ range (.Paginator 18).Pages.ByPublishDate.Reverse }}
+	{{ .Render "li"}}
+  {{ end }}
+</section>
+<div class="content">
+	{{ partial "pagination" . }}
+</div>
+</main>
+<aside class="pin-top">
+	<div class="content">
+		<h2>Select a comic</h2>
+		<div class="custom-select">
+			<select class="custom" onchange="location = this.value;">
+				<option value="" disabled selected>Select comic</option>
+				{{ range .Pages.ByPublishDate.Reverse }}
+				<option value="{{ .RelPermalink }}">{{ .Title }}</option>
+				{{ end }}
+			</select>
+		</div>
+		<h2>Search Comics</h2>
+		{{ partial "search" .}}
+	</div>
+</aside>
+
+{{end}}

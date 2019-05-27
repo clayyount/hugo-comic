@@ -5,7 +5,6 @@
 	$(document).ready(function(){
 		 $.getJSON("/"+{{ .Dir }}+"index.json").done(function(index) {
             pagesIndex =   index;
-            console.log(pagesIndex)
             lunrIndex = new lunr.Builder()
             lunrIndex.ref("uri");
             lunrIndex.field('title', {

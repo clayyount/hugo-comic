@@ -25,5 +25,6 @@ CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("blog", PostPreview);
 CMS.registerPreviewTemplate("gallery", GalleryPreview);
 CMS.registerPreviewTemplate("hamlets-danish-comic", PostPreview);
+CMS.registerPreviewTemplate("ghostcat-comics", PostPreview);
 CMS.registerPreviewTemplate("raecomic", PostPreview);
 CMS.registerWidget("color", ColorControl);
