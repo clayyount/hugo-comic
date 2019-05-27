@@ -1,6 +1,6 @@
 ---
 title: 'Occult Detective Billy'
-date: Tue, 04 Jun 2019 00:08:00 +0000
+date: Mon, 03 Jun 2019 00:08:00 +0000
 draft: false
 tags: 
   - lovecraft

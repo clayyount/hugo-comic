@@ -1,6 +1,6 @@
 ---
 title: 'Business Speak'
-date: Tue, 11 Jun 2019 00:08:00 +0000
+date: Mon, 10 Jun 2019 00:08:00 +0000
 draft: false
 tags: 
   - office
