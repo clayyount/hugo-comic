@@ -8,4 +8,4 @@ tags:
   - horrors
   - boy detective
 ---
-
+I always liked the idea of a hard-boiled occult detective story crossed with the adventures of Tintin or The Hardy Boys. "Aw shucks" and unspeakable horrors.
