@@ -1,11 +1,11 @@
 ---
-title: 'Occult Detective Billy'
-date: Mon, 03 Jun 2019 00:08:00 +0000
-draft: false
-tags: 
+title: Occult Detective Billy
+date: 2019-06-03T12:01:00.000Z
+image: /img/ghostcat-comic-3-occult-detective-billy.jpg
+tags:
   - lovecraft
   - cthulu
   - horrors
   - boy detective
-image: /img/ghostcat-comic-3-occult-detective-billy.jpg
 ---
+
