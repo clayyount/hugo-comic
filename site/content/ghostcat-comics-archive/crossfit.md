@@ -7,4 +7,4 @@ tags:
   - workout
   - crossfit
 ---
-I actually started doing exercise classes recently, so it's on my brain. It's the first time I've ever done a class and it's kicking my butt. I'm coming up on 40 soon, so I have to do some damage control if I want to keep up with my kids, and... oh damn, I'm doing it, aren't I?
+I started doing exercise classes recently, so it's on my brain. It's the first time I've ever done a class and it's kicking my butt. I'm coming up on 40 soon, so I have to do some damage control if I want to keep up with my kids, and... oh damn, I'm doing it, aren't I?
