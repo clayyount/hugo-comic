@@ -1,10 +1,10 @@
 ---
-title: 'UFO'
-date: Thu, 11 Jun 2019 00:08:00 +0000
-draft: false
-tags: 
+title: UFO
+date: 2019-06-13T12:00:00.000Z
+image: /img/ghostcat-comic-6-ufo.jpg
+tags:
   - aliens
   - pollution
   - flying saucer
-image: /img/ghostcat-comic-6-ufo.jpg
 ---
+
