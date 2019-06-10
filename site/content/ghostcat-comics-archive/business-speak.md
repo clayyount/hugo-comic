@@ -7,4 +7,4 @@ tags:
   - meeting
   - bad boss
 ---
-
+It’s just business.
