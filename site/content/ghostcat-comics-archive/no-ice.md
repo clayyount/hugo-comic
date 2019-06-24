@@ -6,4 +6,4 @@ tags:
   - fast food
   - drive thru
 ---
-
+I always order my sodas with no ice, and I hear this every time.
