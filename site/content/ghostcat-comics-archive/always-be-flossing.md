@@ -6,6 +6,5 @@ tags:
   - Dentist
   - flossing
   - ADA
-  - ''
 ---
 My answer to this type of question is “Uh, probably not as much as I should..." followed by a weak smile and an averted gaze. Works every time.
