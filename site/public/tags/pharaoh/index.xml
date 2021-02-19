@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Pharaoh on Homepage</title>
+    <link>https://clayyount.com/tags/pharaoh/</link>
+    <description>Recent content in Pharaoh on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Sep 2014 04:34:02 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/pharaoh/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Ozymandias</title>
+      <description><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2014/09/22/ozymandias/"><img src="https://clayyount.com/img/comic-27-ozymandias.jpg" /></a><br>He only travels by kitty litter.]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2014/09/22/ozymandias/"><img src="https://clayyount.com/img/comic-27-ozymandias.jpg" /></a><br>He only travels by kitty litter.]]>
+      </content:encoded>
+      <link>https://clayyount.com/hamlets-danish-comic/2014/09/22/ozymandias/</link>
+      <pubDate>Mon, 22 Sep 2014 04:34:02 +0000</pubDate>
+      
+      <guid>https://clayyount.com/hamlets-danish-comic/2014/09/22/ozymandias/</guid>
+    </item>
+    
+  </channel>
+</rss>

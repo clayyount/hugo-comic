@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Smatthew on Homepage</title>
+    <link>https://clayyount.com/tags/smatthew/</link>
+    <description>Recent content in Smatthew on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Mar 2006 16:27:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/smatthew/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Look At These!</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2006/03/13/look-at-these/"><img src="https://clayyount.com/img/comic160.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2006/03/13/look-at-these/"><img src="https://clayyount.com/img/comic160.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2006/03/13/look-at-these/</link>
+      <pubDate>Mon, 13 Mar 2006 16:27:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2006/03/13/look-at-these/</guid>
+    </item>
+    
+  </channel>
+</rss>

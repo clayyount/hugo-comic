@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Malt Shop on Homepage</title>
+    <link>https://clayyount.com/tags/malt-shop/</link>
+    <description>Recent content in Malt Shop on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 May 2007 18:35:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/malt-shop/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>A Good One</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2007/05/30/a-good-one/"><img src="https://clayyount.com/img/comic235.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2007/05/30/a-good-one/"><img src="https://clayyount.com/img/comic235.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2007/05/30/a-good-one/</link>
+      <pubDate>Wed, 30 May 2007 18:35:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2007/05/30/a-good-one/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Cheese Steak on Homepage</title>
+    <link>https://clayyount.com/tags/cheese-steak/</link>
+    <description>Recent content in Cheese Steak on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jan 2005 22:38:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/cheese-steak/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>The Future!</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2005/01/04/the-future/"><img src="https://clayyount.com/img/comic51.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2005/01/04/the-future/"><img src="https://clayyount.com/img/comic51.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2005/01/04/the-future/</link>
+      <pubDate>Tue, 04 Jan 2005 22:38:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2005/01/04/the-future/</guid>
+    </item>
+    
+  </channel>
+</rss>

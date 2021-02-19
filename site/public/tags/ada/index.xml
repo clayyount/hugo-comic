@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Ada on Homepage</title>
+    <link>https://clayyount.com/tags/ada/</link>
+    <description>Recent content in Ada on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Jun 2019 12:00:51 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/ada/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Always Be Flossing</title>
+      <description><![CDATA[ <a href="https://clayyount.com/ghostcat-comics-archive/2019/06/17/always-be-flossing/"><img src="https://clayyount.com/img/ghostcat-comic-7-dentist.jpg" /></a><br>My answer to this type of question is “Uh, probably not as much as I should&amp;hellip;&amp;rdquo; followed by a weak smile and an averted gaze. Works every time.]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/ghostcat-comics-archive/2019/06/17/always-be-flossing/"><img src="https://clayyount.com/img/ghostcat-comic-7-dentist.jpg" /></a><br>My answer to this type of question is “Uh, probably not as much as I should&amp;hellip;&amp;rdquo; followed by a weak smile and an averted gaze. Works every time.]]>
+      </content:encoded>
+      <link>https://clayyount.com/ghostcat-comics-archive/2019/06/17/always-be-flossing/</link>
+      <pubDate>Mon, 17 Jun 2019 12:00:51 +0000</pubDate>
+      
+      <guid>https://clayyount.com/ghostcat-comics-archive/2019/06/17/always-be-flossing/</guid>
+    </item>
+    
+  </channel>
+</rss>

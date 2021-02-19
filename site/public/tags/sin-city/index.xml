@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Sin City on Homepage</title>
+    <link>https://clayyount.com/tags/sin-city/</link>
+    <description>Recent content in Sin City on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Feb 2006 16:36:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/sin-city/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>FART City</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2006/02/09/fart-city/"><img src="https://clayyount.com/img/comic154.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2006/02/09/fart-city/"><img src="https://clayyount.com/img/comic154.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2006/02/09/fart-city/</link>
+      <pubDate>Thu, 09 Feb 2006 16:36:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2006/02/09/fart-city/</guid>
+    </item>
+    
+  </channel>
+</rss>

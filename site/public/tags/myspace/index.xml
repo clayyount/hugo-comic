@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Myspace on Homepage</title>
+    <link>https://clayyount.com/tags/myspace/</link>
+    <description>Recent content in Myspace on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Dec 2005 20:50:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/myspace/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Blogoholic</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2005/12/02/blogoholic/"><img src="https://clayyount.com/img/comic138.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2005/12/02/blogoholic/"><img src="https://clayyount.com/img/comic138.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2005/12/02/blogoholic/</link>
+      <pubDate>Fri, 02 Dec 2005 20:50:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2005/12/02/blogoholic/</guid>
+    </item>
+    
+    <item>
+      <title>MySpace</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2005/11/21/myspace/"><img src="https://clayyount.com/img/comic135.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2005/11/21/myspace/"><img src="https://clayyount.com/img/comic135.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2005/11/21/myspace/</link>
+      <pubDate>Mon, 21 Nov 2005 20:54:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2005/11/21/myspace/</guid>
+    </item>
+    
+  </channel>
+</rss>

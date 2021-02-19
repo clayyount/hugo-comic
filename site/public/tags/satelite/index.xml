@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Satelite on Homepage</title>
+    <link>https://clayyount.com/tags/satelite/</link>
+    <description>Recent content in Satelite on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Sep 2014 05:40:08 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/satelite/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Space Thingy</title>
+      <description><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2014/09/29/space-thingy/"><img src="https://clayyount.com/img/comic-28-space-thingy.jpg" /></a><br>When you assume you make an astronaut of you and me.]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2014/09/29/space-thingy/"><img src="https://clayyount.com/img/comic-28-space-thingy.jpg" /></a><br>When you assume you make an astronaut of you and me.]]>
+      </content:encoded>
+      <link>https://clayyount.com/hamlets-danish-comic/2014/09/29/space-thingy/</link>
+      <pubDate>Mon, 29 Sep 2014 05:40:08 +0000</pubDate>
+      
+      <guid>https://clayyount.com/hamlets-danish-comic/2014/09/29/space-thingy/</guid>
+    </item>
+    
+  </channel>
+</rss>

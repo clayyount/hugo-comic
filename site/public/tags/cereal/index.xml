@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Cereal on Homepage</title>
+    <link>https://clayyount.com/tags/cereal/</link>
+    <description>Recent content in Cereal on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Mar 2011 21:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/cereal/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Frosted Things</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2011/03/28/frosted-things/"><img src="https://clayyount.com/img/comic371.png" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2011/03/28/frosted-things/"><img src="https://clayyount.com/img/comic371.png" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2011/03/28/frosted-things/</link>
+      <pubDate>Mon, 28 Mar 2011 21:00:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2011/03/28/frosted-things/</guid>
+    </item>
+    
+    <item>
+      <title>&#34;Cereal&#34;</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2010/11/21/cereal/"><img src="https://clayyount.com/img/comic360.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2010/11/21/cereal/"><img src="https://clayyount.com/img/comic360.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2010/11/21/cereal/</link>
+      <pubDate>Sun, 21 Nov 2010 22:17:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2010/11/21/cereal/</guid>
+    </item>
+    
+    <item>
+      <title>Vote Rob</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2008/10/13/vote-rob/"><img src="https://clayyount.com/img/comic289.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2008/10/13/vote-rob/"><img src="https://clayyount.com/img/comic289.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2008/10/13/vote-rob/</link>
+      <pubDate>Mon, 13 Oct 2008 16:00:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2008/10/13/vote-rob/</guid>
+    </item>
+    
+  </channel>
+</rss>

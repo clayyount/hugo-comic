@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Pancake Grabber on Homepage</title>
+    <link>https://clayyount.com/tags/pancake-grabber/</link>
+    <description>Recent content in Pancake Grabber on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jul 2014 04:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/pancake-grabber/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Malaporpoisms</title>
+      <description><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2014/07/28/malaporpoisms/"><img src="https://clayyount.com/img/comic-19-malaporpoisms.jpg" /></a><br>I’ve just been issued a cetacean for excessive use of pun.]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2014/07/28/malaporpoisms/"><img src="https://clayyount.com/img/comic-19-malaporpoisms.jpg" /></a><br>I’ve just been issued a cetacean for excessive use of pun.]]>
+      </content:encoded>
+      <link>https://clayyount.com/hamlets-danish-comic/2014/07/28/malaporpoisms/</link>
+      <pubDate>Mon, 28 Jul 2014 04:00:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/hamlets-danish-comic/2014/07/28/malaporpoisms/</guid>
+    </item>
+    
+  </channel>
+</rss>

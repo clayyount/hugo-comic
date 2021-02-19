@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Skeleton on Homepage</title>
+    <link>https://clayyount.com/tags/skeleton/</link>
+    <description>Recent content in Skeleton on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 May 2009 20:56:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/skeleton/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>As You Wish</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2009/05/25/as-you-wish/"><img src="https://clayyount.com/img/comic316.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2009/05/25/as-you-wish/"><img src="https://clayyount.com/img/comic316.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2009/05/25/as-you-wish/</link>
+      <pubDate>Mon, 25 May 2009 20:56:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2009/05/25/as-you-wish/</guid>
+    </item>
+    
+  </channel>
+</rss>

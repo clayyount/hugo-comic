@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Nachos on Homepage</title>
+    <link>https://clayyount.com/raecomic/2004/07/09/nachos/</link>
+    <description>Recent content in Nachos on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Jul 2004 04:00:08 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/raecomic/2004/07/09/nachos/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+  </channel>
+</rss>

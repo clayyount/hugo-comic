@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>America on Homepage</title>
+    <link>https://clayyount.com/tags/america/</link>
+    <description>Recent content in America on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 May 2010 15:41:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/america/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Patriot Pills</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2010/05/15/patriot-pills/"><img src="https://clayyount.com/img/comic343.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2010/05/15/patriot-pills/"><img src="https://clayyount.com/img/comic343.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2010/05/15/patriot-pills/</link>
+      <pubDate>Sat, 15 May 2010 15:41:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2010/05/15/patriot-pills/</guid>
+    </item>
+    
+    <item>
+      <title>Flags R Us</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2006/08/29/flags-r-us/"><img src="https://clayyount.com/img/comic198.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2006/08/29/flags-r-us/"><img src="https://clayyount.com/img/comic198.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2006/08/29/flags-r-us/</link>
+      <pubDate>Tue, 29 Aug 2006 17:00:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2006/08/29/flags-r-us/</guid>
+    </item>
+    
+  </channel>
+</rss>

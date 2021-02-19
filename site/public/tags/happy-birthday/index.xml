@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Happy Birthday on Homepage</title>
+    <link>https://clayyount.com/tags/happy-birthday/</link>
+    <description>Recent content in Happy Birthday on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Dec 2004 22:50:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/happy-birthday/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Got you!</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2004/12/10/got-you/"><img src="https://clayyount.com/img/comic46.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2004/12/10/got-you/"><img src="https://clayyount.com/img/comic46.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2004/12/10/got-you/</link>
+      <pubDate>Fri, 10 Dec 2004 22:50:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2004/12/10/got-you/</guid>
+    </item>
+    
+  </channel>
+</rss>

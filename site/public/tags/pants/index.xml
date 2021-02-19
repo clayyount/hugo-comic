@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Pants on Homepage</title>
+    <link>https://clayyount.com/tags/pants/</link>
+    <description>Recent content in Pants on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Nov 2016 13:13:47 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/pants/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Just Like You</title>
+      <description><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2016/11/29/just-like-you/"><img src="https://clayyount.com/img/comic-58-just-like-you.jpg" /></a><br>Boxers, briefs, or badgers?]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2016/11/29/just-like-you/"><img src="https://clayyount.com/img/comic-58-just-like-you.jpg" /></a><br>Boxers, briefs, or badgers?]]>
+      </content:encoded>
+      <link>https://clayyount.com/hamlets-danish-comic/2016/11/29/just-like-you/</link>
+      <pubDate>Tue, 29 Nov 2016 13:13:47 +0000</pubDate>
+      
+      <guid>https://clayyount.com/hamlets-danish-comic/2016/11/29/just-like-you/</guid>
+    </item>
+    
+    <item>
+      <title>Try Before You Buy</title>
+      <description><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2015/04/14/try-before-you-buy/"><img src="https://clayyount.com/img/comic-48-try-before-you-buy.jpg" /></a><br>Only has ten thousand miles on it.]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2015/04/14/try-before-you-buy/"><img src="https://clayyount.com/img/comic-48-try-before-you-buy.jpg" /></a><br>Only has ten thousand miles on it.]]>
+      </content:encoded>
+      <link>https://clayyount.com/hamlets-danish-comic/2015/04/14/try-before-you-buy/</link>
+      <pubDate>Tue, 14 Apr 2015 02:53:25 +0000</pubDate>
+      
+      <guid>https://clayyount.com/hamlets-danish-comic/2015/04/14/try-before-you-buy/</guid>
+    </item>
+    
+  </channel>
+</rss>

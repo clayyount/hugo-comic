@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Chivalry on Homepage</title>
+    <link>https://clayyount.com/tags/chivalry/</link>
+    <description>Recent content in Chivalry on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 May 2014 04:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/chivalry/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Chivalry</title>
+      <description><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2014/05/19/chivalry/"><img src="https://clayyount.com/img/comic-09-chivalry.jpg" /></a><br>Ancient Greek version: “Dem Ankles”]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2014/05/19/chivalry/"><img src="https://clayyount.com/img/comic-09-chivalry.jpg" /></a><br>Ancient Greek version: “Dem Ankles”]]>
+      </content:encoded>
+      <link>https://clayyount.com/hamlets-danish-comic/2014/05/19/chivalry/</link>
+      <pubDate>Mon, 19 May 2014 04:00:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/hamlets-danish-comic/2014/05/19/chivalry/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Kitty on Homepage</title>
+    <link>https://clayyount.com/tags/kitty/</link>
+    <description>Recent content in Kitty on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Feb 2015 03:26:56 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/kitty/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Godwin&#39;s Cat</title>
+      <description><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2015/02/10/godwins-cat/"><img src="https://clayyount.com/img/comic-42-godwins-cat.jpg" /></a><br>Later they got a cat named &amp;ldquo;Chairman Meow.&amp;rdquo;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2015/02/10/godwins-cat/"><img src="https://clayyount.com/img/comic-42-godwins-cat.jpg" /></a><br>Later they got a cat named &amp;ldquo;Chairman Meow.&amp;rdquo;]]>
+      </content:encoded>
+      <link>https://clayyount.com/hamlets-danish-comic/2015/02/10/godwins-cat/</link>
+      <pubDate>Tue, 10 Feb 2015 03:26:56 +0000</pubDate>
+      
+      <guid>https://clayyount.com/hamlets-danish-comic/2015/02/10/godwins-cat/</guid>
+    </item>
+    
+  </channel>
+</rss>

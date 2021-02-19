@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Snow on Homepage</title>
+    <link>https://clayyount.com/tags/snow/</link>
+    <description>Recent content in Snow on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Feb 2010 21:14:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/snow/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Snow Mad</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2010/02/15/snow-mad/"><img src="https://clayyount.com/img/comic337.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2010/02/15/snow-mad/"><img src="https://clayyount.com/img/comic337.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2010/02/15/snow-mad/</link>
+      <pubDate>Mon, 15 Feb 2010 21:14:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2010/02/15/snow-mad/</guid>
+    </item>
+    
+  </channel>
+</rss>

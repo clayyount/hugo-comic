@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Medieval on Homepage</title>
+    <link>https://clayyount.com/tags/medieval/</link>
+    <description>Recent content in Medieval on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Mar 2015 12:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/medieval/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Lemme Upglaive You</title>
+      <description><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2015/03/17/lemme-upglaive-you/"><img src="https://clayyount.com/img/comic-46-lemme-upglaive-you.jpg" /></a><br>The loading time is the only downside.]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2015/03/17/lemme-upglaive-you/"><img src="https://clayyount.com/img/comic-46-lemme-upglaive-you.jpg" /></a><br>The loading time is the only downside.]]>
+      </content:encoded>
+      <link>https://clayyount.com/hamlets-danish-comic/2015/03/17/lemme-upglaive-you/</link>
+      <pubDate>Tue, 17 Mar 2015 12:00:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/hamlets-danish-comic/2015/03/17/lemme-upglaive-you/</guid>
+    </item>
+    
+  </channel>
+</rss>

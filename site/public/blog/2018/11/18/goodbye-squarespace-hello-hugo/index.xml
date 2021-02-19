@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Goodbye Squarespace, Hello Hugo on Homepage</title>
+    <link>https://clayyount.com/blog/2018/11/18/goodbye-squarespace-hello-hugo/</link>
+    <description>Recent content in Goodbye Squarespace, Hello Hugo on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Nov 2018 03:07:23 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/blog/2018/11/18/goodbye-squarespace-hello-hugo/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+  </channel>
+</rss>

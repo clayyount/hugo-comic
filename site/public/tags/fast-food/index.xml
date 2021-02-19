@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Fast Food on Homepage</title>
+    <link>https://clayyount.com/tags/fast-food/</link>
+    <description>Recent content in Fast Food on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jun 2019 12:00:09 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/fast-food/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>No Ice</title>
+      <description><![CDATA[ <a href="https://clayyount.com/ghostcat-comics-archive/2019/06/24/no-ice/"><img src="https://clayyount.com/img/ghostcat-comic-9-no-ice.jpg" /></a><br>I always order my sodas with no ice, and I hear this every time.]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/ghostcat-comics-archive/2019/06/24/no-ice/"><img src="https://clayyount.com/img/ghostcat-comic-9-no-ice.jpg" /></a><br>I always order my sodas with no ice, and I hear this every time.]]>
+      </content:encoded>
+      <link>https://clayyount.com/ghostcat-comics-archive/2019/06/24/no-ice/</link>
+      <pubDate>Mon, 24 Jun 2019 12:00:09 +0000</pubDate>
+      
+      <guid>https://clayyount.com/ghostcat-comics-archive/2019/06/24/no-ice/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Site Management on Homepage</title>
+    <link>https://clayyount.com/tags/site-management/</link>
+    <description>Recent content in Site Management on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Nov 2012 15:55:24 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/site-management/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>New site</title>
+      <description><![CDATA[ <a href="https://clayyount.com/blog/2012/11/04/new-site/"><img src="https://clayyount.com/img/cy-logo.jpg" /></a><br>Clayyount.com is live! I&amp;rsquo;ll be using this blog to post some of my illustration processes, as well as info I think might help people out with illustration, web development or whatever, I&amp;rsquo;ll also keep you up to date on any new projects I might be working on. For the time being, I am taking commission requests, so get them now if you are interested. Bookmark here if you want to get the rss feed.]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/blog/2012/11/04/new-site/"><img src="https://clayyount.com/img/cy-logo.jpg" /></a><br>Clayyount.com is live! I&amp;rsquo;ll be using this blog to post some of my illustration processes, as well as info I think might help people out with illustration, web development or whatever, I&amp;rsquo;ll also keep you up to date on any new projects I might be working on. For the time being, I am taking commission requests, so get them now if you are interested. Bookmark here if you want to get the rss feed.]]>
+      </content:encoded>
+      <link>https://clayyount.com/blog/2012/11/04/new-site/</link>
+      <pubDate>Sun, 04 Nov 2012 15:55:24 +0000</pubDate>
+      
+      <guid>https://clayyount.com/blog/2012/11/04/new-site/</guid>
+    </item>
+    
+  </channel>
+</rss>

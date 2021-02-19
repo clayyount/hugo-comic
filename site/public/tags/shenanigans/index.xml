@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Shenanigans on Homepage</title>
+    <link>https://clayyount.com/tags/shenanigans/</link>
+    <description>Recent content in Shenanigans on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 May 2007 18:38:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/shenanigans/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Think of the Shenanigans</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2007/05/15/think-of-the-shenanigans/"><img src="https://clayyount.com/img/comic233.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2007/05/15/think-of-the-shenanigans/"><img src="https://clayyount.com/img/comic233.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2007/05/15/think-of-the-shenanigans/</link>
+      <pubDate>Tue, 15 May 2007 18:38:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2007/05/15/think-of-the-shenanigans/</guid>
+    </item>
+    
+  </channel>
+</rss>

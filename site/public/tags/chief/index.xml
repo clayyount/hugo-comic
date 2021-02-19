@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Chief on Homepage</title>
+    <link>https://clayyount.com/tags/chief/</link>
+    <description>Recent content in Chief on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Oct 2014 04:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/chief/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Axecessories</title>
+      <description><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2014/10/27/axecessories/"><img src="https://clayyount.com/img/comic-32-axecessories.jpg" /></a><br>Klassic Karl.]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2014/10/27/axecessories/"><img src="https://clayyount.com/img/comic-32-axecessories.jpg" /></a><br>Klassic Karl.]]>
+      </content:encoded>
+      <link>https://clayyount.com/hamlets-danish-comic/2014/10/27/axecessories/</link>
+      <pubDate>Mon, 27 Oct 2014 04:00:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/hamlets-danish-comic/2014/10/27/axecessories/</guid>
+    </item>
+    
+    <item>
+      <title>Jimmy Willikers</title>
+      <description><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2014/07/14/jimmy-willikers/"><img src="https://clayyount.com/img/comic-17-jimmy-willikers.jpg" /></a><br>Now how &amp;lsquo;bout some ice cream, you little scamp?]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/hamlets-danish-comic/2014/07/14/jimmy-willikers/"><img src="https://clayyount.com/img/comic-17-jimmy-willikers.jpg" /></a><br>Now how &amp;lsquo;bout some ice cream, you little scamp?]]>
+      </content:encoded>
+      <link>https://clayyount.com/hamlets-danish-comic/2014/07/14/jimmy-willikers/</link>
+      <pubDate>Mon, 14 Jul 2014 04:00:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/hamlets-danish-comic/2014/07/14/jimmy-willikers/</guid>
+    </item>
+    
+  </channel>
+</rss>

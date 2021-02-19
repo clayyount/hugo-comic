@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Joe and Monkey on Homepage</title>
+    <link>https://clayyount.com/tags/joe-and-monkey/</link>
+    <description>Recent content in Joe and Monkey on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Oct 2006 20:49:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/joe-and-monkey/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Multiplex Guest</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2006/10/17/multiplex-guest/"><img src="https://clayyount.com/img/comic-guest-multiplex.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2006/10/17/multiplex-guest/"><img src="https://clayyount.com/img/comic-guest-multiplex.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2006/10/17/multiplex-guest/</link>
+      <pubDate>Tue, 17 Oct 2006 20:49:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2006/10/17/multiplex-guest/</guid>
+    </item>
+    
+    <item>
+      <title>Joe and Monkey Guest</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2005/07/05/joe-and-monkey-guest/"><img src="https://clayyount.com/img/comic-guest-joe-and-monkey.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2005/07/05/joe-and-monkey-guest/"><img src="https://clayyount.com/img/comic-guest-joe-and-monkey.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2005/07/05/joe-and-monkey-guest/</link>
+      <pubDate>Tue, 05 Jul 2005 20:00:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2005/07/05/joe-and-monkey-guest/</guid>
+    </item>
+    
+  </channel>
+</rss>

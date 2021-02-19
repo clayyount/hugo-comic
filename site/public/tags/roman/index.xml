@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Roman on Homepage</title>
+    <link>https://clayyount.com/tags/roman/</link>
+    <description>Recent content in Roman on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jun 2011 20:52:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://clayyount.com/tags/roman/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Forum Romanum</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2011/06/20/forum-romanum/"><img src="https://clayyount.com/img/comic378.png" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2011/06/20/forum-romanum/"><img src="https://clayyount.com/img/comic378.png" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2011/06/20/forum-romanum/</link>
+      <pubDate>Mon, 20 Jun 2011 20:52:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2011/06/20/forum-romanum/</guid>
+    </item>
+    
+    <item>
+      <title>Don&#39;t Pretend You Haven&#39;t Thought of it.</title>
+      <description><![CDATA[ <a href="https://clayyount.com/raecomic/2005/12/19/dont-pretend-you-havent-thought-of-it./"><img src="https://clayyount.com/img/comic142.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="https://clayyount.com/raecomic/2005/12/19/dont-pretend-you-havent-thought-of-it./"><img src="https://clayyount.com/img/comic142.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>https://clayyount.com/raecomic/2005/12/19/dont-pretend-you-havent-thought-of-it./</link>
+      <pubDate>Mon, 19 Dec 2005 20:39:00 +0000</pubDate>
+      
+      <guid>https://clayyount.com/raecomic/2005/12/19/dont-pretend-you-havent-thought-of-it./</guid>
+    </item>
+    
+  </channel>
+</rss>
