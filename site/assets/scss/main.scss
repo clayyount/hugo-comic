@@ -1221,6 +1221,85 @@ html.lb-disable-scrolling {
 }
 
 
+.portfolio-page{
+	box-sizing: border-box;
+	padding:0px;
+	box-sizing: border-box;
+	.flex{
+		padding:0px;
+		box-sizing: border-box;
+	}
+	.portfolio-header{
+		padding:50px 0px;
+		background:#eeeeee url(/img/portfolio-header.jpg) no-repeat bottom center;
+		background-size:100% auto;
+		.grey-bg{
+			background:#eeeeee;
+			padding:20px;
+			margin-bottom:100px;
+		}
+		
+	}
+	.ellucian-header{
+		background:#4c3b92 url(/img/portfolio-ellucian-header.jpg) no-repeat bottom center;
+		color:white;
+		padding:100px 0px 60%;
+		background-size:100% auto;
+
+	}
+	.ellucian-live-header{
+		background:#531079 url(/img/portfolio-ellucian-live-header.jpg) no-repeat bottom center;
+		color:white;
+		padding:100px 0px 60%;
+		background-size:100% auto;
+	}
+	.addthis-header{
+		background:#fc664e url(/img/portfolio-addthis-header.jpg) no-repeat bottom center;
+		color:white;
+		padding:100px 0px 50%;
+		background-size:100% auto;
+	}
+	.portfolio-content{
+		padding:50px 20px;
+		max-width:600px;
+		margin-left:auto;
+		margin-right:auto;
+		h2{
+			margin-top:100px;
+		}
+
+	}
+	.portfolio-link{
+			flex-basis:33.33%; 
+			display:block;
+			text-align:center;
+			padding:30px 20px;
+			color:white;
+			background:#ddd;
+			box-sizing: border-box;
+			transition: opacity .4s;
+			position:relative;
+			&.ellucian{
+				background-color:#4c3b92;
+				background: linear-gradient(0deg, rgba(15,118,136,1) 35%, rgba(76,59,146,1) 100%);
+			}
+			&.ellucian-live{
+				background-color:#531079;
+				background: linear-gradient(0deg, rgba(142,20,113,1) 35%, rgba(83,16,121,1) 100%);
+
+			}
+			&.addthis{
+				background-color:#f86b55;
+				background: linear-gradient(0deg, rgba(252,172,55,1) 35%, rgba(252,102,78,1) 100%);
+
+			}
+			&:hover{
+				opacity:.8;
+			}
+
+		}
+}
+
 @media(max-width:767px){
 	.grid-2,.grid-3,.grid-4{
 		flex-basis:50%;
@@ -1373,6 +1452,42 @@ html.lb-disable-scrolling {
 			}
 		}
 	}
+
+	.portfolio-page{
+	.portfolio-header{
+		padding:20px 0px;
+		&.main-page{
+		}
+		.grey-bg{
+			padding:20px;
+			margin-bottom:30px;
+			margin-top:-2px;
+		}
+		
+	}
+	.ellucian-header{
+		padding:50px 20px 57%;
+	}
+	.ellucian-live-header{
+
+		padding:50px 20px 60%;
+	}
+	.addthis-header{
+		padding:50px 20px 50%;
+	}
+	.portfolio-content{
+		padding:50px 20px;
+		h2{
+			margin-top:50px;
+		}
+	}
+	.portfolio-link{
+		max-width: 100%;
+		width: 100%;
+		padding:30px 10px;
+		h2{font-size:25px;}
+	}
+}
 }
 @media(max-width:400px){
 	
