@@ -6,3 +6,9 @@
 
 [context.deploy-preview]
   command = "yarn build-preview"
+
+[[redirects]]
+  from = "/.well-known/webfinger"
+  to = "/.well-known/webfinger/index.json"
+  status = 200
+  force = true
