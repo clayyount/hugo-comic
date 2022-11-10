@@ -5,6 +5,7 @@ $contentWidth:1000px;
 $link-color:#007689;
 $twitter-color:#00aced;
 $facebook-color:#3b5998;
+$mastodon-color:#6364FF;
 $rss-color:#f60;
 $instagram-color:#f56040;
 html{
@@ -372,6 +373,12 @@ pre{
 				background-color:$facebook-color;
 				&:hover{
 					background-color:darken($facebook-color,10%);
+				}
+			}
+			a.mastodon{
+				background-color:$mastodon-color;
+				&:hover{
+					background-color:darken($mastodon-color,10%);
 				}
 			}
 			a.rss{
