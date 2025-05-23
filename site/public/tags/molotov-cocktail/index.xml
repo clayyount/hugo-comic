@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Molotov Cocktail on Homepage</title>
+    <link>http://localhost:1313/tags/molotov-cocktail/</link>
+    <description>Recent content in Molotov Cocktail on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Sep 2006 19:37:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/molotov-cocktail/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Baby-proof</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/09/12/baby-proof/"><img src="https://clayyount.com/img/comic202.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/09/12/baby-proof/"><img src="https://clayyount.com/img/comic202.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/09/12/baby-proof/</link>
+      <pubDate>Tue, 12 Sep 2006 19:37:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/09/12/baby-proof/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Darth Vader on Homepage</title>
+    <link>http://localhost:1313/tags/darth-vader/</link>
+    <description>Recent content in Darth Vader on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Feb 2011 22:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/darth-vader/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Valentines</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2011/02/14/valentines/"><img src="https://clayyount.com/img/comic367.png" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2011/02/14/valentines/"><img src="https://clayyount.com/img/comic367.png" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2011/02/14/valentines/</link>
+      <pubDate>Mon, 14 Feb 2011 22:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2011/02/14/valentines/</guid>
+    </item>
+    
+    <item>
+      <title>Re-remastered</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2004/09/27/re-remastered/"><img src="https://clayyount.com/img/comic25.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2004/09/27/re-remastered/"><img src="https://clayyount.com/img/comic25.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2004/09/27/re-remastered/</link>
+      <pubDate>Mon, 27 Sep 2004 21:47:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2004/09/27/re-remastered/</guid>
+    </item>
+    
+  </channel>
+</rss>

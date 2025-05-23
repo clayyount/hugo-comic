@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Drinking Games Pt. 1 on Homepage</title>
+    <link>http://localhost:1313/raecomic/2007/07/05/drinking-games-pt.-1/</link>
+    <description>Recent content in Drinking Games Pt. 1 on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jul 2007 18:30:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/raecomic/2007/07/05/drinking-games-pt.-1/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+  </channel>
+</rss>

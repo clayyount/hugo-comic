@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Sublet on Homepage</title>
+    <link>http://localhost:1313/raecomic/2011/05/23/sublet/</link>
+    <description>Recent content in Sublet on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 May 2011 20:57:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/raecomic/2011/05/23/sublet/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Africa on Homepage</title>
+    <link>http://localhost:1313/tags/africa/</link>
+    <description>Recent content in Africa on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Apr 2012 21:03:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/africa/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>God&#39;s Plan</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2012/04/20/gods-plan/"><img src="https://clayyount.com/img/comic397.png" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2012/04/20/gods-plan/"><img src="https://clayyount.com/img/comic397.png" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2012/04/20/gods-plan/</link>
+      <pubDate>Fri, 20 Apr 2012 21:03:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2012/04/20/gods-plan/</guid>
+    </item>
+    
+  </channel>
+</rss>

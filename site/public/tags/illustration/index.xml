@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Illustration on Homepage</title>
+    <link>http://localhost:1313/tags/illustration/</link>
+    <description>Recent content in Illustration on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Nov 2012 04:59:04 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/illustration/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Legend of Korra Finished</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2012/11/26/legend-of-korra-finished/"><img src="https://clayyount.com/img/korra-finished.jpg" /></a><br>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/korra-finished.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2012/11/26/legend-of-korra-finished/"><img src="https://clayyount.com/img/korra-finished.jpg" /></a><br>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/korra-finished.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2012/11/26/legend-of-korra-finished/</link>
+      <pubDate>Mon, 26 Nov 2012 04:59:04 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012/11/26/legend-of-korra-finished/</guid>
+    </item>
+    
+    <item>
+      <title>Legend of Korra Process - Fire and Water</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2012/11/19/legend-of-korra-process-fire-and-water/"><img src="https://clayyount.com/img/korra-progress-2.png" /></a><br>&lt;p&gt;I&amp;rsquo;m working on a new piece for my November&lt;a href=&#34;http://www.penciljack.com/forum/forumdisplay.php?89-PUMMEL&#34;&gt; P.U.M.M.E.L.&lt;/a&gt; match. I picked the theme this time, and I decided on Legend of Korra. I was watching this season, and thought the fire and water effects would be a good way to jump into a more painterly technique. Usually, I sketch, ink, and color with either flats, like in Rob and Elliot, or 1-2 levels of shading/highlights with gradients like in my &lt;a href=&#34;http://localhost:1313/illustrations&#34;&gt;Storm/Black Panther illustration&lt;/a&gt;. I wanted to try out Photoshop CS6&amp;rsquo;s new realistic paintbrushes, and this seemed like as good a chance as any.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2012/11/19/legend-of-korra-process-fire-and-water/"><img src="https://clayyount.com/img/korra-progress-2.png" /></a><br>&lt;p&gt;I&amp;rsquo;m working on a new piece for my November&lt;a href=&#34;http://www.penciljack.com/forum/forumdisplay.php?89-PUMMEL&#34;&gt; P.U.M.M.E.L.&lt;/a&gt; match. I picked the theme this time, and I decided on Legend of Korra. I was watching this season, and thought the fire and water effects would be a good way to jump into a more painterly technique. Usually, I sketch, ink, and color with either flats, like in Rob and Elliot, or 1-2 levels of shading/highlights with gradients like in my &lt;a href=&#34;http://localhost:1313/illustrations&#34;&gt;Storm/Black Panther illustration&lt;/a&gt;. I wanted to try out Photoshop CS6&amp;rsquo;s new realistic paintbrushes, and this seemed like as good a chance as any.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2012/11/19/legend-of-korra-process-fire-and-water/</link>
+      <pubDate>Mon, 19 Nov 2012 20:04:13 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012/11/19/legend-of-korra-process-fire-and-water/</guid>
+    </item>
+    
+  </channel>
+</rss>

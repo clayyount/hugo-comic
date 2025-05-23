@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Jailbait on Homepage</title>
+    <link>http://localhost:1313/tags/jailbait/</link>
+    <description>Recent content in Jailbait on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Jun 2006 17:29:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/jailbait/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Jailbait</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/06/16/jailbait/"><img src="https://clayyount.com/img/comic182.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/06/16/jailbait/"><img src="https://clayyount.com/img/comic182.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/06/16/jailbait/</link>
+      <pubDate>Fri, 16 Jun 2006 17:29:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/06/16/jailbait/</guid>
+    </item>
+    
+  </channel>
+</rss>

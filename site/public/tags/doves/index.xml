@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Doves on Homepage</title>
+    <link>http://localhost:1313/tags/doves/</link>
+    <description>Recent content in Doves on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Feb 2005 22:24:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/doves/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>It&#39;s Magic!</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/02/14/its-magic/"><img src="https://clayyount.com/img/comic63.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/02/14/its-magic/"><img src="https://clayyount.com/img/comic63.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/02/14/its-magic/</link>
+      <pubDate>Mon, 14 Feb 2005 22:24:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/02/14/its-magic/</guid>
+    </item>
+    
+  </channel>
+</rss>

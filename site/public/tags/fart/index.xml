@@ -1,0 +1,51 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Fart on Homepage</title>
+    <link>http://localhost:1313/tags/fart/</link>
+    <description>Recent content in Fart on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Mar 2010 21:11:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/fart/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Delivery Day</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2010/03/10/delivery-day/"><img src="https://clayyount.com/img/comic339.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2010/03/10/delivery-day/"><img src="https://clayyount.com/img/comic339.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2010/03/10/delivery-day/</link>
+      <pubDate>Wed, 10 Mar 2010 21:11:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2010/03/10/delivery-day/</guid>
+    </item>
+    
+    <item>
+      <title>Two Lines of Dialogue and a Fart</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/05/29/two-lines-of-dialogue-and-a-fart/"><img src="https://clayyount.com/img/comic178.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/05/29/two-lines-of-dialogue-and-a-fart/"><img src="https://clayyount.com/img/comic178.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/05/29/two-lines-of-dialogue-and-a-fart/</link>
+      <pubDate>Mon, 29 May 2006 17:35:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/05/29/two-lines-of-dialogue-and-a-fart/</guid>
+    </item>
+    
+    <item>
+      <title>Embarrassing</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/02/07/embarrassing/"><img src="https://clayyount.com/img/comic61.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/02/07/embarrassing/"><img src="https://clayyount.com/img/comic61.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/02/07/embarrassing/</link>
+      <pubDate>Mon, 07 Feb 2005 22:26:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/02/07/embarrassing/</guid>
+    </item>
+    
+  </channel>
+</rss>

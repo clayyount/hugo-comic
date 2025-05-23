@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Need to Feed on Homepage</title>
+    <link>http://localhost:1313/raecomic/2005/03/25/need-to-feed/</link>
+    <description>Recent content in Need to Feed on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Mar 2005 21:41:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/raecomic/2005/03/25/need-to-feed/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+  </channel>
+</rss>

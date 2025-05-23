@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Hawk on Homepage</title>
+    <link>http://localhost:1313/tags/hawk/</link>
+    <description>Recent content in Hawk on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Jan 2010 21:16:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/hawk/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Officer Hawk</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2010/01/31/officer-hawk/"><img src="https://clayyount.com/img/comic336.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2010/01/31/officer-hawk/"><img src="https://clayyount.com/img/comic336.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2010/01/31/officer-hawk/</link>
+      <pubDate>Sun, 31 Jan 2010 21:16:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2010/01/31/officer-hawk/</guid>
+    </item>
+    
+  </channel>
+</rss>

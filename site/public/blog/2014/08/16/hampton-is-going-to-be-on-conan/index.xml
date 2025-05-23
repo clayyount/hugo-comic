@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Hampton is going to be on Conan! on Homepage</title>
+    <link>http://localhost:1313/blog/2014/08/16/hampton-is-going-to-be-on-conan/</link>
+    <description>Recent content in Hampton is going to be on Conan! on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Aug 2014 03:03:22 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/blog/2014/08/16/hampton-is-going-to-be-on-conan/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+  </channel>
+</rss>

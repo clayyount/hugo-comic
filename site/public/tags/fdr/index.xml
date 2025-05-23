@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Fdr on Homepage</title>
+    <link>http://localhost:1313/tags/fdr/</link>
+    <description>Recent content in Fdr on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jan 2015 05:35:13 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/fdr/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Conflicting Dates</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2015/01/05/conflicting-dates/"><img src="https://clayyount.com/img/comic-39-conflicting-dates.jpg" /></a><br>&lt;p&gt;We got you war bonds!&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2015/01/05/conflicting-dates/"><img src="https://clayyount.com/img/comic-39-conflicting-dates.jpg" /></a><br>&lt;p&gt;We got you war bonds!&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2015/01/05/conflicting-dates/</link>
+      <pubDate>Mon, 05 Jan 2015 05:35:13 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2015/01/05/conflicting-dates/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Spiderman on Homepage</title>
+    <link>http://localhost:1313/tags/spiderman/</link>
+    <description>Recent content in Spiderman on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Mar 2011 21:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/spiderman/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>They Are Among Us</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2011/03/17/they-are-among-us/"><img src="https://clayyount.com/img/comic370.png" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2011/03/17/they-are-among-us/"><img src="https://clayyount.com/img/comic370.png" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2011/03/17/they-are-among-us/</link>
+      <pubDate>Thu, 17 Mar 2011 21:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2011/03/17/they-are-among-us/</guid>
+    </item>
+    
+    <item>
+      <title>Robbers!</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/02/21/robbers/"><img src="https://clayyount.com/img/comic65.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/02/21/robbers/"><img src="https://clayyount.com/img/comic65.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/02/21/robbers/</link>
+      <pubDate>Mon, 21 Feb 2005 22:21:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/02/21/robbers/</guid>
+    </item>
+    
+  </channel>
+</rss>

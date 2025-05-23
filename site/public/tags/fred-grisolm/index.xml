@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Fred Grisolm on Homepage</title>
+    <link>http://localhost:1313/tags/fred-grisolm/</link>
+    <description>Recent content in Fred Grisolm on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Oct 2006 20:49:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/fred-grisolm/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Fred Grisolm Guest</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/10/24/fred-grisolm-guest/"><img src="https://clayyount.com/img/comic-guest-fred-grisolm.png" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/10/24/fred-grisolm-guest/"><img src="https://clayyount.com/img/comic-guest-fred-grisolm.png" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/10/24/fred-grisolm-guest/</link>
+      <pubDate>Tue, 24 Oct 2006 20:49:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/10/24/fred-grisolm-guest/</guid>
+    </item>
+    
+  </channel>
+</rss>

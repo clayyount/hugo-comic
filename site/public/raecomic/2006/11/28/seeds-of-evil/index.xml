@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Seeds of Evil on Homepage</title>
+    <link>http://localhost:1313/raecomic/2006/11/28/seeds-of-evil/</link>
+    <description>Recent content in Seeds of Evil on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Nov 2006 20:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/raecomic/2006/11/28/seeds-of-evil/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+  </channel>
+</rss>

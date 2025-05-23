@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Unicorn on Homepage</title>
+    <link>http://localhost:1313/tags/unicorn/</link>
+    <description>Recent content in Unicorn on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Nov 2006 20:12:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/unicorn/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Unicorns</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/11/02/unicorns/"><img src="https://clayyount.com/img/comic212.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/11/02/unicorns/"><img src="https://clayyount.com/img/comic212.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/11/02/unicorns/</link>
+      <pubDate>Thu, 02 Nov 2006 20:12:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/11/02/unicorns/</guid>
+    </item>
+    
+    <item>
+      <title>Spoiler Alert</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/07/25/spoiler-alert/"><img src="https://clayyount.com/img/comic190.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/07/25/spoiler-alert/"><img src="https://clayyount.com/img/comic190.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/07/25/spoiler-alert/</link>
+      <pubDate>Tue, 25 Jul 2006 17:15:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/07/25/spoiler-alert/</guid>
+    </item>
+    
+  </channel>
+</rss>

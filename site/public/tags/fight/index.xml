@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Fight on Homepage</title>
+    <link>http://localhost:1313/tags/fight/</link>
+    <description>Recent content in Fight on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Mar 2006 16:20:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/fight/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Happy for him</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/03/28/happy-for-him/"><img src="https://clayyount.com/img/comic164.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/03/28/happy-for-him/"><img src="https://clayyount.com/img/comic164.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/03/28/happy-for-him/</link>
+      <pubDate>Tue, 28 Mar 2006 16:20:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/03/28/happy-for-him/</guid>
+    </item>
+    
+  </channel>
+</rss>

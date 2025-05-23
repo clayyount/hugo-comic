@@ -3,7 +3,7 @@
 	var pagesIndex;
 	var lunrIndex;
 	$(document).ready(function(){
-		 $.getJSON("/"+{{ .Dir }}+"index.json").done(function(index) {
+		 $.getJSON("/"+{{ .File.Dir }}+"index.json").done(function(index) {
             pagesIndex =   index;
             lunrIndex = new lunr.Builder()
             lunrIndex.ref("uri");

@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Artistic on Homepage</title>
+    <link>http://localhost:1313/tags/artistic/</link>
+    <description>Recent content in Artistic on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Aug 2010 21:44:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/artistic/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Artistic</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2010/08/27/artistic/"><img src="https://clayyount.com/img/comic351.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2010/08/27/artistic/"><img src="https://clayyount.com/img/comic351.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2010/08/27/artistic/</link>
+      <pubDate>Fri, 27 Aug 2010 21:44:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2010/08/27/artistic/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Cop on Homepage</title>
+    <link>http://localhost:1313/tags/cop/</link>
+    <description>Recent content in Cop on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Nov 2010 22:15:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/cop/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>You Don&#39;t Understand</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2010/11/29/you-dont-understand/"><img src="https://clayyount.com/img/comic361.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2010/11/29/you-dont-understand/"><img src="https://clayyount.com/img/comic361.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2010/11/29/you-dont-understand/</link>
+      <pubDate>Mon, 29 Nov 2010 22:15:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2010/11/29/you-dont-understand/</guid>
+    </item>
+    
+    <item>
+      <title>Flim-flammers</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2009/07/08/flim-flammers/"><img src="https://clayyount.com/img/comic321.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2009/07/08/flim-flammers/"><img src="https://clayyount.com/img/comic321.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2009/07/08/flim-flammers/</link>
+      <pubDate>Wed, 08 Jul 2009 18:56:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2009/07/08/flim-flammers/</guid>
+    </item>
+    
+    <item>
+      <title>Not Exactly</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/03/21/not-exactly/"><img src="https://clayyount.com/img/comic73.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/03/21/not-exactly/"><img src="https://clayyount.com/img/comic73.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/03/21/not-exactly/</link>
+      <pubDate>Mon, 21 Mar 2005 21:42:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/03/21/not-exactly/</guid>
+    </item>
+    
+  </channel>
+</rss>

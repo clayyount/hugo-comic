@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Hey Kids! It&#39;s Trashy! on Homepage</title>
+    <link>http://localhost:1313/raecomic/2006/09/08/hey-kids-its-trashy/</link>
+    <description>Recent content in Hey Kids! It&#39;s Trashy! on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Sep 2006 19:38:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/raecomic/2006/09/08/hey-kids-its-trashy/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+  </channel>
+</rss>

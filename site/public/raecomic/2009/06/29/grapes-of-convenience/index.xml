@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Grapes of Convenience on Homepage</title>
+    <link>http://localhost:1313/raecomic/2009/06/29/grapes-of-convenience/</link>
+    <description>Recent content in Grapes of Convenience on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jun 2009 18:58:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/raecomic/2009/06/29/grapes-of-convenience/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+  </channel>
+</rss>

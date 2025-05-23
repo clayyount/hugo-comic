@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Christmas on Homepage</title>
+    <link>http://localhost:1313/tags/christmas/</link>
+    <description>Recent content in Christmas on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Nov 2009 19:27:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/christmas/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Happy Holidays</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2009/11/08/happy-holidays/"><img src="https://clayyount.com/img/comic294.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2009/11/08/happy-holidays/"><img src="https://clayyount.com/img/comic294.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2009/11/08/happy-holidays/</link>
+      <pubDate>Sun, 08 Nov 2009 19:27:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2009/11/08/happy-holidays/</guid>
+    </item>
+    
+    <item>
+      <title>Joyeux Noel</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2004/12/27/joyeux-noel/"><img src="https://clayyount.com/img/joyeux-noel.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2004/12/27/joyeux-noel/"><img src="https://clayyount.com/img/joyeux-noel.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2004/12/27/joyeux-noel/</link>
+      <pubDate>Mon, 27 Dec 2004 21:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2004/12/27/joyeux-noel/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,6 +6,9 @@ $link-color:#007689;
 $twitter-color:#00aced;
 $facebook-color:#3b5998;
 $mastodon-color:#6364FF;
+$threads-color:#000000;
+$bluesky-color:#0070ff;
+
 $rss-color:#f60;
 $instagram-color:#f56040;
 html{
@@ -379,6 +382,20 @@ pre{
 				background-color:$mastodon-color;
 				&:hover{
 					background-color:darken($mastodon-color,10%);
+				}
+			}
+			a.threads{
+				background-color:$threads-color;
+				color:white;
+				&:hover{
+					background-color:lighten($threads-color,10%);
+				}
+			}
+			a.bluesky{
+				background-color:$bluesky-color;
+				color:white;
+				&:hover{
+					background-color:darken($bluesky-color,10%);
 				}
 			}
 			a.rss{

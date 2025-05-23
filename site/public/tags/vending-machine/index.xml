@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Vending Machine on Homepage</title>
+    <link>http://localhost:1313/tags/vending-machine/</link>
+    <description>Recent content in Vending Machine on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Feb 2005 22:25:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/vending-machine/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>She&#39;s the One</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/02/11/shes-the-one/"><img src="https://clayyount.com/img/comic62.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/02/11/shes-the-one/"><img src="https://clayyount.com/img/comic62.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/02/11/shes-the-one/</link>
+      <pubDate>Fri, 11 Feb 2005 22:25:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/02/11/shes-the-one/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>G-Word on Homepage</title>
+    <link>http://localhost:1313/tags/g-word/</link>
+    <description>Recent content in G-Word on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jun 2014 04:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/g-word/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>The Wraith Card</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/06/02/the-wraith-card/"><img src="https://clayyount.com/img/comic-11-wraith-card.jpg" /></a><br>&lt;p&gt;1.21 Djinniwatts!&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/06/02/the-wraith-card/"><img src="https://clayyount.com/img/comic-11-wraith-card.jpg" /></a><br>&lt;p&gt;1.21 Djinniwatts!&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2014/06/02/the-wraith-card/</link>
+      <pubDate>Mon, 02 Jun 2014 04:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2014/06/02/the-wraith-card/</guid>
+    </item>
+    
+  </channel>
+</rss>

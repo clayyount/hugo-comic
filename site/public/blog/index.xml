@@ -1,0 +1,181 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Blog on Homepage</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 May 2019 00:07:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Ghostcat Comics (Re)Launch</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2019/05/27/ghostcat-comics-relaunch/"><img src="https://clayyount.com/img/profile-avatar.jpg" /></a><br>&lt;p&gt;You may not be aware of this, but I&amp;rsquo;ve been drawing webcomics off and on again since 2000. I&amp;rsquo;ve taken some long breaks and my update schedule has been spotty at best, but I&amp;rsquo;ve always considered it a part of my identity. I draw comics, even if I&amp;rsquo;n not drawing them &lt;em&gt;right now&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;There is a small subset of my readership that knows that before there was Hamlet&amp;rsquo;s Danish, and before there was Rob and Elliot, I did a webcomic called Ghostcat. It wasn&amp;rsquo;t very good, but after it ended in 2003, I adopted the title as my internet handle. I was &amp;ldquo;ghostcat&amp;rdquo; online, and I associated it with my comic artist identity.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2019/05/27/ghostcat-comics-relaunch/"><img src="https://clayyount.com/img/profile-avatar.jpg" /></a><br>&lt;p&gt;You may not be aware of this, but I&amp;rsquo;ve been drawing webcomics off and on again since 2000. I&amp;rsquo;ve taken some long breaks and my update schedule has been spotty at best, but I&amp;rsquo;ve always considered it a part of my identity. I draw comics, even if I&amp;rsquo;n not drawing them &lt;em&gt;right now&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;There is a small subset of my readership that knows that before there was Hamlet&amp;rsquo;s Danish, and before there was Rob and Elliot, I did a webcomic called Ghostcat. It wasn&amp;rsquo;t very good, but after it ended in 2003, I adopted the title as my internet handle. I was &amp;ldquo;ghostcat&amp;rdquo; online, and I associated it with my comic artist identity.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2019/05/27/ghostcat-comics-relaunch/</link>
+      <pubDate>Mon, 27 May 2019 00:07:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2019/05/27/ghostcat-comics-relaunch/</guid>
+    </item>
+    
+    <item>
+      <title>Goodbye Squarespace, Hello Hugo</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2018/11/18/goodbye-squarespace-hello-hugo/"><img src="https://clayyount.com/img/hugo-logo.png" /></a><br>&lt;h2 id=&#34;a-little-history&#34;&gt;A Little History&lt;/h2&gt;
+&lt;p&gt;I originally developed my &lt;a href=&#34;http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/&#34;&gt;Squarespace webcomic template&lt;/a&gt; because I wasn&amp;rsquo;t happy with having to use Wordpress+ComicPress and I wanted another option. I latched on to Squarespace because it had a pretty robust developer platform and allowed for more customization than any other online website builder. Also, when I started, Squarespace was $8 a month, and cheaper than most hosting solutions, so it seemed like a great deal. Since then, Squarespace has let their developer platform languish, and their plan that supports developer templates jumped up to $26 a month. The final straw was after I&amp;rsquo;d spent hours and hours working with their platform, I discovered a bug that fundamentally broke my comic archive template. I contacted Squarespace multiple times, and they&amp;rsquo;ve refused to address it. In short, I wanted out.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2018/11/18/goodbye-squarespace-hello-hugo/"><img src="https://clayyount.com/img/hugo-logo.png" /></a><br>&lt;h2 id=&#34;a-little-history&#34;&gt;A Little History&lt;/h2&gt;
+&lt;p&gt;I originally developed my &lt;a href=&#34;http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/&#34;&gt;Squarespace webcomic template&lt;/a&gt; because I wasn&amp;rsquo;t happy with having to use Wordpress+ComicPress and I wanted another option. I latched on to Squarespace because it had a pretty robust developer platform and allowed for more customization than any other online website builder. Also, when I started, Squarespace was $8 a month, and cheaper than most hosting solutions, so it seemed like a great deal. Since then, Squarespace has let their developer platform languish, and their plan that supports developer templates jumped up to $26 a month. The final straw was after I&amp;rsquo;d spent hours and hours working with their platform, I discovered a bug that fundamentally broke my comic archive template. I contacted Squarespace multiple times, and they&amp;rsquo;ve refused to address it. In short, I wanted out.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2018/11/18/goodbye-squarespace-hello-hugo/</link>
+      <pubDate>Sun, 18 Nov 2018 03:07:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2018/11/18/goodbye-squarespace-hello-hugo/</guid>
+    </item>
+    
+    <item>
+      <title>The Goon Illustration</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2016/02/26/the-goon-illustration/"><img src="https://clayyount.com/img/the-goon.jpg" /></a><br>&lt;p&gt;I did an illustration of The Goon for an online art competition&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/the-goon.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m still teaching myself how to use Procreate effectively, so this one had a pretty good amount of trial and error as I was figuring things out. I also used a &lt;a href=&#34;http://frenden.com/post/126700246437/ive-been-using-a-flemish-dead-color-technique-for&#34;&gt;modified old dutch painting technique&lt;/a&gt; Ray Frenden blogged about, and I like it a LOT. I also have a process video if anyone is interested.
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/yRV8GeZwAF4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2016/02/26/the-goon-illustration/"><img src="https://clayyount.com/img/the-goon.jpg" /></a><br>&lt;p&gt;I did an illustration of The Goon for an online art competition&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/the-goon.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m still teaching myself how to use Procreate effectively, so this one had a pretty good amount of trial and error as I was figuring things out. I also used a &lt;a href=&#34;http://frenden.com/post/126700246437/ive-been-using-a-flemish-dead-color-technique-for&#34;&gt;modified old dutch painting technique&lt;/a&gt; Ray Frenden blogged about, and I like it a LOT. I also have a process video if anyone is interested.
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/yRV8GeZwAF4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2016/02/26/the-goon-illustration/</link>
+      <pubDate>Fri, 26 Feb 2016 17:02:59 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016/02/26/the-goon-illustration/</guid>
+    </item>
+    
+    <item>
+      <title>iPad Pro Review</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2016/02/08/ipad-pro-review/"><img src="https://clayyount.com/img/ipad-pro-screenshot-1.jpg" /></a><br>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/ipad-pro-screenshot-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been using the iPad Pro for a couple months now, and I’m going to give my impressions strictly from an illustrator/comic artist perspective. If you want a review of the device as a laptop replacement or next-gen tablet, others have done a better job than I could, so please &lt;a href=&#34;http://arstechnica.com/apple/2015/11/ipad-pro-review-mac-like-speed-with-all-the-virtues-and-limitations-of-ios/&#34;&gt;check&lt;/a&gt; &lt;a href=&#34;http://www.theverge.com/2015/11/11/9705966/apple-ipad-pro-review&#34;&gt;them&lt;/a&gt; &lt;a href=&#34;http://www.imore.com/ipad-pro-review&#34;&gt;out&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;how-does-the-drawing-experience-stack-up-against-the-competition&#34;&gt;How does the drawing experience stack up against the competition?&lt;/h2&gt;
+&lt;p&gt;The question most artists want answered is how well does the drawing experience stack up vs a Cintiq or a Surface Pro (3/4). The short answer is &lt;em&gt;extremely well&lt;/em&gt;. I have a Cintiq 21UX and a Surface Pro 3, and have tested the updated versions of those products in stores, and the Apple Pencil blows them away. I will get into specifics of why in a sec, but the gist of it is the Apple Pencil just feels more like a real pencil. Drawing with it feels like drawing on a real sketchpad, and the first time I tried it I was literally taken aback. The small lag I’d come to expect from using a digital stylus was &lt;em&gt;gone&lt;/em&gt;. The accuracy was &lt;em&gt;amazing&lt;/em&gt;. The pressure curve felt &lt;em&gt;natural&lt;/em&gt;. I knew within 30 seconds that I was going to buy one.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2016/02/08/ipad-pro-review/"><img src="https://clayyount.com/img/ipad-pro-screenshot-1.jpg" /></a><br>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/ipad-pro-screenshot-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been using the iPad Pro for a couple months now, and I’m going to give my impressions strictly from an illustrator/comic artist perspective. If you want a review of the device as a laptop replacement or next-gen tablet, others have done a better job than I could, so please &lt;a href=&#34;http://arstechnica.com/apple/2015/11/ipad-pro-review-mac-like-speed-with-all-the-virtues-and-limitations-of-ios/&#34;&gt;check&lt;/a&gt; &lt;a href=&#34;http://www.theverge.com/2015/11/11/9705966/apple-ipad-pro-review&#34;&gt;them&lt;/a&gt; &lt;a href=&#34;http://www.imore.com/ipad-pro-review&#34;&gt;out&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;how-does-the-drawing-experience-stack-up-against-the-competition&#34;&gt;How does the drawing experience stack up against the competition?&lt;/h2&gt;
+&lt;p&gt;The question most artists want answered is how well does the drawing experience stack up vs a Cintiq or a Surface Pro (3/4). The short answer is &lt;em&gt;extremely well&lt;/em&gt;. I have a Cintiq 21UX and a Surface Pro 3, and have tested the updated versions of those products in stores, and the Apple Pencil blows them away. I will get into specifics of why in a sec, but the gist of it is the Apple Pencil just feels more like a real pencil. Drawing with it feels like drawing on a real sketchpad, and the first time I tried it I was literally taken aback. The small lag I’d come to expect from using a digital stylus was &lt;em&gt;gone&lt;/em&gt;. The accuracy was &lt;em&gt;amazing&lt;/em&gt;. The pressure curve felt &lt;em&gt;natural&lt;/em&gt;. I knew within 30 seconds that I was going to buy one.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2016/02/08/ipad-pro-review/</link>
+      <pubDate>Mon, 08 Feb 2016 22:28:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2016/02/08/ipad-pro-review/</guid>
+    </item>
+    
+    <item>
+      <title>BringBackMST3K</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2015/11/23/bringbackmst3k/"><img src="https://clayyount.com/img/bringbackmst3k.jpg" /></a><br>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/2_GCgAH7sLQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;I can &lt;em&gt;finally&lt;/em&gt; promote the fact the my brother &lt;a href=&#34;http://hamptonyount.com/&#34;&gt;Hampton&lt;/a&gt; is going to be the new voice of Crow T. Robot in the upcoming &lt;a href=&#34;https://www.kickstarter.com/projects/mst3k/bringbackmst3k/&#34;&gt;MST3K reboot&lt;/a&gt;!  To say that this is a big deal for him is a massive  understatement.&lt;/p&gt;
+&lt;p&gt;When we were growing up, we were both huge fans of the show (Though Hampton always loved it more). We pooled our resources to buy a bunch of tapes, and got to the point where we were quoting them a lot. We would even force our friends to sit through multi-hour endurance marathons. In short, we wore those tapes OUT. At one point I remember having a conversation with him about how, although it could never happen, working on that show would be The Coolest Job Ever™. To see Hampton achieve a childhood dream means so much to me and I couldn&amp;rsquo;t be more proud! All fraternal bias aside, I honestly can&amp;rsquo;t think of a better person for the job.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2015/11/23/bringbackmst3k/"><img src="https://clayyount.com/img/bringbackmst3k.jpg" /></a><br>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/2_GCgAH7sLQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;I can &lt;em&gt;finally&lt;/em&gt; promote the fact the my brother &lt;a href=&#34;http://hamptonyount.com/&#34;&gt;Hampton&lt;/a&gt; is going to be the new voice of Crow T. Robot in the upcoming &lt;a href=&#34;https://www.kickstarter.com/projects/mst3k/bringbackmst3k/&#34;&gt;MST3K reboot&lt;/a&gt;!  To say that this is a big deal for him is a massive  understatement.&lt;/p&gt;
+&lt;p&gt;When we were growing up, we were both huge fans of the show (Though Hampton always loved it more). We pooled our resources to buy a bunch of tapes, and got to the point where we were quoting them a lot. We would even force our friends to sit through multi-hour endurance marathons. In short, we wore those tapes OUT. At one point I remember having a conversation with him about how, although it could never happen, working on that show would be The Coolest Job Ever™. To see Hampton achieve a childhood dream means so much to me and I couldn&amp;rsquo;t be more proud! All fraternal bias aside, I honestly can&amp;rsquo;t think of a better person for the job.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2015/11/23/bringbackmst3k/</link>
+      <pubDate>Mon, 23 Nov 2015 19:08:30 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2015/11/23/bringbackmst3k/</guid>
+    </item>
+    
+    <item>
+      <title>Trying Something New</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2015/11/19/trying-something-new/"><img src="https://clayyount.com/img/cy-logo.jpg" /></a><br>&lt;p&gt;I know, I know. It&amp;rsquo;s been pretty dead around here. I could attribute it to a lot of things and make excuses, but in the end, I&amp;rsquo;ve been allowing other things in life to take over my productivity. I tend to do this thing where I miss a deadline, then avoid the task completely because I feel bad about it. Couple that with the fact that I&amp;rsquo;m passionate about, but lose interest in things quickly, and it pretty much explains my entire update history. If I&amp;rsquo;m faced with sitting down for five hours to make a Hamlet&amp;rsquo;s Danish comic, and I&amp;rsquo;m not feeling it, chances are that I&amp;rsquo;m watching TV instead. And if I do want to do something else that&amp;rsquo;s creative, I feel like I have to draw the comic before I can get to it.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2015/11/19/trying-something-new/"><img src="https://clayyount.com/img/cy-logo.jpg" /></a><br>&lt;p&gt;I know, I know. It&amp;rsquo;s been pretty dead around here. I could attribute it to a lot of things and make excuses, but in the end, I&amp;rsquo;ve been allowing other things in life to take over my productivity. I tend to do this thing where I miss a deadline, then avoid the task completely because I feel bad about it. Couple that with the fact that I&amp;rsquo;m passionate about, but lose interest in things quickly, and it pretty much explains my entire update history. If I&amp;rsquo;m faced with sitting down for five hours to make a Hamlet&amp;rsquo;s Danish comic, and I&amp;rsquo;m not feeling it, chances are that I&amp;rsquo;m watching TV instead. And if I do want to do something else that&amp;rsquo;s creative, I feel like I have to draw the comic before I can get to it.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2015/11/19/trying-something-new/</link>
+      <pubDate>Thu, 19 Nov 2015 20:48:05 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2015/11/19/trying-something-new/</guid>
+    </item>
+    
+    <item>
+      <title>The Best Style is No-Template Style</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/"><img src="https://clayyount.com/img/ss-logo.jpg" /></a><br>&lt;h3 id=&#34;important-update&#34;&gt;IMPORTANT UPDATE: &lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due to an undocumented limit on Squarespace&amp;rsquo;s Archive List block, the current solution will not work with &amp;gt;1000 comics in the archive. If your comic archives are more than 1000, or you will reach it soon, please find another solution. I&amp;rsquo;m sorry to have launched with this limitation, but I didn&amp;rsquo;t have an archive with 1000 entries to test on and it wasn&amp;rsquo;t documented, so I wasn&amp;rsquo;t aware of it. I&amp;rsquo;m hoping Squarespace will implement a fix to a separate bug with their itemCount API so I can use a workaround, but it&amp;rsquo;s been more than 6 months since I alerted them and they have yet to inform me when a fix is coming. As it stands, there is no way around this limitation.&lt;/strong&gt;&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/"><img src="https://clayyount.com/img/ss-logo.jpg" /></a><br>&lt;h3 id=&#34;important-update&#34;&gt;IMPORTANT UPDATE: &lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due to an undocumented limit on Squarespace&amp;rsquo;s Archive List block, the current solution will not work with &amp;gt;1000 comics in the archive. If your comic archives are more than 1000, or you will reach it soon, please find another solution. I&amp;rsquo;m sorry to have launched with this limitation, but I didn&amp;rsquo;t have an archive with 1000 entries to test on and it wasn&amp;rsquo;t documented, so I wasn&amp;rsquo;t aware of it. I&amp;rsquo;m hoping Squarespace will implement a fix to a separate bug with their itemCount API so I can use a workaround, but it&amp;rsquo;s been more than 6 months since I alerted them and they have yet to inform me when a fix is coming. As it stands, there is no way around this limitation.&lt;/strong&gt;&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/</link>
+      <pubDate>Wed, 12 Aug 2015 13:18:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/</guid>
+    </item>
+    
+    <item>
+      <title>template-less</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2015/08/05/template-less/"><img src="https://clayyount.com/img/ss-logo.jpg" /></a><br>&lt;h1 id=&#34;the-no-template-style&#34;&gt;The No-Template Style&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve gotten some feedback on my webcomic template for Squarespace, and the two biggest complaints are that the $18 per month developer account is too expensive, and the template is too hard to customize for someone with no coding skills whatsoever.&lt;/p&gt;
+&lt;p&gt;Since I released the template, Squarespace has made a couple updates to their platform that have allowed me to publish a new solution that doesn&amp;rsquo;t require a custom template. This means it&amp;rsquo;ll work with ANY Squarespace plan including the $8/month basic plan. I&amp;rsquo;ve also put together a video tutorial on how to get a site up and running in less than 10 minutes, as well some tutorials that cover some of the customizations you can do with your site. If you want 100% control over your site, it is still best to go with my original template, but this new solution is surprising versatile, and with a little CSS tweaking, you can make it a super custom experience. &lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2015/08/05/template-less/"><img src="https://clayyount.com/img/ss-logo.jpg" /></a><br>&lt;h1 id=&#34;the-no-template-style&#34;&gt;The No-Template Style&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve gotten some feedback on my webcomic template for Squarespace, and the two biggest complaints are that the $18 per month developer account is too expensive, and the template is too hard to customize for someone with no coding skills whatsoever.&lt;/p&gt;
+&lt;p&gt;Since I released the template, Squarespace has made a couple updates to their platform that have allowed me to publish a new solution that doesn&amp;rsquo;t require a custom template. This means it&amp;rsquo;ll work with ANY Squarespace plan including the $8/month basic plan. I&amp;rsquo;ve also put together a video tutorial on how to get a site up and running in less than 10 minutes, as well some tutorials that cover some of the customizations you can do with your site. If you want 100% control over your site, it is still best to go with my original template, but this new solution is surprising versatile, and with a little CSS tweaking, you can make it a super custom experience. &lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2015/08/05/template-less/</link>
+      <pubDate>Wed, 05 Aug 2015 15:36:03 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2015/08/05/template-less/</guid>
+    </item>
+    
+    <item>
+      <title>Awesome Con</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2015/05/26/awesome-con/"><img src="https://clayyount.com/img/awesome-con-logo.jpg" /></a><br>&lt;p&gt;Hey guys, I&amp;rsquo;ll have an artist&amp;rsquo;s table at &lt;a href=&#34;http://www.awesome-con.com/&#34;&gt;Awesome Con DC&lt;/a&gt; this weekend and I&amp;rsquo;ll be selling a new book collecting the first year of Hamlet&amp;rsquo;s Danish comics. It&amp;rsquo;ll look something like this.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/book-1-cover.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll also have cat map posters and comic prints. I hope to see you there, so please stop by and say hello!&lt;/p&gt;
+&lt;p&gt;On a side note, I know I&amp;rsquo;ve been on a comic hiatus for the past month. I&amp;rsquo;ve had a couple medical issues that kept me from drawing. Things are good again, so I&amp;rsquo;ll have the new comic up shortly, and I&amp;rsquo;ll be updating regularly again. Looking forward to year 2, and thanks to you guys for reading!&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2015/05/26/awesome-con/"><img src="https://clayyount.com/img/awesome-con-logo.jpg" /></a><br>&lt;p&gt;Hey guys, I&amp;rsquo;ll have an artist&amp;rsquo;s table at &lt;a href=&#34;http://www.awesome-con.com/&#34;&gt;Awesome Con DC&lt;/a&gt; this weekend and I&amp;rsquo;ll be selling a new book collecting the first year of Hamlet&amp;rsquo;s Danish comics. It&amp;rsquo;ll look something like this.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/book-1-cover.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll also have cat map posters and comic prints. I hope to see you there, so please stop by and say hello!&lt;/p&gt;
+&lt;p&gt;On a side note, I know I&amp;rsquo;ve been on a comic hiatus for the past month. I&amp;rsquo;ve had a couple medical issues that kept me from drawing. Things are good again, so I&amp;rsquo;ll have the new comic up shortly, and I&amp;rsquo;ll be updating regularly again. Looking forward to year 2, and thanks to you guys for reading!&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2015/05/26/awesome-con/</link>
+      <pubDate>Tue, 26 May 2015 15:07:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2015/05/26/awesome-con/</guid>
+    </item>
+    
+    <item>
+      <title>Other Comics</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2014/12/11/other-comics/"><img src="https://clayyount.com/img/bird-comic-1.jpg" /></a><br>&lt;p&gt;In the time between when Rob and Elliot ended and Hamlet&amp;rsquo;s Danish began, I drew a couple short comic stories for an online competition. It was a way for me to keep in practice, and to try and grow as a storyteller. They were based on a random subject chosen for the competition, so they are one off ideas that I don&amp;rsquo;t plan on continuing. &lt;/p&gt;
+&lt;p&gt;I realized that a lot of people who visit this site haven&amp;rsquo;t seen them since they are buried on my &lt;a href=&#34;http://localhost:1313/artwork&#34;&gt;artwork page&lt;/a&gt;, so I thought I would take the time to post them here. Hope you enjoy them!&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2014/12/11/other-comics/"><img src="https://clayyount.com/img/bird-comic-1.jpg" /></a><br>&lt;p&gt;In the time between when Rob and Elliot ended and Hamlet&amp;rsquo;s Danish began, I drew a couple short comic stories for an online competition. It was a way for me to keep in practice, and to try and grow as a storyteller. They were based on a random subject chosen for the competition, so they are one off ideas that I don&amp;rsquo;t plan on continuing. &lt;/p&gt;
+&lt;p&gt;I realized that a lot of people who visit this site haven&amp;rsquo;t seen them since they are buried on my &lt;a href=&#34;http://localhost:1313/artwork&#34;&gt;artwork page&lt;/a&gt;, so I thought I would take the time to post them here. Hope you enjoy them!&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2014/12/11/other-comics/</link>
+      <pubDate>Thu, 11 Dec 2014 16:01:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2014/12/11/other-comics/</guid>
+    </item>
+    
+  </channel>
+</rss>

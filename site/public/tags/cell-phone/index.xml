@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Cell Phone on Homepage</title>
+    <link>http://localhost:1313/tags/cell-phone/</link>
+    <description>Recent content in Cell Phone on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Aug 2014 04:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/cell-phone/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>The Eighties</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/08/18/the-eighties/"><img src="https://clayyount.com/img/comic-22-the-eighties.jpg" /></a><br>&lt;p&gt;The Eighties fought and died for our right to party.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/08/18/the-eighties/"><img src="https://clayyount.com/img/comic-22-the-eighties.jpg" /></a><br>&lt;p&gt;The Eighties fought and died for our right to party.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2014/08/18/the-eighties/</link>
+      <pubDate>Mon, 18 Aug 2014 04:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2014/08/18/the-eighties/</guid>
+    </item>
+    
+    <item>
+      <title>Zack Morris on Line 2</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/08/11/zack-morris-on-line-2/"><img src="https://clayyount.com/img/comic195.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/08/11/zack-morris-on-line-2/"><img src="https://clayyount.com/img/comic195.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/08/11/zack-morris-on-line-2/</link>
+      <pubDate>Fri, 11 Aug 2006 17:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/08/11/zack-morris-on-line-2/</guid>
+    </item>
+    
+  </channel>
+</rss>

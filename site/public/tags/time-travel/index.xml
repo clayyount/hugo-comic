@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Time Travel on Homepage</title>
+    <link>http://localhost:1313/tags/time-travel/</link>
+    <description>Recent content in Time Travel on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jun 2008 17:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/time-travel/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Colonial Times</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2008/06/09/colonial-times/"><img src="https://clayyount.com/img/comic273.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2008/06/09/colonial-times/"><img src="https://clayyount.com/img/comic273.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2008/06/09/colonial-times/</link>
+      <pubDate>Mon, 09 Jun 2008 17:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2008/06/09/colonial-times/</guid>
+    </item>
+    
+    <item>
+      <title>Don&#39;t Pretend You Haven&#39;t Thought of it.</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/12/19/dont-pretend-you-havent-thought-of-it./"><img src="https://clayyount.com/img/comic142.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/12/19/dont-pretend-you-havent-thought-of-it./"><img src="https://clayyount.com/img/comic142.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/12/19/dont-pretend-you-havent-thought-of-it./</link>
+      <pubDate>Mon, 19 Dec 2005 20:39:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/12/19/dont-pretend-you-havent-thought-of-it./</guid>
+    </item>
+    
+  </channel>
+</rss>

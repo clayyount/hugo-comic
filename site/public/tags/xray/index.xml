@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Xray on Homepage</title>
+    <link>http://localhost:1313/tags/xray/</link>
+    <description>Recent content in Xray on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Sep 2014 04:31:49 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/xray/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Broken Hearted</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/09/08/broken-hearted/"><img src="https://clayyount.com/img/comic-25-broken-hearted.jpg" /></a><br>&lt;p&gt;They call him &amp;ldquo;Doctor Freeze&amp;rdquo;. Because he is also a cop.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/09/08/broken-hearted/"><img src="https://clayyount.com/img/comic-25-broken-hearted.jpg" /></a><br>&lt;p&gt;They call him &amp;ldquo;Doctor Freeze&amp;rdquo;. Because he is also a cop.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2014/09/08/broken-hearted/</link>
+      <pubDate>Mon, 08 Sep 2014 04:31:49 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2014/09/08/broken-hearted/</guid>
+    </item>
+    
+  </channel>
+</rss>

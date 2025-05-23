@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Genie on Homepage</title>
+    <link>http://localhost:1313/tags/genie/</link>
+    <description>Recent content in Genie on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jun 2014 04:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/genie/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>The Wraith Card</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/06/02/the-wraith-card/"><img src="https://clayyount.com/img/comic-11-wraith-card.jpg" /></a><br>&lt;p&gt;1.21 Djinniwatts!&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/06/02/the-wraith-card/"><img src="https://clayyount.com/img/comic-11-wraith-card.jpg" /></a><br>&lt;p&gt;1.21 Djinniwatts!&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2014/06/02/the-wraith-card/</link>
+      <pubDate>Mon, 02 Jun 2014 04:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2014/06/02/the-wraith-card/</guid>
+    </item>
+    
+    <item>
+      <title>Final Wish</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2011/01/24/final-wish/"><img src="https://clayyount.com/img/comic364.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2011/01/24/final-wish/"><img src="https://clayyount.com/img/comic364.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2011/01/24/final-wish/</link>
+      <pubDate>Mon, 24 Jan 2011 22:12:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2011/01/24/final-wish/</guid>
+    </item>
+    
+  </channel>
+</rss>

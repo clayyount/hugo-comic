@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Locket on Homepage</title>
+    <link>http://localhost:1313/tags/locket/</link>
+    <description>Recent content in Locket on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Jul 2005 20:46:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/locket/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Locket of Love</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/07/30/locket-of-love/"><img src="https://clayyount.com/img/comic105.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/07/30/locket-of-love/"><img src="https://clayyount.com/img/comic105.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/07/30/locket-of-love/</link>
+      <pubDate>Sat, 30 Jul 2005 20:46:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/07/30/locket-of-love/</guid>
+    </item>
+    
+  </channel>
+</rss>

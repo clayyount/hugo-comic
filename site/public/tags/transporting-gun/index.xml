@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Transporting Gun on Homepage</title>
+    <link>http://localhost:1313/tags/transporting-gun/</link>
+    <description>Recent content in Transporting Gun on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Jul 2009 18:56:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/transporting-gun/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Flim-flammers</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2009/07/08/flim-flammers/"><img src="https://clayyount.com/img/comic321.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2009/07/08/flim-flammers/"><img src="https://clayyount.com/img/comic321.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2009/07/08/flim-flammers/</link>
+      <pubDate>Wed, 08 Jul 2009 18:56:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2009/07/08/flim-flammers/</guid>
+    </item>
+    
+  </channel>
+</rss>

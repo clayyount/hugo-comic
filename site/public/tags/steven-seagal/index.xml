@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Steven Seagal on Homepage</title>
+    <link>http://localhost:1313/tags/steven-seagal/</link>
+    <description>Recent content in Steven Seagal on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Aug 2005 20:38:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/steven-seagal/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Preferably!</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/08/15/preferably/"><img src="https://clayyount.com/img/comic110.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/08/15/preferably/"><img src="https://clayyount.com/img/comic110.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/08/15/preferably/</link>
+      <pubDate>Mon, 15 Aug 2005 20:38:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/08/15/preferably/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Suicide on Homepage</title>
+    <link>http://localhost:1313/tags/suicide/</link>
+    <description>Recent content in Suicide on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jan 2006 16:43:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/suicide/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Dead Body</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/01/27/dead-body/"><img src="https://clayyount.com/img/comic150.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/01/27/dead-body/"><img src="https://clayyount.com/img/comic150.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/01/27/dead-body/</link>
+      <pubDate>Fri, 27 Jan 2006 16:43:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/01/27/dead-body/</guid>
+    </item>
+    
+    <item>
+      <title>Double Suicide</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/06/20/double-suicide/"><img src="https://clayyount.com/img/comic97.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/06/20/double-suicide/"><img src="https://clayyount.com/img/comic97.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/06/20/double-suicide/</link>
+      <pubDate>Mon, 20 Jun 2005 20:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/06/20/double-suicide/</guid>
+    </item>
+    
+  </channel>
+</rss>

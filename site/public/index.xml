@@ -1,0 +1,135 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Artist. Developer. Designer. on Homepage</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Artist. Developer. Designer. on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Aug 2019 12:01:18 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Ghostcat Comics Archives</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/ghostcat-comics-archive/</link>
+      <pubDate>Thu, 08 Aug 2019 12:01:18 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ghostcat-comics-archive/</guid>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/blog/</link>
+      <pubDate>Mon, 27 May 2019 00:07:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/</guid>
+    </item>
+    
+    <item>
+      <title>Hamlet&#39;s Danish Archives</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/</link>
+      <pubDate>Wed, 05 Dec 2018 21:16:13 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/</guid>
+    </item>
+    
+    <item>
+      <title>Rob and Elliot Archives</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/</link>
+      <pubDate>Thu, 21 Jun 2012 21:05:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/</guid>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+    </item>
+    
+    <item>
+      <title>AddThis Apps</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/portfolio-addthis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/portfolio-addthis/</guid>
+    </item>
+    
+    <item>
+      <title>Contact Me</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/contact/</guid>
+    </item>
+    
+    <item>
+      <title>Ellucian Live Website</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/portfolio-ellucian-live-website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/portfolio-ellucian-live-website/</guid>
+    </item>
+    
+    <item>
+      <title>Ellucian Website</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/portfolio-ellucian-website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/portfolio-ellucian-website/</guid>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gallery/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Jormugandr on Homepage</title>
+    <link>http://localhost:1313/tags/jormugandr/</link>
+    <description>Recent content in Jormugandr on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 May 2014 04:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/jormugandr/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Swedenyms</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/05/26/swedenyms/"><img src="https://clayyount.com/img/comic-10-swedenyms.jpg" /></a><br>&lt;p&gt;One does not simply pick up a Jörmungandr. Even if thou art wearing the Megingjörd.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/05/26/swedenyms/"><img src="https://clayyount.com/img/comic-10-swedenyms.jpg" /></a><br>&lt;p&gt;One does not simply pick up a Jörmungandr. Even if thou art wearing the Megingjörd.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2014/05/26/swedenyms/</link>
+      <pubDate>Mon, 26 May 2014 04:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2014/05/26/swedenyms/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Milk on Homepage</title>
+    <link>http://localhost:1313/tags/milk/</link>
+    <description>Recent content in Milk on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Mar 2012 20:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/milk/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Clark Can&#39;t</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2012/03/12/clark-cant/"><img src="https://clayyount.com/img/comic395.png" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2012/03/12/clark-cant/"><img src="https://clayyount.com/img/comic395.png" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2012/03/12/clark-cant/</link>
+      <pubDate>Mon, 12 Mar 2012 20:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2012/03/12/clark-cant/</guid>
+    </item>
+    
+  </channel>
+</rss>

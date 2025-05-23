@@ -2,6 +2,7 @@
   command = "yarn build"
   publish = "dist"
 [build.environment]
+  HUGO_VERSION = "0.147.5"
   YARN_VERSION = "1.9.4"
   NODE_VERSION = "18"
 

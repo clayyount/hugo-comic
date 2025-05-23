@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>GitHub on Homepage</title>
+    <link>http://localhost:1313/tags/github/</link>
+    <description>Recent content in GitHub on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Nov 2018 03:07:23 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Goodbye Squarespace, Hello Hugo</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2018/11/18/goodbye-squarespace-hello-hugo/"><img src="https://clayyount.com/img/hugo-logo.png" /></a><br>&lt;h2 id=&#34;a-little-history&#34;&gt;A Little History&lt;/h2&gt;
+&lt;p&gt;I originally developed my &lt;a href=&#34;http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/&#34;&gt;Squarespace webcomic template&lt;/a&gt; because I wasn&amp;rsquo;t happy with having to use Wordpress+ComicPress and I wanted another option. I latched on to Squarespace because it had a pretty robust developer platform and allowed for more customization than any other online website builder. Also, when I started, Squarespace was $8 a month, and cheaper than most hosting solutions, so it seemed like a great deal. Since then, Squarespace has let their developer platform languish, and their plan that supports developer templates jumped up to $26 a month. The final straw was after I&amp;rsquo;d spent hours and hours working with their platform, I discovered a bug that fundamentally broke my comic archive template. I contacted Squarespace multiple times, and they&amp;rsquo;ve refused to address it. In short, I wanted out.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2018/11/18/goodbye-squarespace-hello-hugo/"><img src="https://clayyount.com/img/hugo-logo.png" /></a><br>&lt;h2 id=&#34;a-little-history&#34;&gt;A Little History&lt;/h2&gt;
+&lt;p&gt;I originally developed my &lt;a href=&#34;http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/&#34;&gt;Squarespace webcomic template&lt;/a&gt; because I wasn&amp;rsquo;t happy with having to use Wordpress+ComicPress and I wanted another option. I latched on to Squarespace because it had a pretty robust developer platform and allowed for more customization than any other online website builder. Also, when I started, Squarespace was $8 a month, and cheaper than most hosting solutions, so it seemed like a great deal. Since then, Squarespace has let their developer platform languish, and their plan that supports developer templates jumped up to $26 a month. The final straw was after I&amp;rsquo;d spent hours and hours working with their platform, I discovered a bug that fundamentally broke my comic archive template. I contacted Squarespace multiple times, and they&amp;rsquo;ve refused to address it. In short, I wanted out.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2018/11/18/goodbye-squarespace-hello-hugo/</link>
+      <pubDate>Sun, 18 Nov 2018 03:07:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2018/11/18/goodbye-squarespace-hello-hugo/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Salesman on Homepage</title>
+    <link>http://localhost:1313/tags/salesman/</link>
+    <description>Recent content in Salesman on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Apr 2015 02:53:25 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/salesman/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Try Before You Buy</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2015/04/14/try-before-you-buy/"><img src="https://clayyount.com/img/comic-48-try-before-you-buy.jpg" /></a><br>&lt;p&gt;Only has ten thousand miles on it.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2015/04/14/try-before-you-buy/"><img src="https://clayyount.com/img/comic-48-try-before-you-buy.jpg" /></a><br>&lt;p&gt;Only has ten thousand miles on it.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2015/04/14/try-before-you-buy/</link>
+      <pubDate>Tue, 14 Apr 2015 02:53:25 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2015/04/14/try-before-you-buy/</guid>
+    </item>
+    
+  </channel>
+</rss>
