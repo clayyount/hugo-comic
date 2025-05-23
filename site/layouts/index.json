@@ -1,11 +1,9 @@
 {{- $.Scratch.Add "index" slice -}}
-{{- range where .Site.Pages "Type" "not in" (slice "page" "json") -}}
-    {{- $dirValue := "placeholder" -}}  {{- $.Scratch.Add "index" (dict 
-        "uri" .Permalink 
-        "title" .Title 
-        "content" .Plain 
-        "tags" .Params.tags 
-        "dir" $dirValue
-    ) -}}
+{{- range where .Site.Pages "Type" "not in"  (slice "page" "json") -}}
+{{- $fileDir := "" -}} {{/* Initialize a variable for directory */}}
+{{- with .File -}}
+    {{- $fileDir = .File.Dir -}} {{/* If .File exists, get its .Dir */}}
+{{- end -}}
+{{- $.Scratch.Add "index" (dict "uri" .Permalink "title" .Title "content" .Plain "tags" .Params.tags "dir" $fileDir) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
