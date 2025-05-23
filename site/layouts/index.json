@@ -1,10 +1,6 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range where .Site.Pages "Type" "not in" (slice "page" "json") -}}
-    {{- $dirValue := "" -}}
-    {{- if .File -}}
-        {{- $dirValue = .File.Dir -}}
-    {{- end -}}
-    {{- $.Scratch.Add "index" (dict 
+    {{- $dirValue := "placeholder" -}}  {{- $.Scratch.Add "index" (dict 
         "uri" .Permalink 
         "title" .Title 
         "content" .Plain 
