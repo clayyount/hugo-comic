@@ -1,9 +1,9 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range where .Site.Pages "Type" "not in"  (slice "page" "json") -}}
-{{- $fileDir := "" -}} {{/* Initialize a variable for directory */}}
-{{- with .File -}}
-    {{- $fileDir = .Dir -}} {{/* If .File exists, get its .Dir */}}
-{{- end -}}
-{{- $.Scratch.Add "index" (dict "uri" .Permalink "title" .Title "content" .Plain "tags" .Params.tags "dir" $fileDir) -}}
+    {{- $currentFileDir := "" -}}
+    {{- if .File -}}
+        {{- $currentFileDir = .File.Dir -}}
+    {{- end -}}
+    {{- $.Scratch.Add "index" (dict "uri" .Permalink "title" .Title "content" .Plain "tags" .Params.tags "dir" $currentFileDir) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
