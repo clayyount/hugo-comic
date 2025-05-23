@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Lovecraft on Homepage</title>
+    <link>http://localhost:1313/tags/lovecraft/</link>
+    <description>Recent content in Lovecraft on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jun 2019 12:01:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/lovecraft/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Occult Detective Billy</title>
+      <description><![CDATA[ <a href="http://localhost:1313/ghostcat-comics-archive/2019/06/03/occult-detective-billy/"><img src="https://clayyount.com/img/ghostcat-comic-3-occult-detective-billy.jpg" /></a><br>&lt;p&gt;I always liked the idea of a hard-boiled occult detective story crossed with the adventures of Tintin or The Hardy Boys. &amp;ldquo;Aw shucks&amp;rdquo; and unspeakable horrors.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/ghostcat-comics-archive/2019/06/03/occult-detective-billy/"><img src="https://clayyount.com/img/ghostcat-comic-3-occult-detective-billy.jpg" /></a><br>&lt;p&gt;I always liked the idea of a hard-boiled occult detective story crossed with the adventures of Tintin or The Hardy Boys. &amp;ldquo;Aw shucks&amp;rdquo; and unspeakable horrors.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/ghostcat-comics-archive/2019/06/03/occult-detective-billy/</link>
+      <pubDate>Mon, 03 Jun 2019 12:01:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ghostcat-comics-archive/2019/06/03/occult-detective-billy/</guid>
+    </item>
+    
+  </channel>
+</rss>

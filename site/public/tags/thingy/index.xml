@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Thingy on Homepage</title>
+    <link>http://localhost:1313/tags/thingy/</link>
+    <description>Recent content in Thingy on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Sep 2014 05:40:08 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/thingy/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Space Thingy</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/09/29/space-thingy/"><img src="https://clayyount.com/img/comic-28-space-thingy.jpg" /></a><br>&lt;p&gt;When you assume you make an astronaut of you and me.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/09/29/space-thingy/"><img src="https://clayyount.com/img/comic-28-space-thingy.jpg" /></a><br>&lt;p&gt;When you assume you make an astronaut of you and me.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2014/09/29/space-thingy/</link>
+      <pubDate>Mon, 29 Sep 2014 05:40:08 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2014/09/29/space-thingy/</guid>
+    </item>
+    
+  </channel>
+</rss>

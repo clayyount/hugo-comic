@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>New site design on Homepage</title>
+    <link>http://localhost:1313/blog/2014/08/18/new-site-design/</link>
+    <description>Recent content in New site design on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Aug 2014 03:59:20 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/blog/2014/08/18/new-site-design/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+  </channel>
+</rss>

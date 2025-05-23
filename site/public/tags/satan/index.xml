@@ -1,0 +1,51 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Satan on Homepage</title>
+    <link>http://localhost:1313/tags/satan/</link>
+    <description>Recent content in Satan on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jun 2010 21:58:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/satan/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Got No Soul</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2010/06/21/got-no-soul/"><img src="https://clayyount.com/img/comic345.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2010/06/21/got-no-soul/"><img src="https://clayyount.com/img/comic345.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2010/06/21/got-no-soul/</link>
+      <pubDate>Mon, 21 Jun 2010 21:58:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2010/06/21/got-no-soul/</guid>
+    </item>
+    
+    <item>
+      <title>Multiplex Guest</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/10/17/multiplex-guest/"><img src="https://clayyount.com/img/comic-guest-multiplex.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/10/17/multiplex-guest/"><img src="https://clayyount.com/img/comic-guest-multiplex.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/10/17/multiplex-guest/</link>
+      <pubDate>Tue, 17 Oct 2006 20:49:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/10/17/multiplex-guest/</guid>
+    </item>
+    
+    <item>
+      <title>A Bat Out of Hell</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/07/04/a-bat-out-of-hell/"><img src="https://clayyount.com/img/comic187.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/07/04/a-bat-out-of-hell/"><img src="https://clayyount.com/img/comic187.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/07/04/a-bat-out-of-hell/</link>
+      <pubDate>Tue, 04 Jul 2006 17:22:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/07/04/a-bat-out-of-hell/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Rocket Icebergs on Homepage</title>
+    <link>http://localhost:1313/tags/rocket-icebergs/</link>
+    <description>Recent content in Rocket Icebergs on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Oct 2005 20:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/rocket-icebergs/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Stock Footage</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/10/14/stock-footage/"><img src="https://clayyount.com/img/comic125.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/10/14/stock-footage/"><img src="https://clayyount.com/img/comic125.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/10/14/stock-footage/</link>
+      <pubDate>Fri, 14 Oct 2005 20:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/10/14/stock-footage/</guid>
+    </item>
+    
+    <item>
+      <title>Big Bet</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/10/10/big-bet/"><img src="https://clayyount.com/img/comic124.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/10/10/big-bet/"><img src="https://clayyount.com/img/comic124.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/10/10/big-bet/</link>
+      <pubDate>Mon, 10 Oct 2005 20:11:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/10/10/big-bet/</guid>
+    </item>
+    
+    <item>
+      <title>Brewster&#39;s Folley</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/10/07/brewsters-folley/"><img src="https://clayyount.com/img/comic123.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/10/07/brewsters-folley/"><img src="https://clayyount.com/img/comic123.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/10/07/brewsters-folley/</link>
+      <pubDate>Fri, 07 Oct 2005 20:12:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/10/07/brewsters-folley/</guid>
+    </item>
+    
+  </channel>
+</rss>

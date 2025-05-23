@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Beaver and Steve on Homepage</title>
+    <link>http://localhost:1313/tags/beaver-and-steve/</link>
+    <description>Recent content in Beaver and Steve on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Oct 2006 20:49:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/beaver-and-steve/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Multiplex Guest</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/10/17/multiplex-guest/"><img src="https://clayyount.com/img/comic-guest-multiplex.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/10/17/multiplex-guest/"><img src="https://clayyount.com/img/comic-guest-multiplex.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/10/17/multiplex-guest/</link>
+      <pubDate>Tue, 17 Oct 2006 20:49:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/10/17/multiplex-guest/</guid>
+    </item>
+    
+    <item>
+      <title>Beaver and Steve Guest</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/07/06/beaver-and-steve-guest/"><img src="https://clayyount.com/img/comic-guest-beaver-and-steve.png" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/07/06/beaver-and-steve-guest/"><img src="https://clayyount.com/img/comic-guest-beaver-and-steve.png" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/07/06/beaver-and-steve-guest/</link>
+      <pubDate>Wed, 06 Jul 2005 17:13:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/07/06/beaver-and-steve-guest/</guid>
+    </item>
+    
+  </channel>
+</rss>

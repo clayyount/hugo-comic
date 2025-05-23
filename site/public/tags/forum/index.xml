@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Forum on Homepage</title>
+    <link>http://localhost:1313/tags/forum/</link>
+    <description>Recent content in Forum on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jun 2011 20:52:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/forum/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Forum Romanum</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2011/06/20/forum-romanum/"><img src="https://clayyount.com/img/comic378.png" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2011/06/20/forum-romanum/"><img src="https://clayyount.com/img/comic378.png" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2011/06/20/forum-romanum/</link>
+      <pubDate>Mon, 20 Jun 2011 20:52:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2011/06/20/forum-romanum/</guid>
+    </item>
+    
+  </channel>
+</rss>

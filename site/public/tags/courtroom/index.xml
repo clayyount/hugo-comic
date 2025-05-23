@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Courtroom on Homepage</title>
+    <link>http://localhost:1313/tags/courtroom/</link>
+    <description>Recent content in Courtroom on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 May 2015 12:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/courtroom/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Jewel of Denial</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2015/05/28/jewel-of-denial/"><img src="https://clayyount.com/img/comic-50-jewel-of-denial.jpg" /></a><br>&lt;p&gt;Jules Robert Renard: professional pilferer.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2015/05/28/jewel-of-denial/"><img src="https://clayyount.com/img/comic-50-jewel-of-denial.jpg" /></a><br>&lt;p&gt;Jules Robert Renard: professional pilferer.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2015/05/28/jewel-of-denial/</link>
+      <pubDate>Thu, 28 May 2015 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2015/05/28/jewel-of-denial/</guid>
+    </item>
+    
+  </channel>
+</rss>

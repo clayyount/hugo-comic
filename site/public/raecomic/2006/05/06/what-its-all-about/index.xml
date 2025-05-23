@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>What It&#39;s All About on Homepage</title>
+    <link>http://localhost:1313/raecomic/2006/05/06/what-its-all-about/</link>
+    <description>Recent content in What It&#39;s All About on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 May 2006 17:42:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/raecomic/2006/05/06/what-its-all-about/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+  </channel>
+</rss>

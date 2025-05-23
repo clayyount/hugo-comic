@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Amadeus Mozart on Homepage</title>
+    <link>http://localhost:1313/tags/amadeus-mozart/</link>
+    <description>Recent content in Amadeus Mozart on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Aug 2011 20:45:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/amadeus-mozart/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Rock me Amadeus</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2011/08/08/rock-me-amadeus/"><img src="https://clayyount.com/img/comic381.png" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2011/08/08/rock-me-amadeus/"><img src="https://clayyount.com/img/comic381.png" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2011/08/08/rock-me-amadeus/</link>
+      <pubDate>Mon, 08 Aug 2011 20:45:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2011/08/08/rock-me-amadeus/</guid>
+    </item>
+    
+  </channel>
+</rss>

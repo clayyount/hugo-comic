@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Hammer on Homepage</title>
+    <link>http://localhost:1313/tags/hammer/</link>
+    <description>Recent content in Hammer on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Oct 2004 21:43:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/hammer/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Hollow Head</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2004/10/09/hollow-head/"><img src="https://clayyount.com/img/comic28.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2004/10/09/hollow-head/"><img src="https://clayyount.com/img/comic28.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2004/10/09/hollow-head/</link>
+      <pubDate>Sat, 09 Oct 2004 21:43:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2004/10/09/hollow-head/</guid>
+    </item>
+    
+  </channel>
+</rss>

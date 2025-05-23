@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Knight on Homepage</title>
+    <link>http://localhost:1313/tags/knight/</link>
+    <description>Recent content in Knight on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 May 2019 00:07:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/knight/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Secret Treasure</title>
+      <description><![CDATA[ <a href="http://localhost:1313/ghostcat-comics-archive/2019/05/27/secret-treasure/"><img src="https://clayyount.com/img/ghostcat-comic-1-secret-treasure.jpg" /></a><br>&lt;p&gt;Confession time: I worked for Cutco for a summer in college, and it was absolutely soul-crushing. I still have the knives, though. They&amp;rsquo;re actually pretty nice, which is how they &lt;em&gt;get you&lt;/em&gt;.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/ghostcat-comics-archive/2019/05/27/secret-treasure/"><img src="https://clayyount.com/img/ghostcat-comic-1-secret-treasure.jpg" /></a><br>&lt;p&gt;Confession time: I worked for Cutco for a summer in college, and it was absolutely soul-crushing. I still have the knives, though. They&amp;rsquo;re actually pretty nice, which is how they &lt;em&gt;get you&lt;/em&gt;.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/ghostcat-comics-archive/2019/05/27/secret-treasure/</link>
+      <pubDate>Mon, 27 May 2019 00:07:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ghostcat-comics-archive/2019/05/27/secret-treasure/</guid>
+    </item>
+    
+    <item>
+      <title>Chivalry</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/05/19/chivalry/"><img src="https://clayyount.com/img/comic-09-chivalry.jpg" /></a><br>&lt;p&gt;Ancient Greek version: “Dem Ankles”&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/05/19/chivalry/"><img src="https://clayyount.com/img/comic-09-chivalry.jpg" /></a><br>&lt;p&gt;Ancient Greek version: “Dem Ankles”&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2014/05/19/chivalry/</link>
+      <pubDate>Mon, 19 May 2014 04:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2014/05/19/chivalry/</guid>
+    </item>
+    
+  </channel>
+</rss>

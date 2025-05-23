@@ -1,0 +1,51 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Virus on Homepage</title>
+    <link>http://localhost:1313/tags/virus/</link>
+    <description>Recent content in Virus on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Aug 2006 17:11:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/virus/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Sowwy</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/08/04/sowwy/"><img src="https://clayyount.com/img/comic193.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/08/04/sowwy/"><img src="https://clayyount.com/img/comic193.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/08/04/sowwy/</link>
+      <pubDate>Fri, 04 Aug 2006 17:11:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/08/04/sowwy/</guid>
+    </item>
+    
+    <item>
+      <title>Stupid</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/07/31/stupid/"><img src="https://clayyount.com/img/comic192.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/07/31/stupid/"><img src="https://clayyount.com/img/comic192.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/07/31/stupid/</link>
+      <pubDate>Mon, 31 Jul 2006 17:13:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/07/31/stupid/</guid>
+    </item>
+    
+    <item>
+      <title>Mump3s</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/07/28/mump3s/"><img src="https://clayyount.com/img/comic191.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/07/28/mump3s/"><img src="https://clayyount.com/img/comic191.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/07/28/mump3s/</link>
+      <pubDate>Fri, 28 Jul 2006 17:14:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/07/28/mump3s/</guid>
+    </item>
+    
+  </channel>
+</rss>

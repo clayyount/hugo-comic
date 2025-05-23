@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Think of the Shenanigans on Homepage</title>
+    <link>http://localhost:1313/raecomic/2007/05/15/think-of-the-shenanigans/</link>
+    <description>Recent content in Think of the Shenanigans on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 May 2007 18:38:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/raecomic/2007/05/15/think-of-the-shenanigans/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+  </channel>
+</rss>

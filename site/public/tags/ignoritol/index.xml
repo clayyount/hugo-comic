@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Ignoritol on Homepage</title>
+    <link>http://localhost:1313/tags/ignoritol/</link>
+    <description>Recent content in Ignoritol on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 May 2005 20:20:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/ignoritol/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Ignoritol</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/05/20/ignoritol/"><img src="https://clayyount.com/img/comic88.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/05/20/ignoritol/"><img src="https://clayyount.com/img/comic88.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/05/20/ignoritol/</link>
+      <pubDate>Fri, 20 May 2005 20:20:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/05/20/ignoritol/</guid>
+    </item>
+    
+  </channel>
+</rss>

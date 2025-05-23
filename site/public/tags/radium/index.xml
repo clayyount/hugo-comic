@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Radium on Homepage</title>
+    <link>http://localhost:1313/tags/radium/</link>
+    <description>Recent content in Radium on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Sep 2014 06:29:58 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/radium/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Gentlemagician</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/09/16/gentlemagician/"><img src="https://clayyount.com/img/comic-26-gentlemagician.jpg" /></a><br>&lt;p&gt;Health risks and racism aside, it seems like a pretty good trick!&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/09/16/gentlemagician/"><img src="https://clayyount.com/img/comic-26-gentlemagician.jpg" /></a><br>&lt;p&gt;Health risks and racism aside, it seems like a pretty good trick!&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2014/09/16/gentlemagician/</link>
+      <pubDate>Tue, 16 Sep 2014 06:29:58 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2014/09/16/gentlemagician/</guid>
+    </item>
+    
+  </channel>
+</rss>

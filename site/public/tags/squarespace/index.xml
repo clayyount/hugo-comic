@@ -1,0 +1,59 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Squarespace on Homepage</title>
+    <link>http://localhost:1313/tags/squarespace/</link>
+    <description>Recent content in Squarespace on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Nov 2018 03:07:23 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/squarespace/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Goodbye Squarespace, Hello Hugo</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2018/11/18/goodbye-squarespace-hello-hugo/"><img src="https://clayyount.com/img/hugo-logo.png" /></a><br>&lt;h2 id=&#34;a-little-history&#34;&gt;A Little History&lt;/h2&gt;
+&lt;p&gt;I originally developed my &lt;a href=&#34;http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/&#34;&gt;Squarespace webcomic template&lt;/a&gt; because I wasn&amp;rsquo;t happy with having to use Wordpress+ComicPress and I wanted another option. I latched on to Squarespace because it had a pretty robust developer platform and allowed for more customization than any other online website builder. Also, when I started, Squarespace was $8 a month, and cheaper than most hosting solutions, so it seemed like a great deal. Since then, Squarespace has let their developer platform languish, and their plan that supports developer templates jumped up to $26 a month. The final straw was after I&amp;rsquo;d spent hours and hours working with their platform, I discovered a bug that fundamentally broke my comic archive template. I contacted Squarespace multiple times, and they&amp;rsquo;ve refused to address it. In short, I wanted out.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2018/11/18/goodbye-squarespace-hello-hugo/"><img src="https://clayyount.com/img/hugo-logo.png" /></a><br>&lt;h2 id=&#34;a-little-history&#34;&gt;A Little History&lt;/h2&gt;
+&lt;p&gt;I originally developed my &lt;a href=&#34;http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/&#34;&gt;Squarespace webcomic template&lt;/a&gt; because I wasn&amp;rsquo;t happy with having to use Wordpress+ComicPress and I wanted another option. I latched on to Squarespace because it had a pretty robust developer platform and allowed for more customization than any other online website builder. Also, when I started, Squarespace was $8 a month, and cheaper than most hosting solutions, so it seemed like a great deal. Since then, Squarespace has let their developer platform languish, and their plan that supports developer templates jumped up to $26 a month. The final straw was after I&amp;rsquo;d spent hours and hours working with their platform, I discovered a bug that fundamentally broke my comic archive template. I contacted Squarespace multiple times, and they&amp;rsquo;ve refused to address it. In short, I wanted out.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2018/11/18/goodbye-squarespace-hello-hugo/</link>
+      <pubDate>Sun, 18 Nov 2018 03:07:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2018/11/18/goodbye-squarespace-hello-hugo/</guid>
+    </item>
+    
+    <item>
+      <title>The Best Style is No-Template Style</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/"><img src="https://clayyount.com/img/ss-logo.jpg" /></a><br>&lt;h3 id=&#34;important-update&#34;&gt;IMPORTANT UPDATE: &lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due to an undocumented limit on Squarespace&amp;rsquo;s Archive List block, the current solution will not work with &amp;gt;1000 comics in the archive. If your comic archives are more than 1000, or you will reach it soon, please find another solution. I&amp;rsquo;m sorry to have launched with this limitation, but I didn&amp;rsquo;t have an archive with 1000 entries to test on and it wasn&amp;rsquo;t documented, so I wasn&amp;rsquo;t aware of it. I&amp;rsquo;m hoping Squarespace will implement a fix to a separate bug with their itemCount API so I can use a workaround, but it&amp;rsquo;s been more than 6 months since I alerted them and they have yet to inform me when a fix is coming. As it stands, there is no way around this limitation.&lt;/strong&gt;&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/"><img src="https://clayyount.com/img/ss-logo.jpg" /></a><br>&lt;h3 id=&#34;important-update&#34;&gt;IMPORTANT UPDATE: &lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due to an undocumented limit on Squarespace&amp;rsquo;s Archive List block, the current solution will not work with &amp;gt;1000 comics in the archive. If your comic archives are more than 1000, or you will reach it soon, please find another solution. I&amp;rsquo;m sorry to have launched with this limitation, but I didn&amp;rsquo;t have an archive with 1000 entries to test on and it wasn&amp;rsquo;t documented, so I wasn&amp;rsquo;t aware of it. I&amp;rsquo;m hoping Squarespace will implement a fix to a separate bug with their itemCount API so I can use a workaround, but it&amp;rsquo;s been more than 6 months since I alerted them and they have yet to inform me when a fix is coming. As it stands, there is no way around this limitation.&lt;/strong&gt;&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/</link>
+      <pubDate>Wed, 12 Aug 2015 13:18:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2015/08/12/the-best-style-is-no-template-style/</guid>
+    </item>
+    
+    <item>
+      <title>template-less</title>
+      <description><![CDATA[ <a href="http://localhost:1313/blog/2015/08/05/template-less/"><img src="https://clayyount.com/img/ss-logo.jpg" /></a><br>&lt;h1 id=&#34;the-no-template-style&#34;&gt;The No-Template Style&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve gotten some feedback on my webcomic template for Squarespace, and the two biggest complaints are that the $18 per month developer account is too expensive, and the template is too hard to customize for someone with no coding skills whatsoever.&lt;/p&gt;
+&lt;p&gt;Since I released the template, Squarespace has made a couple updates to their platform that have allowed me to publish a new solution that doesn&amp;rsquo;t require a custom template. This means it&amp;rsquo;ll work with ANY Squarespace plan including the $8/month basic plan. I&amp;rsquo;ve also put together a video tutorial on how to get a site up and running in less than 10 minutes, as well some tutorials that cover some of the customizations you can do with your site. If you want 100% control over your site, it is still best to go with my original template, but this new solution is surprising versatile, and with a little CSS tweaking, you can make it a super custom experience. &lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/blog/2015/08/05/template-less/"><img src="https://clayyount.com/img/ss-logo.jpg" /></a><br>&lt;h1 id=&#34;the-no-template-style&#34;&gt;The No-Template Style&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve gotten some feedback on my webcomic template for Squarespace, and the two biggest complaints are that the $18 per month developer account is too expensive, and the template is too hard to customize for someone with no coding skills whatsoever.&lt;/p&gt;
+&lt;p&gt;Since I released the template, Squarespace has made a couple updates to their platform that have allowed me to publish a new solution that doesn&amp;rsquo;t require a custom template. This means it&amp;rsquo;ll work with ANY Squarespace plan including the $8/month basic plan. I&amp;rsquo;ve also put together a video tutorial on how to get a site up and running in less than 10 minutes, as well some tutorials that cover some of the customizations you can do with your site. If you want 100% control over your site, it is still best to go with my original template, but this new solution is surprising versatile, and with a little CSS tweaking, you can make it a super custom experience. &lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/blog/2015/08/05/template-less/</link>
+      <pubDate>Wed, 05 Aug 2015 15:36:03 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2015/08/05/template-less/</guid>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Waffle on Homepage</title>
+    <link>http://localhost:1313/tags/waffle/</link>
+    <description>Recent content in Waffle on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Nov 2005 20:59:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/waffle/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>WDVD</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/11/08/wdvd/"><img src="https://clayyount.com/img/comic131.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/11/08/wdvd/"><img src="https://clayyount.com/img/comic131.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/11/08/wdvd/</link>
+      <pubDate>Tue, 08 Nov 2005 20:59:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/11/08/wdvd/</guid>
+    </item>
+    
+    <item>
+      <title>Niego Guest Strip</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/07/03/niego-guest-strip/"><img src="https://clayyount.com/img/comic-guest-niego.gif" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/07/03/niego-guest-strip/"><img src="https://clayyount.com/img/comic-guest-niego.gif" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/07/03/niego-guest-strip/</link>
+      <pubDate>Sun, 03 Jul 2005 20:49:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/07/03/niego-guest-strip/</guid>
+    </item>
+    
+  </channel>
+</rss>

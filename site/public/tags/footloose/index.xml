@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Footloose on Homepage</title>
+    <link>http://localhost:1313/tags/footloose/</link>
+    <description>Recent content in Footloose on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Mar 2006 16:21:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/footloose/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Gullible isn&#39;t in the dictionary</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/03/24/gullible-isnt-in-the-dictionary/"><img src="https://clayyount.com/img/comic163.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/03/24/gullible-isnt-in-the-dictionary/"><img src="https://clayyount.com/img/comic163.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/03/24/gullible-isnt-in-the-dictionary/</link>
+      <pubDate>Fri, 24 Mar 2006 16:21:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/03/24/gullible-isnt-in-the-dictionary/</guid>
+    </item>
+    
+  </channel>
+</rss>

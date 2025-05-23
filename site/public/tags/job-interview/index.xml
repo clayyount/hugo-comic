@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Job Interview on Homepage</title>
+    <link>http://localhost:1313/tags/job-interview/</link>
+    <description>Recent content in Job Interview on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 May 2008 17:13:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/job-interview/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Job Discrimination</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2008/05/06/job-discrimination/"><img src="https://clayyount.com/img/comic269.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2008/05/06/job-discrimination/"><img src="https://clayyount.com/img/comic269.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2008/05/06/job-discrimination/</link>
+      <pubDate>Tue, 06 May 2008 17:13:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2008/05/06/job-discrimination/</guid>
+    </item>
+    
+  </channel>
+</rss>

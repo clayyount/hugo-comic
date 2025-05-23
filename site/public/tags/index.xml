@@ -1,0 +1,135 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Tags on Homepage</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Aug 2019 12:01:18 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Hare</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/tags/hare/</link>
+      <pubDate>Thu, 08 Aug 2019 12:01:18 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/hare/</guid>
+    </item>
+    
+    <item>
+      <title>Rabbit</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/tags/rabbit/</link>
+      <pubDate>Thu, 08 Aug 2019 12:01:18 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/rabbit/</guid>
+    </item>
+    
+    <item>
+      <title>Drive Thru</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/tags/drive-thru/</link>
+      <pubDate>Mon, 24 Jun 2019 12:00:09 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/drive-thru/</guid>
+    </item>
+    
+    <item>
+      <title>Fast Food</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/tags/fast-food/</link>
+      <pubDate>Mon, 24 Jun 2019 12:00:09 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/fast-food/</guid>
+    </item>
+    
+    <item>
+      <title>Albino</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/tags/albino/</link>
+      <pubDate>Thu, 20 Jun 2019 12:00:27 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/albino/</guid>
+    </item>
+    
+    <item>
+      <title>Disney</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/tags/disney/</link>
+      <pubDate>Thu, 20 Jun 2019 12:00:27 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/disney/</guid>
+    </item>
+    
+    <item>
+      <title>Mirror</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/tags/mirror/</link>
+      <pubDate>Thu, 20 Jun 2019 12:00:27 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/mirror/</guid>
+    </item>
+    
+    <item>
+      <title>Skin Cancer</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/tags/skin-cancer/</link>
+      <pubDate>Thu, 20 Jun 2019 12:00:27 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/skin-cancer/</guid>
+    </item>
+    
+    <item>
+      <title>ADA</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/tags/ada/</link>
+      <pubDate>Mon, 17 Jun 2019 12:00:51 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ada/</guid>
+    </item>
+    
+    <item>
+      <title>Dentist</title>
+      <description>
+      </description>
+      <content:encoded>
+      </content:encoded>
+      <link>http://localhost:1313/tags/dentist/</link>
+      <pubDate>Mon, 17 Jun 2019 12:00:51 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/dentist/</guid>
+    </item>
+    
+  </channel>
+</rss>

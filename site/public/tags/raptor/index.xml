@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Raptor on Homepage</title>
+    <link>http://localhost:1313/tags/raptor/</link>
+    <description>Recent content in Raptor on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 May 2014 04:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/raptor/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Dinosaured and Feathered</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/05/05/dinosaured-and-feathered/"><img src="https://clayyount.com/img/comic-07-dinosaured-and-feathered.jpg" /></a><br>&lt;p&gt;Apologies to &lt;a href=&#34;http://www.qwantz.com/&#34;&gt;Ryan North.&lt;/a&gt;&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/05/05/dinosaured-and-feathered/"><img src="https://clayyount.com/img/comic-07-dinosaured-and-feathered.jpg" /></a><br>&lt;p&gt;Apologies to &lt;a href=&#34;http://www.qwantz.com/&#34;&gt;Ryan North.&lt;/a&gt;&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2014/05/05/dinosaured-and-feathered/</link>
+      <pubDate>Mon, 05 May 2014 04:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2014/05/05/dinosaured-and-feathered/</guid>
+    </item>
+    
+  </channel>
+</rss>

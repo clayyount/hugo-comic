@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Candy on Homepage</title>
+    <link>http://localhost:1313/tags/candy/</link>
+    <description>Recent content in Candy on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jan 2006 16:48:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/candy/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Burrrrns!</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/01/09/burrrrns/"><img src="https://clayyount.com/img/comic146.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/01/09/burrrrns/"><img src="https://clayyount.com/img/comic146.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/01/09/burrrrns/</link>
+      <pubDate>Mon, 09 Jan 2006 16:48:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/01/09/burrrrns/</guid>
+    </item>
+    
+    <item>
+      <title>Satan&#39;s Candy</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2004/11/01/satans-candy/"><img src="https://clayyount.com/img/comic35.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2004/11/01/satans-candy/"><img src="https://clayyount.com/img/comic35.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2004/11/01/satans-candy/</link>
+      <pubDate>Mon, 01 Nov 2004 22:33:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2004/11/01/satans-candy/</guid>
+    </item>
+    
+  </channel>
+</rss>

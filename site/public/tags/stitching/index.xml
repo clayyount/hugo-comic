@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Stitching on Homepage</title>
+    <link>http://localhost:1313/tags/stitching/</link>
+    <description>Recent content in Stitching on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Dec 2004 22:44:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/stitching/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Thumby War</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2004/12/20/thumby-war/"><img src="https://clayyount.com/img/comic49.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2004/12/20/thumby-war/"><img src="https://clayyount.com/img/comic49.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2004/12/20/thumby-war/</link>
+      <pubDate>Mon, 20 Dec 2004 22:44:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2004/12/20/thumby-war/</guid>
+    </item>
+    
+  </channel>
+</rss>

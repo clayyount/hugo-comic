@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Magic Trick on Homepage</title>
+    <link>http://localhost:1313/tags/magic-trick/</link>
+    <description>Recent content in Magic Trick on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Jan 2009 22:26:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/magic-trick/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>How About a Magic Trick?</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2009/01/12/how-about-a-magic-trick/"><img src="https://clayyount.com/img/comic299.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2009/01/12/how-about-a-magic-trick/"><img src="https://clayyount.com/img/comic299.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2009/01/12/how-about-a-magic-trick/</link>
+      <pubDate>Mon, 12 Jan 2009 22:26:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2009/01/12/how-about-a-magic-trick/</guid>
+    </item>
+    
+    <item>
+      <title>David Blaine, Right?</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/09/23/david-blaine-right/"><img src="https://clayyount.com/img/comic120.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/09/23/david-blaine-right/"><img src="https://clayyount.com/img/comic120.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/09/23/david-blaine-right/</link>
+      <pubDate>Fri, 23 Sep 2005 20:18:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/09/23/david-blaine-right/</guid>
+    </item>
+    
+  </channel>
+</rss>

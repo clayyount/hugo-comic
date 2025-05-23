@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Erlenmyer Flask on Homepage</title>
+    <link>http://localhost:1313/tags/erlenmyer-flask/</link>
+    <description>Recent content in Erlenmyer Flask on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Jun 2014 04:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/erlenmyer-flask/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Peer Review</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/06/16/peer-review/"><img src="https://clayyount.com/img/comic-13-peer-review.jpg" /></a><br>&lt;p&gt;FIN-KLE-BERG! FIN-KLE-BERG!&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/06/16/peer-review/"><img src="https://clayyount.com/img/comic-13-peer-review.jpg" /></a><br>&lt;p&gt;FIN-KLE-BERG! FIN-KLE-BERG!&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2014/06/16/peer-review/</link>
+      <pubDate>Mon, 16 Jun 2014 04:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2014/06/16/peer-review/</guid>
+    </item>
+    
+  </channel>
+</rss>

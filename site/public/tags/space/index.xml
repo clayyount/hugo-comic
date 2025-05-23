@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Space on Homepage</title>
+    <link>http://localhost:1313/tags/space/</link>
+    <description>Recent content in Space on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Sep 2015 13:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/space/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Lies, Damn Lies, And Statistics</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2015/09/15/lies-damn-lies-and-statistics/"><img src="https://clayyount.com/img/comic-54-lies-damn-lies-and-statisitcs.jpg" /></a><br>&lt;p&gt;Never tell him the odds.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2015/09/15/lies-damn-lies-and-statistics/"><img src="https://clayyount.com/img/comic-54-lies-damn-lies-and-statisitcs.jpg" /></a><br>&lt;p&gt;Never tell him the odds.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2015/09/15/lies-damn-lies-and-statistics/</link>
+      <pubDate>Tue, 15 Sep 2015 13:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2015/09/15/lies-damn-lies-and-statistics/</guid>
+    </item>
+    
+    <item>
+      <title>Space Thingy</title>
+      <description><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/09/29/space-thingy/"><img src="https://clayyount.com/img/comic-28-space-thingy.jpg" /></a><br>&lt;p&gt;When you assume you make an astronaut of you and me.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/hamlets-danish-comic/2014/09/29/space-thingy/"><img src="https://clayyount.com/img/comic-28-space-thingy.jpg" /></a><br>&lt;p&gt;When you assume you make an astronaut of you and me.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/hamlets-danish-comic/2014/09/29/space-thingy/</link>
+      <pubDate>Mon, 29 Sep 2014 05:40:08 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hamlets-danish-comic/2014/09/29/space-thingy/</guid>
+    </item>
+    
+  </channel>
+</rss>

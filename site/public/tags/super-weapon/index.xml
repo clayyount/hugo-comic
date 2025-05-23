@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Super Weapon on Homepage</title>
+    <link>http://localhost:1313/tags/super-weapon/</link>
+    <description>Recent content in Super Weapon on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Jul 2007 18:27:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/super-weapon/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Secret Weapon Revealed</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2007/07/25/secret-weapon-revealed/"><img src="https://clayyount.com/img/comic240.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2007/07/25/secret-weapon-revealed/"><img src="https://clayyount.com/img/comic240.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2007/07/25/secret-weapon-revealed/</link>
+      <pubDate>Wed, 25 Jul 2007 18:27:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2007/07/25/secret-weapon-revealed/</guid>
+    </item>
+    
+  </channel>
+</rss>

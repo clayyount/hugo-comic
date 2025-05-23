@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Museum on Homepage</title>
+    <link>http://localhost:1313/tags/museum/</link>
+    <description>Recent content in Museum on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Jul 2005 20:49:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/museum/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>1 out of 3</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/07/19/1-out-of-3/"><img src="https://clayyount.com/img/comic103.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/07/19/1-out-of-3/"><img src="https://clayyount.com/img/comic103.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/07/19/1-out-of-3/</link>
+      <pubDate>Tue, 19 Jul 2005 20:49:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/07/19/1-out-of-3/</guid>
+    </item>
+    
+  </channel>
+</rss>

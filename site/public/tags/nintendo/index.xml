@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Nintendo on Homepage</title>
+    <link>http://localhost:1313/tags/nintendo/</link>
+    <description>Recent content in Nintendo on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Jun 2006 17:32:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/nintendo/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Nintendo Power</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2006/06/09/nintendo-power/"><img src="https://clayyount.com/img/comic180.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2006/06/09/nintendo-power/"><img src="https://clayyount.com/img/comic180.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2006/06/09/nintendo-power/</link>
+      <pubDate>Fri, 09 Jun 2006 17:32:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2006/06/09/nintendo-power/</guid>
+    </item>
+    
+  </channel>
+</rss>

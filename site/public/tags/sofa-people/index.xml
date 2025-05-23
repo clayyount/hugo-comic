@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Sofa People on Homepage</title>
+    <link>http://localhost:1313/tags/sofa-people/</link>
+    <description>Recent content in Sofa People on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jun 2005 20:15:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/sofa-people/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>The Prodigal Son</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2005/06/05/the-prodigal-son/"><img src="https://clayyount.com/img/comic92.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2005/06/05/the-prodigal-son/"><img src="https://clayyount.com/img/comic92.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2005/06/05/the-prodigal-son/</link>
+      <pubDate>Sun, 05 Jun 2005 20:15:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2005/06/05/the-prodigal-son/</guid>
+    </item>
+    
+  </channel>
+</rss>

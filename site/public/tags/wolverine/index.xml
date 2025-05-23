@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Wolverine on Homepage</title>
+    <link>http://localhost:1313/tags/wolverine/</link>
+    <description>Recent content in Wolverine on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 May 2019 12:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/wolverine/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Adamantium</title>
+      <description><![CDATA[ <a href="http://localhost:1313/ghostcat-comics-archive/2019/05/30/adamantium/"><img src="https://clayyount.com/img/ghostcat-comic-2-adamantium.jpg" /></a><br>&lt;p&gt;This joke was pretty much entirely written by my wife. I don&amp;rsquo;t really follow pop music, so I wasn&amp;rsquo;t familiar with the Dave Guetta/Sia song, but the scenario worked for me. &lt;a href=&#34;https://youtube.com/watch?v=JRfuAukYTKg&#34;&gt;Check out the video&lt;/a&gt; if you want to hear what Wolvie is rocking out to, and watch what&amp;rsquo;s basically a mini X-men video.&lt;/p&gt;]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/ghostcat-comics-archive/2019/05/30/adamantium/"><img src="https://clayyount.com/img/ghostcat-comic-2-adamantium.jpg" /></a><br>&lt;p&gt;This joke was pretty much entirely written by my wife. I don&amp;rsquo;t really follow pop music, so I wasn&amp;rsquo;t familiar with the Dave Guetta/Sia song, but the scenario worked for me. &lt;a href=&#34;https://youtube.com/watch?v=JRfuAukYTKg&#34;&gt;Check out the video&lt;/a&gt; if you want to hear what Wolvie is rocking out to, and watch what&amp;rsquo;s basically a mini X-men video.&lt;/p&gt;]]>
+      </content:encoded>
+      <link>http://localhost:1313/ghostcat-comics-archive/2019/05/30/adamantium/</link>
+      <pubDate>Thu, 30 May 2019 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ghostcat-comics-archive/2019/05/30/adamantium/</guid>
+    </item>
+    
+    <item>
+      <title>They Are Among Us</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2011/03/17/they-are-among-us/"><img src="https://clayyount.com/img/comic370.png" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2011/03/17/they-are-among-us/"><img src="https://clayyount.com/img/comic370.png" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2011/03/17/they-are-among-us/</link>
+      <pubDate>Thu, 17 Mar 2011 21:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2011/03/17/they-are-among-us/</guid>
+    </item>
+    
+  </channel>
+</rss>

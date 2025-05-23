@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+  	
+    <title>Van Winkl&#39;d on Homepage</title>
+    <link>http://localhost:1313/tags/van-winkld/</link>
+    <description>Recent content in Van Winkl&#39;d on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Aug 2008 16:19:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://localhost:1313/tags/van-winkld/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>A.K.A. Rip&#39;d</title>
+      <description><![CDATA[ <a href="http://localhost:1313/raecomic/2008/08/10/a.k.a.-ripd/"><img src="https://clayyount.com/img/comic282.jpg" /></a><br>]]>
+      </description>
+      <content:encoded><![CDATA[ <a href="http://localhost:1313/raecomic/2008/08/10/a.k.a.-ripd/"><img src="https://clayyount.com/img/comic282.jpg" /></a><br>]]>
+      </content:encoded>
+      <link>http://localhost:1313/raecomic/2008/08/10/a.k.a.-ripd/</link>
+      <pubDate>Sun, 10 Aug 2008 16:19:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/raecomic/2008/08/10/a.k.a.-ripd/</guid>
+    </item>
+    
+  </channel>
+</rss>
