@@ -9,7 +9,7 @@ I'll be at [SPX](http://www.spxpo.com/) Saturday and Sunday this weekend. If you
 
 ![](/img/issue-1-cover.jpg)
 
-I'll also be selling large prints of [Edwin Scuttle's Cat Map](http://clayyount.com/hamlets-danish-comic/2014/5/12/catography)
+I'll also be selling large prints of [Edwin Scuttle's Cat Map](http://clay-yount.com/hamlets-danish-comic/2014/5/12/catography)
 
 ![](/img/cat-map.jpg)
 

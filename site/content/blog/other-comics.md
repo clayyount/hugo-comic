@@ -9,4 +9,4 @@ In the time between when Rob and Elliot ended and Hamlet's Danish began, I drew 
 
 I realized that a lot of people who visit this site haven't seen them since they are buried on my [artwork page](/artwork), so I thought I would take the time to post them here. Hope you enjoy them!
 
-[![](/img/bird-comic-1.jpg)](http://clayyount.com/artwork/#birds-comic) 
+[![](/img/bird-comic-1.jpg)](http://clay-yount.com/artwork/#birds-comic) 
